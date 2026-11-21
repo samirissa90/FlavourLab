@@ -1,0 +1,17 @@
+drink,espresso_shots,espresso_ml,milk_ml,foam_cm,cup_ml,ratio_espresso_to_milk,notes,source_url,confidence
+espresso_single,1,25-30,,,~60,,"Crema present; Italian certified 25 +/-2.5 ml",https://en.wikipedia.org/wiki/Espresso,secondary
+doppio,2,50-60,,,,,"Double shot",https://en.wikipedia.org/wiki/List_of_coffee_drinks,secondary
+ristretto,1,~20 (single),,,,,"Double ristretto about 30 ml per Wikipedia; ratio 1:1 to 1:1.5 (snippet)",https://en.wikipedia.org/wiki/Espresso,secondary
+lungo,1,~60,,,,,"All water brewed through the grounds; longer than espresso",https://en.wikipedia.org/wiki/Espresso,secondary
+macchiato,1,25-30,small dollop of foam,,~60,1:0.25,"Ratio is espresso to milk; search snippet",https://instacuppastore.com/blogs/main-page/espresso-cup-size-guide-espresso-cappuccino-latte-cups-ml,snippet
+cortado,1,,equal to espresso,,120-135,1:1,"1:1 per List of coffee drinks; 1:1 to 1:2 per Cappuccino article",https://en.wikipedia.org/wiki/List_of_coffee_drinks,secondary
+piccolo,1,,,,~90,1:4,"Single search snippet only",https://shop.procoffeegear.com/blogs/articles/coffee-drinks-chart-explained,unverified
+flat_white,2,50,~130,0.5 (about 5 mm),160-200,~1:2.6,"Cup 175 (NZ) to about 200 (AU); 150-180 and 160 in other sources. One source cites 30 ml espresso.",https://en.wikipedia.org/wiki/Flat_white,secondary
+cappuccino,1,25,equal parts milk and foam,>=1 (WBC minimum),150-180,1:1:1,"WBC cappuccino: single shot, 150-180 ml, minimum 1 cm foam. US chains often serve 360 ml or more.",https://en.wikipedia.org/wiki/Cappuccino,secondary
+latte,1-2,,more than flat white,thin creamy layer,200-300,~1:2 to 1:4,"Italian definition: at least 210 g milk at 58-70 C. Cups 225 ml (NZ) and 220-260 ml (InstaCuppa).",https://en.wikipedia.org/wiki/List_of_coffee_drinks,secondary
+americano,1-2,,,,150-180,1:5 dilution,"Hot water 150-400 ml in lists; about 1:5 dilution per Wikipedia Espresso",https://en.wikipedia.org/wiki/Espresso,secondary
+long_black,2,,"water first, then espresso poured over",,120-180,,"Cup size from a 2026 Onmanorama guide (search snippet)",https://www.onmanorama.com/food/features/2026/01/12/coffee-cup-sizes-guide.html,snippet
+mocha,1-2,,"about 2/3 milk plus chocolate",,,~1:2,"Espresso and milk ratio per Wikipedia",https://en.wikipedia.org/wiki/List_of_coffee_drinks,secondary
+cafe_zorro,2,,hot water (1:1),,,1:1,"Espresso then equal hot water",https://en.wikipedia.org/wiki/List_of_coffee_drinks,secondary
+freddo_espresso,2,30-50,ice 60-100,,,1:2 (espresso to ice),"Greek iced drink",https://en.wikipedia.org/wiki/List_of_coffee_drinks,secondary
+freddo_cappuccino,2,30-50,"cold milk froth at about 1:2 to espresso; ice 60-100",,,,"Greek; originated 1991",https://en.wikipedia.org/wiki/Cappuccino,secondary

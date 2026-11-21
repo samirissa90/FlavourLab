@@ -1,0 +1,15 @@
+{
+  "name": "Fruity Spice",
+  "style": "fruity_caribbean",
+  "fermented": ["jalapeno", "thai bird's eye", "garlic", "carrot"],
+  "ingredients": [
+    {"item": "jalapeno", "g": 100},
+    {"item": "thai bird's eye", "g": 100},
+    {"item": "garlic", "g": 30},
+    {"item": "carrot", "g": 50},
+    {"item": "salt", "g": 12},
+    {"item": "pineapple", "g": 150, "prep": "smoked"},
+    {"item": "cilantro", "g": 25},
+    {"item": "lime juice", "g": 40}
+  ]
+}

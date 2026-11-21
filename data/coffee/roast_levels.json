@@ -1,0 +1,93 @@
+[
+  {
+    "roast_level": "Light",
+    "coffee_review_agtron_min": 71,
+    "coffee_review_agtron_max": 100,
+    "smrke_colorette_points": 131,
+    "flavor_notes": "Light brown to cinnamon colour",
+    "drop_temp_c_min": 196,
+    "drop_temp_c_max": 205,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": "Drop temperatures from Beanbox blog (bean temperature); Agtron from Coffee Review table"
+  },
+  {
+    "roast_level": "Medium-Light",
+    "coffee_review_agtron_min": 61,
+    "coffee_review_agtron_max": 70,
+    "smrke_colorette_points": null,
+    "flavor_notes": "Moderately light brown",
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "roast_level": "Medium",
+    "coffee_review_agtron_min": 51,
+    "coffee_review_agtron_max": 60,
+    "smrke_colorette_points": 101,
+    "flavor_notes": "Medium brown",
+    "drop_temp_c_min": 210,
+    "drop_temp_c_max": 220,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": "Drop temperatures from Beanbox blog; Colorette from Smrke et al. 2018"
+  },
+  {
+    "roast_level": "Medium-Dark",
+    "coffee_review_agtron_min": 41,
+    "coffee_review_agtron_max": 50,
+    "smrke_colorette_points": null,
+    "flavor_notes": "Rich brown; droplets of oil may appear",
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": "Second crack begins at about Agtron 47 (Coffee Review)"
+  },
+  {
+    "roast_level": "Dark",
+    "coffee_review_agtron_min": 35,
+    "coffee_review_agtron_max": 40,
+    "smrke_colorette_points": 78,
+    "flavor_notes": "Deep brown or black; oil spots on surface",
+    "drop_temp_c_min": 225,
+    "drop_temp_c_max": 230,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": "Drop temperatures from Beanbox blog. Smrke 2018: about 20% dry-matter loss and volume up to 80% higher. Colorette scale is not directly comparable to Agtron."
+  },
+  {
+    "roast_level": "Very Dark",
+    "coffee_review_agtron_min": 25,
+    "coffee_review_agtron_max": 34,
+    "smrke_colorette_points": null,
+    "flavor_notes": "Black surface covered brightly with oil",
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "roast_level": "Extreme-Dark",
+    "coffee_review_agtron_min": 0,
+    "coffee_review_agtron_max": 24,
+    "smrke_colorette_points": null,
+    "flavor_notes": "Black; shiny",
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "dtr_pct_guidance": "20-25 (Rao)",
+    "source_url": "https://www.coffeereview.com/?p=22177",
+    "confidence": "secondary",
+    "notes": null
+  }
+]

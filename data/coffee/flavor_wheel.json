@@ -1,0 +1,583 @@
+[
+  {
+    "wheel_tier1": "Floral",
+    "wheel_tier2": "Floral",
+    "wheel_tier3": "Chamomile",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Floral",
+    "wheel_tier2": "Floral",
+    "wheel_tier3": "Rose",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Floral",
+    "wheel_tier2": "Floral",
+    "wheel_tier3": "Jasmine",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Floral",
+    "wheel_tier2": "Black Tea",
+    "wheel_tier3": "Black Tea",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Berry",
+    "wheel_tier3": "Blackberry",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Berry",
+    "wheel_tier3": "Raspberry",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Berry",
+    "wheel_tier3": "Blueberry",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Berry",
+    "wheel_tier3": "Strawberry",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Dried Fruit",
+    "wheel_tier3": "Raisin",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Dried Fruit",
+    "wheel_tier3": "Prune",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Coconut",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Cherry",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Pomegranate",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Pineapple",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Grape",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Apple",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Peach",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Other Fruit",
+    "wheel_tier3": "Pear",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Citrus Fruit",
+    "wheel_tier3": "Grapefruit",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Citrus Fruit",
+    "wheel_tier3": "Orange",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Citrus Fruit",
+    "wheel_tier3": "Lemon",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Fruity",
+    "wheel_tier2": "Citrus Fruit",
+    "wheel_tier3": "Lime",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Sour",
+    "wheel_tier3": "Sour Aromatics",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Sour",
+    "wheel_tier3": "Acetic Acid",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Sour",
+    "wheel_tier3": "Butyric Acid",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Sour",
+    "wheel_tier3": "Isovaleric Acid",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Sour",
+    "wheel_tier3": "Citric Acid",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Sour",
+    "wheel_tier3": "Malic Acid",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Alcohol/Fermented",
+    "wheel_tier3": "Winey",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Alcohol/Fermented",
+    "wheel_tier3": "Whiskey",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Alcohol/Fermented",
+    "wheel_tier3": "Fermented",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sour/Fermented",
+    "wheel_tier2": "Alcohol/Fermented",
+    "wheel_tier3": "Overripe",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Olive Oil",
+    "wheel_tier3": "Olive Oil",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Raw",
+    "wheel_tier3": "Raw",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Raw",
+    "wheel_tier3": "Under-ripe",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Raw",
+    "wheel_tier3": "Peapod",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Raw",
+    "wheel_tier3": "Fresh",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Green/Vegetative",
+    "wheel_tier3": "Dark Green",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Green/Vegetative",
+    "wheel_tier3": "Vegetative",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Green/Vegetative",
+    "wheel_tier3": "Hay-like",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Green/Vegetative",
+    "wheel_tier3": "Herb-like",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Green/Vegetative",
+    "wheel_tier2": "Beany",
+    "wheel_tier3": "Beany",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Stale",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Cardboard",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Papery",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Woody",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Moldy/Damp",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Musty/Dusty",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Musty/Earthy",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Papery/Musty",
+    "wheel_tier3": "Animalic",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Chemical",
+    "wheel_tier3": "Bitter",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Chemical",
+    "wheel_tier3": "Salty",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Chemical",
+    "wheel_tier3": "Medicinal",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Chemical",
+    "wheel_tier3": "Petroleum",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Chemical",
+    "wheel_tier3": "Skunky",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Other",
+    "wheel_tier2": "Chemical",
+    "wheel_tier3": "Rubber",
+    "mapping_confidence": "secondary",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Pipe Tobacco",
+    "wheel_tier3": "Pipe Tobacco",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Tobacco",
+    "wheel_tier3": "Tobacco",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Burnt",
+    "wheel_tier3": "Pungent",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Burnt",
+    "wheel_tier3": "Ashy",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Burnt",
+    "wheel_tier3": "Smoky",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Burnt",
+    "wheel_tier3": "Brown/Roast",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Cereal",
+    "wheel_tier3": "Grain",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Roasted",
+    "wheel_tier2": "Cereal",
+    "wheel_tier3": "Malt",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Spices",
+    "wheel_tier2": "Pungent",
+    "wheel_tier3": "Pungent",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Spices",
+    "wheel_tier2": "Pepper",
+    "wheel_tier3": "Black Pepper",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Spices",
+    "wheel_tier2": "Brown Spice",
+    "wheel_tier3": "Nutmeg",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Spices",
+    "wheel_tier2": "Brown Spice",
+    "wheel_tier3": "Cinnamon",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Spices",
+    "wheel_tier2": "Brown Spice",
+    "wheel_tier3": "Clove",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Spices",
+    "wheel_tier2": "Brown Spice",
+    "wheel_tier3": "Anise",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Nutty/Cocoa",
+    "wheel_tier2": "Nutty",
+    "wheel_tier3": "Peanuts",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Nutty/Cocoa",
+    "wheel_tier2": "Nutty",
+    "wheel_tier3": "Hazelnut",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Nutty/Cocoa",
+    "wheel_tier2": "Nutty",
+    "wheel_tier3": "Almond",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Nutty/Cocoa",
+    "wheel_tier2": "Cocoa",
+    "wheel_tier3": "Chocolate",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Nutty/Cocoa",
+    "wheel_tier2": "Cocoa",
+    "wheel_tier3": "Dark Chocolate",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Brown Sugar",
+    "wheel_tier3": "Molasses",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Brown Sugar",
+    "wheel_tier3": "Maple Syrup",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Brown Sugar",
+    "wheel_tier3": "Caramelized",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Vanilla",
+    "wheel_tier3": "Vanilla",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Vanilla",
+    "wheel_tier3": "Vanillin",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Overall Sweet",
+    "wheel_tier3": "Overall Sweet",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Sweet Aromatics",
+    "wheel_tier3": "Honey",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  },
+  {
+    "wheel_tier1": "Sweet",
+    "wheel_tier2": "Sweet Aromatics",
+    "wheel_tier3": "Sweet Aromatics",
+    "mapping_confidence": "inferred",
+    "source_url": "https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture"
+  }
+]

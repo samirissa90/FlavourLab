@@ -1,0 +1,164 @@
+[
+  {
+    "country": "Costa Rica",
+    "grade": "SHG/SHB",
+    "elevation_masl_min": 1200,
+    "elevation_masl_max": null,
+    "note": "Chart value; another secondary source says above 1350 m",
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Costa Rica",
+    "grade": "GHB",
+    "elevation_masl_min": 1000,
+    "elevation_masl_max": 1200,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Costa Rica",
+    "grade": "MHB",
+    "elevation_masl_min": null,
+    "elevation_masl_max": 1000,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "El Salvador",
+    "grade": "SHG",
+    "elevation_masl_min": 1200,
+    "elevation_masl_max": null,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "El Salvador",
+    "grade": "HG",
+    "elevation_masl_min": 900,
+    "elevation_masl_max": 1200,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "El Salvador",
+    "grade": "CS (Central Standard)",
+    "elevation_masl_min": 500,
+    "elevation_masl_max": 900,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Honduras",
+    "grade": "SHG",
+    "elevation_masl_min": 1200,
+    "elevation_masl_max": null,
+    "note": "Other sources say about 1300 m (IHCAFE) or 1500 m",
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Honduras",
+    "grade": "HG",
+    "elevation_masl_min": 900,
+    "elevation_masl_max": 1200,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Honduras",
+    "grade": "CS",
+    "elevation_masl_min": 500,
+    "elevation_masl_max": 900,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Nicaragua",
+    "grade": "SHG",
+    "elevation_masl_min": 1200,
+    "elevation_masl_max": null,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Nicaragua",
+    "grade": "HG",
+    "elevation_masl_min": 900,
+    "elevation_masl_max": 1200,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Nicaragua",
+    "grade": "CS",
+    "elevation_masl_min": 500,
+    "elevation_masl_max": 900,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Guatemala",
+    "grade": "SHB",
+    "elevation_masl_min": 1600,
+    "elevation_masl_max": 1700,
+    "note": "Chart value; secondary sources put SHB above about 1350 m (4500 ft); conflict",
+    "confidence": "conflict",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Guatemala",
+    "grade": "SHB (secondary alternative)",
+    "elevation_masl_min": 1350,
+    "elevation_masl_max": null,
+    "note": "About 4500 ft (about 1370 m); several secondary sources",
+    "confidence": "secondary",
+    "source_url": "https://www.coffeeresearch.org/coffee/guatemala2.htm"
+  },
+  {
+    "country": "Guatemala",
+    "grade": "FHB",
+    "elevation_masl_min": 1500,
+    "elevation_masl_max": 1600,
+    "note": "Chart value; conflicts with secondary sources",
+    "confidence": "conflict",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Guatemala",
+    "grade": "HB",
+    "elevation_masl_min": 1350,
+    "elevation_masl_max": 1500,
+    "note": "Chart value; conflicts with secondary sources",
+    "confidence": "conflict",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Peru",
+    "grade": "SHB",
+    "elevation_masl_min": 1350,
+    "elevation_masl_max": null,
+    "note": null,
+    "confidence": "secondary",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  },
+  {
+    "country": "Peru",
+    "grade": "HB",
+    "elevation_masl_min": 1200,
+    "elevation_masl_max": 1200,
+    "note": "Chart prints 1200-1200 (typo); unclear",
+    "confidence": "unverified",
+    "source_url": "https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf"
+  }
+]

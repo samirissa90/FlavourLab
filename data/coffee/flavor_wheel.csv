@@ -1,0 +1,84 @@
+wheel_tier1,wheel_tier2,wheel_tier3,mapping_confidence,source_url
+Floral,Floral,Chamomile,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Floral,Floral,Rose,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Floral,Floral,Jasmine,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Floral,Black Tea,Black Tea,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Berry,Blackberry,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Berry,Raspberry,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Berry,Blueberry,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Berry,Strawberry,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Dried Fruit,Raisin,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Dried Fruit,Prune,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Coconut,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Cherry,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Pomegranate,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Pineapple,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Grape,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Apple,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Peach,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Other Fruit,Pear,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Citrus Fruit,Grapefruit,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Citrus Fruit,Orange,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Citrus Fruit,Lemon,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Fruity,Citrus Fruit,Lime,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Sour,Sour Aromatics,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Sour,Acetic Acid,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Sour,Butyric Acid,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Sour,Isovaleric Acid,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Sour,Citric Acid,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Sour,Malic Acid,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Alcohol/Fermented,Winey,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Alcohol/Fermented,Whiskey,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Alcohol/Fermented,Fermented,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sour/Fermented,Alcohol/Fermented,Overripe,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Olive Oil,Olive Oil,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Raw,Raw,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Raw,Under-ripe,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Raw,Peapod,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Raw,Fresh,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Green/Vegetative,Dark Green,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Green/Vegetative,Vegetative,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Green/Vegetative,Hay-like,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Green/Vegetative,Herb-like,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Green/Vegetative,Beany,Beany,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Stale,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Cardboard,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Papery,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Woody,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Moldy/Damp,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Musty/Dusty,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Musty/Earthy,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Papery/Musty,Animalic,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Chemical,Bitter,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Chemical,Salty,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Chemical,Medicinal,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Chemical,Petroleum,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Chemical,Skunky,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Other,Chemical,Rubber,secondary,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Pipe Tobacco,Pipe Tobacco,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Tobacco,Tobacco,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Burnt,Pungent,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Burnt,Ashy,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Burnt,Smoky,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Burnt,Brown/Roast,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Cereal,Grain,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Roasted,Cereal,Malt,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Spices,Pungent,Pungent,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Spices,Pepper,Black Pepper,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Spices,Brown Spice,Nutmeg,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Spices,Brown Spice,Cinnamon,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Spices,Brown Spice,Clove,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Spices,Brown Spice,Anise,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Nutty/Cocoa,Nutty,Peanuts,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Nutty/Cocoa,Nutty,Hazelnut,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Nutty/Cocoa,Nutty,Almond,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Nutty/Cocoa,Cocoa,Chocolate,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Nutty/Cocoa,Cocoa,Dark Chocolate,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Brown Sugar,Molasses,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Brown Sugar,Maple Syrup,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Brown Sugar,Caramelized,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Vanilla,Vanilla,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Vanilla,Vanillin,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Overall Sweet,Overall Sweet,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Sweet Aromatics,Honey,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture
+Sweet,Sweet Aromatics,Sweet Aromatics,inferred,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/flavor-wheel-architecture

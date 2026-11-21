@@ -1,0 +1,122 @@
+[
+  {
+    "study": "Avelino et al.",
+    "year": 2005,
+    "journal": "J Sci Food Agric",
+    "location": "Costa Rica (Orosi; Santa Maria de Dota)",
+    "altitude_range_masl": "1020-1250 (Orosi); 1550-1780 (Santa Maria de Dota)",
+    "finding": "Paper covers slope exposure, altitude and yield, not shade. Floral flavour in Orosi depends on slope exposure; chocolate flavour stronger at higher altitude in Dota; taster preference rose with altitude in both; chemical markers correlated weakly with sensory traits",
+    "effect_direction": "positive (preference)",
+    "effect_size": "not retrieved",
+    "confidence": "snippet",
+    "source_url": "https://zendy.io/title/10.1002/jsfa.2188"
+  },
+  {
+    "study": "Bertrand et al.",
+    "year": 2006,
+    "journal": "Tree Physiology",
+    "location": "El Salvador; Costa Rica; Honduras",
+    "altitude_range_masl": "700-1600",
+    "finding": "Traditional cultivars: chlorogenic acid and fat rise with elevation; hybrids with Sudanese-Ethiopian ancestry show homeostasis. Ten professional cuppers; composition estimated by NIR calibration",
+    "effect_direction": "positive (traditional cultivars)",
+    "effect_size": "not retrieved",
+    "confidence": "snippet",
+    "source_url": "https://publications.cirad.fr/une_notice.php?dk=532349"
+  },
+  {
+    "study": "Alpizar and Bertrand",
+    "year": 2005,
+    "journal": "separate paper",
+    "location": "Costa Rica",
+    "altitude_range_masl": "not stated",
+    "finding": "Caffeine, chlorogenic acid and fat rise with elevation; trigonelline and sucrose fall",
+    "effect_direction": "mixed",
+    "effect_size": "not retrieved",
+    "confidence": "snippet",
+    "source_url": "https://agris.fao.org/search/fr/records/64745bb796fdec8b71b71879"
+  },
+  {
+    "study": "Decazy et al.",
+    "year": 2003,
+    "journal": "J Food Sci",
+    "location": "Honduras (6 regions; 52 plots)",
+    "altitude_range_masl": "not stated",
+    "finding": "High altitude and annual rainfall under 1500 mm favoured sensory quality; Olancho and El Paraiso gave the highest-quality coffees",
+    "effect_direction": "positive",
+    "effect_size": "not retrieved",
+    "confidence": "primary (abstract via CIRAD)",
+    "source_url": "https://agritrop.cirad.fr/515149"
+  },
+  {
+    "study": "South-western Ethiopia density study",
+    "year": null,
+    "journal": null,
+    "location": "South-western Ethiopia",
+    "altitude_range_masl": "not stated",
+    "finding": "Bean density higher for highland than lowland and midland coffee",
+    "effect_direction": "positive",
+    "effect_size": "not retrieved",
+    "confidence": "snippet",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8991259"
+  },
+  {
+    "study": "Jimma University agro-ecological zones",
+    "year": 2024,
+    "journal": null,
+    "location": "Ethiopia (20 zones)",
+    "altitude_range_masl": "not stated",
+    "finding": "Altitude correlated with several bean traits; higher elevation enhanced acidity and flavour complexity; rainfall showed no significant correlation with bean weight, pH, moisture or biochemistry",
+    "effect_direction": "positive",
+    "effect_size": "correlation coefficients not retrieved",
+    "confidence": "secondary (press summary)",
+    "source_url": "https://www.eurekalert.org/news-releases/1094830"
+  },
+  {
+    "study": "Tolessa et al.",
+    "year": null,
+    "journal": "J Sci Food Agric",
+    "location": "Ethiopia",
+    "altitude_range_masl": "not stated",
+    "finding": "High altitude with open or medium shade and early-to-mid harvest gave superior quality; authors say the score changes are small",
+    "effect_direction": "positive",
+    "effect_size": "small",
+    "confidence": "snippet",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2020/08/Influence-of-growing-altitude-shade-and-harvest-period-on-quality-and-biochemical-composition-of-Ethiopian-specialty-coffee.pdf"
+  },
+  {
+    "study": "Tassew et al. (Kafa Biosphere Reserve)",
+    "year": 2021,
+    "journal": "Heliyon (per thesis abstract)",
+    "location": "Ethiopia (Kafa Biosphere Reserve)",
+    "altitude_range_masl": "not stated",
+    "finding": "Elevation significant (P<0.05) on screen-14+ retention and most cup variables; high-elevation dry-processed coffees scored raw quality 38.5-40% and cup quality 48.0-51.75% as reported",
+    "effect_direction": "positive",
+    "effect_size": "as reported",
+    "confidence": "secondary",
+    "source_url": "https://repository.ju.edu.et/handle/123456789/10081?show=full"
+  },
+  {
+    "study": "Worku et al.",
+    "year": 2017,
+    "journal": null,
+    "location": "Ethiopia",
+    "altitude_range_masl": "not stated",
+    "finding": "Title and authors only: effect of altitude on biochemical composition and quality can be affected by shade and processing",
+    "effect_direction": "unknown",
+    "effect_size": "not retrieved",
+    "confidence": "title only",
+    "source_url": "https://www.alphagalileo.org/en-gb/Item-Display/ItemId/262052"
+  },
+  {
+    "study": "Ovalle-Rivera et al.",
+    "year": 2015,
+    "journal": "PLoS ONE 10(4):e0124155",
+    "location": "Global (2050s projection)",
+    "altitude_range_masl": "not stated",
+    "finding": "Suitability falls at lower Mesoamerican altitudes; higher equatorial South American elevations may gain; Ethiopia and Kenya projected more suitable; India and Vietnam less. Bunn is co-author, not lead.",
+    "effect_direction": "climate projection",
+    "effect_size": "not retrieved",
+    "confidence": "primary (search summary; PDF blocked)",
+    "source_url": "https://pure.iiasa.ac.at/11352"
+  }
+]

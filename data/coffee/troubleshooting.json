@@ -1,0 +1,299 @@
+[
+  {
+    "method": "espresso",
+    "symptom": "sour thin salty",
+    "time_or_flow": "under 20 s",
+    "diagnosis": "under-extracted",
+    "action": "grind 1-2 settings finer",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "sour lacks body",
+    "time_or_flow": "20-24 s",
+    "diagnosis": "slightly under-extracted",
+    "action": "grind 1 setting finer or raise yield",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "sour underdeveloped",
+    "time_or_flow": "25-30 s",
+    "diagnosis": "under-extracted",
+    "action": "raise yield 2-4 g",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "balanced sweet",
+    "time_or_flow": "25-30 s",
+    "diagnosis": "optimal",
+    "action": "keep settings",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "bitter harsh",
+    "time_or_flow": "25-30 s",
+    "diagnosis": "over-extracted",
+    "action": "lower yield 2-4 g",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "bitter dry",
+    "time_or_flow": "31-35 s",
+    "diagnosis": "slightly over-extracted",
+    "action": "grind 1 setting coarser",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "ashy burnt",
+    "time_or_flow": "over 35 s",
+    "diagnosis": "severely over-extracted",
+    "action": "grind 2 settings coarser",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "bitter astringent but fast",
+    "time_or_flow": "under 20 s",
+    "diagnosis": "channeling or uneven extraction",
+    "action": "check distribution (WDT); grind slightly finer; level tamp",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "fast shot sour thin",
+    "time_or_flow": "fast (no number)",
+    "diagnosis": "under-extracted",
+    "action": "grind finer or raise dose 1-2 g",
+    "source_url": "https://www.breville.com/en-us/blog/coffee-and-espresso/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "slow shot over-extracted",
+    "time_or_flow": "slow (no number)",
+    "diagnosis": "over-extracted",
+    "action": "grind coarser or reduce dose slightly",
+    "source_url": "https://www.breville.com/en-us/blog/coffee-and-espresso/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "sour on light roast",
+    "time_or_flow": "about 55-60 s (Flair)",
+    "diagnosis": "under-extracted",
+    "action": "lengthen ratio toward 3:1; coarsen grind; raise flow early in shot",
+    "source_url": "https://flairespresso.com/blogs/news/espresso-university-dial-in-light-roasted-coffee",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "flow starts fast then slows",
+    "time_or_flow": "n/a",
+    "diagnosis": "channeling or clumps",
+    "action": "improve WDT",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "inconsistent timing",
+    "time_or_flow": "n/a",
+    "diagnosis": "uneven distribution or tamp",
+    "action": "use WDT and level tamp",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "target time not reachable at grinder limit",
+    "time_or_flow": "n/a",
+    "diagnosis": "dose limit",
+    "action": "change dose by 0.5 g",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "always over or under extracted",
+    "time_or_flow": "n/a",
+    "diagnosis": "ratio problem",
+    "action": "try ratio 1:2 or 1:2.5",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "drift between shots",
+    "time_or_flow": "n/a",
+    "diagnosis": "grinder retention or heat",
+    "action": "purge grinder; check heat",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "espresso",
+    "symptom": "fresh beans",
+    "time_or_flow": "n/a",
+    "diagnosis": "beans fresher than dialled-in grind",
+    "action": "grind finer; older beans need coarser",
+    "source_url": "https://completehomebarista.com/guides/how-to-dial-in-espresso",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "sour thin",
+    "time_or_flow": "n/a",
+    "diagnosis": "under-extracted",
+    "action": "grind finer; raise temperature; slow the pour; increase contact time",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "bitter harsh",
+    "time_or_flow": "n/a",
+    "diagnosis": "over-extracted",
+    "action": "grind coarser; lower temperature; shorten contact time; reduce agitation",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "astringent dry",
+    "time_or_flow": "n/a",
+    "diagnosis": "over-extraction or excess fines",
+    "action": "grind coarser; reduce agitation; check for stalled drawdown",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "weak watery",
+    "time_or_flow": "n/a",
+    "diagnosis": "too little coffee for the water or under-extracted",
+    "action": "tighter ratio (less water per gram) or slightly finer grind",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "muddy intense",
+    "time_or_flow": "n/a",
+    "diagnosis": "too much coffee for the water",
+    "action": "more water per gram",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "sour and bitter together",
+    "time_or_flow": "n/a",
+    "diagnosis": "uneven extraction (channeling)",
+    "action": "even the bed; pour gently; level the grounds; if finer makes it more sour the bed is channeling",
+    "source_url": "https://baristalife.co/blogs/blog/pour-over-uneven-extraction",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "drawdown fast",
+    "time_or_flow": "fast",
+    "diagnosis": "grind too coarse or bypass",
+    "action": "grind finer; pour in the centre rather than down the walls",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "drawdown slow or stalled",
+    "time_or_flow": "slow",
+    "diagnosis": "grind too fine or too many fines or clogged filter",
+    "action": "grind coarser; reduce agitation; pre-wet the filter",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "large crater in bed",
+    "time_or_flow": "n/a",
+    "diagnosis": "pour too aggressive or off-centre",
+    "action": "gentler pour; centre the pour",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "drawdown long with bitter or dry cup",
+    "time_or_flow": "long",
+    "diagnosis": "over-extraction",
+    "action": "grind coarser",
+    "source_url": "https://honestcoffeeguide.com/brew-recipes/matt-winton-v60-five-pour/",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "drawdown short with sour or thin cup",
+    "time_or_flow": "short",
+    "diagnosis": "under-extraction",
+    "action": "grind finer",
+    "source_url": "https://honestcoffeeguide.com/brew-recipes/matt-winton-v60-five-pour/",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "drawdown timing (Hedrick 20 g recipe)",
+    "time_or_flow": "slower than 3:15 or faster than 2:30",
+    "diagnosis": "grind too coarse or too fine",
+    "action": "slower: grind finer; faster: grind coarser",
+    "source_url": "https://secure.lamose.com/blogs/recipes/lance-hedricks-pour-over-masterclass-v60-technique",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "bloom overflows",
+    "time_or_flow": "n/a",
+    "diagnosis": "very fresh gassy coffee",
+    "action": "more bloom water and longer bloom",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "little or no bloom",
+    "time_or_flow": "n/a",
+    "diagnosis": "stale coffee",
+    "action": "use fresher coffee",
+    "source_url": "https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html",
+    "confidence": "secondary"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "dark roast bitter fast",
+    "time_or_flow": "n/a",
+    "diagnosis": "dark roasts extract easily",
+    "action": "lower temperature or coarser grind",
+    "source_url": "https://baristalife.co/blogs/blog/coffee-tastes-sour-adjustment",
+    "confidence": "snippet"
+  },
+  {
+    "method": "pour_over",
+    "symptom": "4:6 acidity vs sweetness",
+    "time_or_flow": "first pour volume",
+    "diagnosis": "first 40 percent of water sets acidity vs sweetness",
+    "action": "more water in pour 1 gives more acidity; less gives more sweetness; last 60 percent sets strength",
+    "source_url": "https://hario-europe.com/blogs/hario-community/v60-ambassadors-tetsu-kasuya",
+    "confidence": "secondary"
+  }
+]

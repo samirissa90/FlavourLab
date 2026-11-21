@@ -1,0 +1,5 @@
+method,steps,caffeine_removed_pct_claimed,us_label_threshold_pct,confidence,source_url,notes
+swiss_water,Water-only extraction of caffeine,99.9,97,secondary,https://www.seattlecoffeegear.com/blogs/learning-center/how-coffee-is-decaffeinated,Certified or claimed figure
+co2,Supercritical CO2 circulated through moistened beans; caffeine released on pressure drop; gas recycled,99.9,97,secondary,https://www.seattlecoffeegear.com/blogs/learning-center/how-coffee-is-decaffeinated,
+ethyl_acetate,Solvent method; sugarcane-derived versions are mostly synthetic ethyl acetate,,97,secondary,https://www.coffeereview.com/fun-without-the-buzz-decaffeination-processes-and-issues/,"Most of the ethyl acetate used is synthetic (per cited source)"
+methylene_chloride,Solvent method,,97,secondary,https://reviewed.com/cooking/features/how-is-decaf-coffee-made,"Safety contested; one retailer claims solvent methods remove 96-97% (marketing claim)"

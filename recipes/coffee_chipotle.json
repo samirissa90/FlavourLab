@@ -1,0 +1,18 @@
+{
+  "name": "Coffee Chipotle",
+  "style": "coffee_mole",
+  "ingredients": [
+    {"item": "chipotle", "g": 45},
+    {"item": "chile de arbol", "g": 8},
+    {"item": "ancho", "g": 25},
+    {"item": "tomato", "g": 300, "prep": "roasted"},
+    {"item": "onion", "g": 100, "prep": "caramelized"},
+    {"item": "garlic", "g": 25, "prep": "roasted"},
+    {"item": "apple cider vinegar", "g": 140},
+    {"item": "espresso", "g": 60},
+    {"item": "panela", "g": 25},
+    {"item": "salt", "g": 12},
+    {"item": "cumin", "g": 3, "prep": "toasted"},
+    {"item": "water", "g": 120}
+  ]
+}

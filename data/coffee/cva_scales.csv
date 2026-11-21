@@ -1,0 +1,24 @@
+assessment,item,scale_min,scale_max,anchor_or_unit,notes,source_url,confidence
+Descriptive,Fragrance,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Aroma,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Flavor,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Aftertaste,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Acidity,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Mouthfeel,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Sweetness,0,15,"LOW / MEDIUM / HIGH with ticks at 0 5 10 15","Intensity; CATA descriptor boxes also used",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Descriptive,Main tastes (choose 2),,,"Salty; Sour; Sweet; Bitter; Umami",,https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Fragrance,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Aroma,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Flavor,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Aftertaste,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Acidity,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Mouthfeel,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Sweetness,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,Overall,1,9,"9-point hedonic (impression of quality)","FINAL mark per attribute",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Affective,anchors,1,9,"1 Extremely low; 2 Very low; 3 Moderately low; 4 Slightly low; 5 Neither high nor low; 6 Slightly high; 7 Moderately high; 8 Very high; 9 Extremely high","CVA total-score formula not in the form; calculator at sca.coffee/cuppingscore",https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Physical,Category 1 defects,,,"Full black, full sour, dried cherry, fungus damage, foreign matter: 1:1; severe insect damage: 5:1",,https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Physical,Category 2 defects,,,"Partial black 3:1; partial sour 3:1; parchment, floater, immature, withered, shell, broken, hull 5:1; slight insect damage 10:1",,https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Physical,sample size,,,350 g,,https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Extrinsic,process type,,,"washed; natural; other",,https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf,primary
+Legacy 2004,total score,0,100,"Legacy protocol; not verified from a retrieved source","Background value from the brief",,unverified-bg
+Legacy 2004,score bands,,,"90-100 Outstanding; 85-89.99 Excellent; 80-84.99 Very Good; below 80 not specialty","Background value from the brief",,unverified-bg

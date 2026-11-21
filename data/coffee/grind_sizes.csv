@@ -1,0 +1,31 @@
+method,grind_um_min,grind_um_max,range_type,source_url,confidence,notes
+turkish,40,220,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Secondary chart with no primary source"
+turkish_snippet,100,200,search_snippet,unnamed guide,snippet,
+espresso,180,380,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Same chart text says 200-300 um but its table gives 600-800 for espresso (inconsistent)"
+espresso_vendor,200,400,vendor_snippet,https://www.mahlkoenig.com/blogs/news/microns-grind-consistency,snippet,"Another vendor targets 290-310 um. No peer-reviewed espresso micron standard found."
+filter_machine_batch,300,900,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,
+aeropress,320,960,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Widest range on that chart"
+moka_pot,360,660,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Bialetti: medium-fine"
+siphon,375,800,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,
+v60,400,700,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Conflicts with developer brief value of 600-900"
+pour_over_general,410,930,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,
+steep_and_release,450,825,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,
+cupping,460,850,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"SCA: slightly coarser than paper-filter drip. A later line on the same page says 470-850."
+french_press,690,1300,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Other estimates 800-1100 and 1000-1200 (search snippets)"
+cold_brew,800,1400,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,"Other estimates 1200-1600 and 1000-1500 (search snippets)"
+cold_drip,820,1270,honest_coffee_guide,https://honestcoffeeguide.com/coffee-grind-size-chart/,secondary,
+competition_wac_2024_stanica_aeropress,870,870,page_value,https://worldaeropresschampionship.com/pages/recipes,primary,"Comandante C40 Mk4 at 58 clicks"
+competition_wac_2024_jamika_aeropress,900,900,page_value,https://worldaeropresschampionship.com/pages/recipes,primary,"MK4 per page"
+competition_wac_2025_nemo_pop_aeropress,200,200,page_value,https://worldaeropresschampionship.com/pages/recipes,primary,"Trailmaster x25 at 31 clicks, sifted"
+competition_wbc_2019_du_v60,780,780,roasters_pack,https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes,secondary,"Comandante 26 clicks"
+competition_wbc_2022_hsu_v60,800,1000,wbc_wikipedia,https://en.wikipedia.org/wiki/World_Brewers_Cup,secondary,"75% at 1000 um and 25% at 800 um (1Zpresso K-Pro)"
+competition_wbc_2023_medina_v60,840,840,roasters_pack,https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes,secondary,"Comandante 28 clicks"
+competition_wbc_2024_wolfl_v60,630,630,roasters_pack,https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes,secondary,"Mazzer ZM"
+brief_turkish,100,250,developer_brief,,unverified-brief,"Not confirmed by any source read; a snippet gave 100-200"
+brief_espresso,200,300,developer_brief,,unverified-brief,"Vendor source gives 200-400; not confirmed"
+brief_moka_pot,300,400,developer_brief,,unverified-brief,"Chart gives 360-660"
+brief_aeropress,400,800,developer_brief,,unverified-brief,"Chart gives 320-960"
+brief_v60,600,900,developer_brief,,unverified-brief,"Conflicts with sourced 400-700"
+brief_chemex,800,1000,developer_brief,,unverified-brief,"No source found"
+brief_french_press,900,1300,developer_brief,,unverified-brief,"Chart gives 690-1300"
+brief_cold_brew,1000,1400,developer_brief,,unverified-brief,"Chart gives 800-1400"

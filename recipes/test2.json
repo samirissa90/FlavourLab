@@ -1,0 +1,68 @@
+{
+  "name": "New sauce",
+  "style": "smoky_chipotle",
+  "process": "cooked",
+  "ingredients": [
+    {
+      "item": "achiote",
+      "g": 50.0,
+      "prep": [
+        "roasted"
+      ]
+    },
+    {
+      "item": "puya",
+      "g": 1.2,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "scotch bonnet",
+      "g": 3.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "red onion",
+      "g": 3.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "scallion",
+      "g": 2.3,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "barberries",
+      "g": 1.8,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "blackberry",
+      "g": 4.0,
+      "prep": [
+        "caramelized",
+        "fermented"
+      ]
+    },
+    {
+      "item": "dried apricot",
+      "g": 2.6,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "za'atar",
+      "g": 1.4
+    }
+  ]
+}

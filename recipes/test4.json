@@ -1,0 +1,47 @@
+{
+  "name": "test4",
+  "style": "salsa_verde",
+  "process": "cooked",
+  "ingredients": [
+    {
+      "item": "habanero",
+      "g": 100.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "thai bird's eye",
+      "g": 20.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "smoked paprika",
+      "g": 10.0
+    },
+    {
+      "item": "orange juice",
+      "g": 50.0
+    },
+    {
+      "item": "raspberry",
+      "g": 80.0,
+      "prep": [
+        "caramelized"
+      ]
+    },
+    {
+      "item": "sweet corn",
+      "g": 50.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "za'atar",
+      "g": 10.0
+    }
+  ]
+}

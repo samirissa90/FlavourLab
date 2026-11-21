@@ -1,0 +1,28 @@
+{
+  "machine": {
+    "preset": "ecm_classika_pid",
+    "overrides": {
+      "basket_g": "18",
+      "temp_offset_c": "0"
+    }
+  },
+  "grinder": {
+    "preset": "eureka_mignon_other",
+    "overrides": {
+      "dial_note": "5"
+    }
+  },
+  "kettle": "variable temperature gooseneck",
+  "scale_g": "0.1",
+  "water_note": "",
+  "shots": [
+    {
+      "dose_g": 18.5,
+      "yield_g": 38.0,
+      "time_s": 27.0,
+      "taste": "balanced / sweet",
+      "dial": null,
+      "diagnosis": "optimal"
+    }
+  ]
+}

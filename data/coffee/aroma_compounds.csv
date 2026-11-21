@@ -1,0 +1,20 @@
+compound,odor_descriptor,wheel_tier1_inferred,fd_factor_range,oav_range,source_url,confidence
+"Furaneol","caramel; marshmallow",Sweet,2187,175-250,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"4-Vinyl-2-methoxyphenol (4-vinylguaiacol)","smoky",Roasted,243-2187,340-761,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"4-Ethyl-2-methoxyphenol","smoky",Roasted,1-729,12-79,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Guaiacol","woody",Other,2187,8-63,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Furfural","nutty; almond",Nutty/Cocoa,2187,15-62,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Linalool","floral; citrus; rose",Floral,3-81,72-222 (where detected),https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Isovaleric acid","sour; pungent",Sour/Fermented,243-729,72-200,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"3-Hydroxy-2-butanone (acetoin)","buttery",Sweet (no wheel node),9,94-137,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"2-Ethyl-5-methylpyrazine","coffee",Nutty/Cocoa,3-81,52-76,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"2,3,5-Trimethylpyrazine","coffee; cocoa",Nutty/Cocoa,,1-90,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"2-Ethyl-6-methylpyrazine","roasted; nutty",Roasted,,45-72,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"2-Ethyl-3,5-dimethylpyrazine","almond",Nutty/Cocoa,,170,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"2-Acetylpyrazine","popcorn",Roasted,,9-12,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Maltol","caramel",Sweet,,8-29,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"5-Methylfurfural","caramel",Sweet,,23-48,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Hydroxyacetone","caramel",Sweet,,2-3,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"gamma-Butyrolactone","caramel; roasted nut",Sweet,,1-3,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"Furfuryl alcohol","bread",Roasted (inferred),,17-31,https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/,primary
+"2-Furfurylthiol","roasty (coffee)",Roasted,,OAV about 1.10e5 (Grosch table; conc. 1.08 mg/L),https://coffeeresearch.org/science/aromamain.htm,secondary

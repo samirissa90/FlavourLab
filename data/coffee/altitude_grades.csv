@@ -1,0 +1,19 @@
+country,grade,elevation_masl_min,elevation_masl_max,note,confidence,source_url
+Costa Rica,SHG/SHB,1200,,"Chart value; another secondary source says above 1350 m",secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Costa Rica,GHB,1000,1200,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Costa Rica,MHB,,1000,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+El Salvador,SHG,1200,,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+El Salvador,HG,900,1200,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+El Salvador,CS (Central Standard),500,900,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Honduras,SHG,1200,,"Other sources say about 1300 m (IHCAFE) or 1500 m",secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Honduras,HG,900,1200,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Honduras,CS,500,900,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Nicaragua,SHG,1200,,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Nicaragua,HG,900,1200,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Nicaragua,CS,500,900,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Guatemala,SHB,1600,1700,"Chart value; secondary sources put SHB above about 1350 m (4500 ft); conflict",conflict,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Guatemala,SHB (secondary alternative),1350,,"About 4500 ft (about 1370 m); several secondary sources",secondary,https://www.coffeeresearch.org/coffee/guatemala2.htm
+Guatemala,FHB,1500,1600,"Chart value; conflicts with secondary sources",conflict,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Guatemala,HB,1350,1500,"Chart value; conflicts with secondary sources",conflict,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Peru,SHB,1350,,,secondary,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf
+Peru,HB,1200,1200,"Chart prints 1200-1200 (typo); unclear",unverified,https://dev-cdn.cafeimports.com/images/Common-Coffee-Grades-Chart.pdf

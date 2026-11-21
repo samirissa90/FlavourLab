@@ -1,0 +1,34 @@
+method,symptom,time_or_flow,diagnosis,action,source_url,confidence
+espresso,sour thin salty,under 20 s,under-extracted,grind 1-2 settings finer,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,sour lacks body,20-24 s,slightly under-extracted,grind 1 setting finer or raise yield,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,sour underdeveloped,25-30 s,under-extracted,raise yield 2-4 g,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,balanced sweet,25-30 s,optimal,keep settings,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,bitter harsh,25-30 s,over-extracted,lower yield 2-4 g,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,bitter dry,31-35 s,slightly over-extracted,grind 1 setting coarser,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,ashy burnt,over 35 s,severely over-extracted,grind 2 settings coarser,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,bitter astringent but fast,under 20 s,channeling or uneven extraction,check distribution (WDT); grind slightly finer; level tamp,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,fast shot sour thin,fast (no number),under-extracted,grind finer or raise dose 1-2 g,https://www.breville.com/en-us/blog/coffee-and-espresso/how-to-dial-in-espresso,secondary
+espresso,slow shot over-extracted,slow (no number),over-extracted,grind coarser or reduce dose slightly,https://www.breville.com/en-us/blog/coffee-and-espresso/how-to-dial-in-espresso,secondary
+espresso,sour on light roast,about 55-60 s (Flair),under-extracted,lengthen ratio toward 3:1; coarsen grind; raise flow early in shot,https://flairespresso.com/blogs/news/espresso-university-dial-in-light-roasted-coffee,secondary
+espresso,flow starts fast then slows,n/a,channeling or clumps,improve WDT,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,inconsistent timing,n/a,uneven distribution or tamp,use WDT and level tamp,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,target time not reachable at grinder limit,n/a,dose limit,change dose by 0.5 g,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,always over or under extracted,n/a,ratio problem,try ratio 1:2 or 1:2.5,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,drift between shots,n/a,grinder retention or heat,purge grinder; check heat,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+espresso,fresh beans,n/a,beans fresher than dialled-in grind,grind finer; older beans need coarser,https://completehomebarista.com/guides/how-to-dial-in-espresso,secondary
+pour_over,sour thin,n/a,under-extracted,grind finer; raise temperature; slow the pour; increase contact time,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,bitter harsh,n/a,over-extracted,grind coarser; lower temperature; shorten contact time; reduce agitation,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,astringent dry,n/a,over-extraction or excess fines,grind coarser; reduce agitation; check for stalled drawdown,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,weak watery,n/a,too little coffee for the water or under-extracted,tighter ratio (less water per gram) or slightly finer grind,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,muddy intense,n/a,too much coffee for the water,more water per gram,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,sour and bitter together,n/a,uneven extraction (channeling),even the bed; pour gently; level the grounds; if finer makes it more sour the bed is channeling,https://baristalife.co/blogs/blog/pour-over-uneven-extraction,secondary
+pour_over,drawdown fast,fast,grind too coarse or bypass,grind finer; pour in the centre rather than down the walls,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,drawdown slow or stalled,slow,grind too fine or too many fines or clogged filter,grind coarser; reduce agitation; pre-wet the filter,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,large crater in bed,n/a,pour too aggressive or off-centre,gentler pour; centre the pour,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,drawdown long with bitter or dry cup,long,over-extraction,grind coarser,https://honestcoffeeguide.com/brew-recipes/matt-winton-v60-five-pour/,secondary
+pour_over,drawdown short with sour or thin cup,short,under-extraction,grind finer,https://honestcoffeeguide.com/brew-recipes/matt-winton-v60-five-pour/,secondary
+pour_over,drawdown timing (Hedrick 20 g recipe),slower than 3:15 or faster than 2:30,grind too coarse or too fine,slower: grind finer; faster: grind coarser,https://secure.lamose.com/blogs/recipes/lance-hedricks-pour-over-masterclass-v60-technique,secondary
+pour_over,bloom overflows,n/a,very fresh gassy coffee,more bloom water and longer bloom,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,little or no bloom,n/a,stale coffee,use fresher coffee,https://field-guides.vercel.app/pour-over/pour-over-troubleshooting-guide.html,secondary
+pour_over,dark roast bitter fast,n/a,dark roasts extract easily,lower temperature or coarser grind,https://baristalife.co/blogs/blog/coffee-tastes-sour-adjustment,snippet
+pour_over,4:6 acidity vs sweetness,first pour volume,first 40 percent of water sets acidity vs sweetness,more water in pour 1 gives more acidity; less gives more sweetness; last 60 percent sets strength,https://hario-europe.com/blogs/hario-community/v60-ambassadors-tetsu-kasuya,secondary

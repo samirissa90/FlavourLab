@@ -1,0 +1,14 @@
+rule_key,value_min,value_max,unit,applies_to,basis,confidence,source_url,notes
+whole_bean_fresh_days,21,21,days,whole bean after roasting,SCA (about three weeks),primary,https://sca.coffee/sca-news/coffee-decoded-9-fresh-coffee,"CO2 loss is rapid for the first 20 days, then slows"
+ground_fresh_minutes,60,60,minutes,ground coffee,SCA (about one hour),primary,https://sca.coffee/sca-news/coffee-decoded-9-fresh-coffee,
+whole_bean_degas_complete_days,30,30,days,whole bean,Smrke et al. 2018 and 2022 (about one month),primary,https://digitalcollection.zhaw.ch/bitstream/11475/12175/2/2017_Smrke-etal_Roasted-coffe-degassing-time-resolved-gravimetry.pdf,"Roughly 1% CO2 by weight released"
+ground_degas_days,0.04,60,days,ground coffee,Smrke et al. 2022 (minutes to about two months),primary,https://digitalcollection.zhaw.ch/bitstream/11475/26687/3/2022_Smrke-etal_Effects-of-different-coffee-storage-methods-on-coffee-freshness_FPSL.pdf,"Search summary only; full text not read"
+co2_literature_mg_per_g,0.7,16,mg per g,whole roasted beans,Smrke et al. 2018 literature review,primary,https://digitalcollection.zhaw.ch/bitstream/11475/12175/2/2017_Smrke-etal_Roasted-coffe-degassing-time-resolved-gravimetry.pdf,"Varies by method and time; quoted range from several studies"
+rest_days_light,10,21,days,light roast,roaster blogs (conflicting),secondary,https://clivecoffee.com/blogs/learn/is-your-coffee-too-fresh,"Other blogs give 5-10 days for light"
+rest_days_medium,7,14,days,medium roast,roaster blogs,secondary,https://simonandbearns.coffee/en/blogs/kaffeeblog/coffee-degassing-how-long-to-rest-filter-coffee-and-espresso,
+rest_days_dark,3,7,days,dark roast,roaster blogs (single source),secondary,https://simonandbearns.coffee/en/blogs/kaffeeblog/coffee-degassing-how-long-to-rest-filter-coffee-and-espresso,Single source
+espresso_rest_days,5,7,days,espresso,roaster blogs (conflicting),secondary,https://generalwarfieldscoffee.com/blogs/our-blog/coffee-7-10-days-after-roasting,"Other sources: 7-10 days, and 7-11 as ideal"
+gassy_fresh_days,1,4,days,very fresh beans,roaster blogs,secondary,https://twochimpscoffee.com/what-is-coffee-degassing-2/,"Gassy, channel-prone, fast shots"
+peak_flavour_weeks_after_rest,2,4,weeks,filter and espresso,roaster blog (search snippet),snippet,https://www.brewcoffeehome.com/?p=10459,
+green_shelf_life_months,6,12,months,green coffee,unverified background,unverified-bg,,Not sourced; numbers not retrieved
+storage_best_method,,,text,whole beans,Smrke et al. 2022: screw-cap packaging performed best; clips and decanting lost freshness faster,primary (search summary),https://digitalcollection.zhaw.ch/handle/11475/12175,

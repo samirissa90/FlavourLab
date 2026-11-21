@@ -1,0 +1,50 @@
+{
+  "name": "Mango Habanero",
+  "style": "fruity_caribbean",
+  "notes": "Starter example - cooked sauce, blend and simmer 10 min.",
+  "ingredients": [
+    {
+      "item": "habanero",
+      "g": 120
+    },
+    {
+      "item": "mango",
+      "g": 250
+    },
+    {
+      "item": "carrot",
+      "g": 80
+    },
+    {
+      "item": "onion",
+      "g": 60,
+      "prep": "roasted"
+    },
+    {
+      "item": "garlic",
+      "g": 20,
+      "prep": "roasted"
+    },
+    {
+      "item": "apple cider vinegar",
+      "g": 200
+    },
+    {
+      "item": "lime juice",
+      "g": 30,
+      "stage": "finish"
+    },
+    {
+      "item": "honey",
+      "g": 20
+    },
+    {
+      "item": "salt",
+      "g": 15
+    },
+    {
+      "item": "allspice",
+      "g": 2
+    }
+  ]
+}

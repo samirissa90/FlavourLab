@@ -1,0 +1,54 @@
+[
+  {
+    "id": "eureka_mignon_specialita",
+    "name": "Eureka Mignon Specialita",
+    "burr_mm": 55,
+    "burr_shape": "flat steel",
+    "adjustment": "stepless micrometric",
+    "finer_direction": "clockwise",
+    "dial_marks": "not sourced",
+    "notes": "Upper burr can be removed for cleaning without losing the setting (Bella Barista). Display adjusts dose time, not grind size. Dial range and step size were not found in any source read.",
+    "source_url": "https://bellabarista.co.uk/collections/espresso-grinders/products/eureka-mignon-specialita-16cr-coffee-grinder-55mm | https://manuals.plus/asin/B07GFV4NVH",
+    "confidence": "secondary",
+    "conflict_note": "Knob location conflicts: Seattle Coffee Gear says near the base; the Eureka manual mirror says top right. Finer direction (clockwise) comes from the manual mirror via a search summary; check your unit."
+  },
+  {
+    "id": "eureka_mignon_other",
+    "name": "Eureka Mignon (other model)",
+    "burr_mm": "not verified",
+    "burr_shape": "flat",
+    "adjustment": "stepless micrometric (assumed)",
+    "finer_direction": "clockwise (assumed)",
+    "dial_marks": "not sourced",
+    "notes": "Mignon family covers several models (Silenzio, Perfetto, Notte, Manuale, Zero, Facile, Crono, XL, Libra and others). Burr size and dial differ by model and were not verified. Choose your exact model in the app.",
+    "source_url": null,
+    "confidence": "unverified-bg",
+    "conflict_note": null
+  },
+  {
+    "id": "generic_stepless",
+    "name": "Generic stepless grinder",
+    "burr_mm": null,
+    "burr_shape": null,
+    "adjustment": "stepless",
+    "finer_direction": "unknown",
+    "dial_marks": "unknown",
+    "notes": "Category defaults. Edit the fields to match your grinder.",
+    "source_url": null,
+    "confidence": "unverified-bg",
+    "conflict_note": null
+  },
+  {
+    "id": "generic_stepped",
+    "name": "Generic stepped grinder",
+    "burr_mm": null,
+    "burr_shape": null,
+    "adjustment": "stepped",
+    "finer_direction": "unknown",
+    "dial_marks": "unknown",
+    "notes": "Category defaults. Edit the fields to match your grinder.",
+    "source_url": null,
+    "confidence": "unverified-bg",
+    "conflict_note": null
+  }
+]

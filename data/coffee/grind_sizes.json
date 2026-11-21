@@ -1,0 +1,272 @@
+[
+  {
+    "method": "turkish",
+    "grind_um_min": 40,
+    "grind_um_max": 220,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Secondary chart with no primary source"
+  },
+  {
+    "method": "turkish_snippet",
+    "grind_um_min": 100,
+    "grind_um_max": 200,
+    "range_type": "search_snippet",
+    "source_url": "unnamed guide",
+    "confidence": "snippet",
+    "notes": null
+  },
+  {
+    "method": "espresso",
+    "grind_um_min": 180,
+    "grind_um_max": 380,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Same chart text says 200-300 um but its table gives 600-800 for espresso (inconsistent)"
+  },
+  {
+    "method": "espresso_vendor",
+    "grind_um_min": 200,
+    "grind_um_max": 400,
+    "range_type": "vendor_snippet",
+    "source_url": "https://www.mahlkoenig.com/blogs/news/microns-grind-consistency",
+    "confidence": "snippet",
+    "notes": "Another vendor targets 290-310 um. No peer-reviewed espresso micron standard found."
+  },
+  {
+    "method": "filter_machine_batch",
+    "grind_um_min": 300,
+    "grind_um_max": 900,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "method": "aeropress",
+    "grind_um_min": 320,
+    "grind_um_max": 960,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Widest range on that chart"
+  },
+  {
+    "method": "moka_pot",
+    "grind_um_min": 360,
+    "grind_um_max": 660,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Bialetti: medium-fine"
+  },
+  {
+    "method": "siphon",
+    "grind_um_min": 375,
+    "grind_um_max": 800,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "method": "v60",
+    "grind_um_min": 400,
+    "grind_um_max": 700,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Conflicts with developer brief value of 600-900"
+  },
+  {
+    "method": "pour_over_general",
+    "grind_um_min": 410,
+    "grind_um_max": 930,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "method": "steep_and_release",
+    "grind_um_min": 450,
+    "grind_um_max": 825,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "method": "cupping",
+    "grind_um_min": 460,
+    "grind_um_max": 850,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "SCA: slightly coarser than paper-filter drip. A later line on the same page says 470-850."
+  },
+  {
+    "method": "french_press",
+    "grind_um_min": 690,
+    "grind_um_max": 1300,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Other estimates 800-1100 and 1000-1200 (search snippets)"
+  },
+  {
+    "method": "cold_brew",
+    "grind_um_min": 800,
+    "grind_um_max": 1400,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": "Other estimates 1200-1600 and 1000-1500 (search snippets)"
+  },
+  {
+    "method": "cold_drip",
+    "grind_um_min": 820,
+    "grind_um_max": 1270,
+    "range_type": "honest_coffee_guide",
+    "source_url": "https://honestcoffeeguide.com/coffee-grind-size-chart/",
+    "confidence": "secondary",
+    "notes": null
+  },
+  {
+    "method": "competition_wac_2024_stanica_aeropress",
+    "grind_um_min": 870,
+    "grind_um_max": 870,
+    "range_type": "page_value",
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Comandante C40 Mk4 at 58 clicks"
+  },
+  {
+    "method": "competition_wac_2024_jamika_aeropress",
+    "grind_um_min": 900,
+    "grind_um_max": 900,
+    "range_type": "page_value",
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "MK4 per page"
+  },
+  {
+    "method": "competition_wac_2025_nemo_pop_aeropress",
+    "grind_um_min": 200,
+    "grind_um_max": 200,
+    "range_type": "page_value",
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Trailmaster x25 at 31 clicks, sifted"
+  },
+  {
+    "method": "competition_wbc_2019_du_v60",
+    "grind_um_min": 780,
+    "grind_um_max": 780,
+    "range_type": "roasters_pack",
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Comandante 26 clicks"
+  },
+  {
+    "method": "competition_wbc_2022_hsu_v60",
+    "grind_um_min": 800,
+    "grind_um_max": 1000,
+    "range_type": "wbc_wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/World_Brewers_Cup",
+    "confidence": "secondary",
+    "notes": "75% at 1000 um and 25% at 800 um (1Zpresso K-Pro)"
+  },
+  {
+    "method": "competition_wbc_2023_medina_v60",
+    "grind_um_min": 840,
+    "grind_um_max": 840,
+    "range_type": "roasters_pack",
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Comandante 28 clicks"
+  },
+  {
+    "method": "competition_wbc_2024_wolfl_v60",
+    "grind_um_min": 630,
+    "grind_um_max": 630,
+    "range_type": "roasters_pack",
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Mazzer ZM"
+  },
+  {
+    "method": "brief_turkish",
+    "grind_um_min": 100,
+    "grind_um_max": 250,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Not confirmed by any source read; a snippet gave 100-200"
+  },
+  {
+    "method": "brief_espresso",
+    "grind_um_min": 200,
+    "grind_um_max": 300,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Vendor source gives 200-400; not confirmed"
+  },
+  {
+    "method": "brief_moka_pot",
+    "grind_um_min": 300,
+    "grind_um_max": 400,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Chart gives 360-660"
+  },
+  {
+    "method": "brief_aeropress",
+    "grind_um_min": 400,
+    "grind_um_max": 800,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Chart gives 320-960"
+  },
+  {
+    "method": "brief_v60",
+    "grind_um_min": 600,
+    "grind_um_max": 900,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Conflicts with sourced 400-700"
+  },
+  {
+    "method": "brief_chemex",
+    "grind_um_min": 800,
+    "grind_um_max": 1000,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "No source found"
+  },
+  {
+    "method": "brief_french_press",
+    "grind_um_min": 900,
+    "grind_um_max": 1300,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Chart gives 690-1300"
+  },
+  {
+    "method": "brief_cold_brew",
+    "grind_um_min": 1000,
+    "grind_um_max": 1400,
+    "range_type": "developer_brief",
+    "source_url": null,
+    "confidence": "unverified-brief",
+    "notes": "Chart gives 800-1400"
+  }
+]

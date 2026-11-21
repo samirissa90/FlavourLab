@@ -1,0 +1,9 @@
+roast_name,agtron_min,agtron_max,drop_temp_c_min,drop_temp_c_max,notes,source_url,confidence
+Cinnamon,85,100,190,196,"Pre or at first-crack start",,unverified-bg
+New England / Light,,,,,"Ends at first-crack onset",,unverified-bg
+City,65,75,205,210,"End of first crack",,unverified-bg
+Full City,45,55,220,225,"Approaching second crack",,unverified-bg
+Vienna,35,45,225,235,"Second-crack onset or rolling",,unverified-bg
+French,25,35,235,245,"Heavy second crack",,unverified-bg
+Italian,,24,,,"Beyond French; Agtron below 25",,unverified-bg
+Nordic / Omni,75,95,,,"Light roasts tailored for filter or espresso",,unverified-bg

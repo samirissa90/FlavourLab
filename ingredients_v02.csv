@@ -1,0 +1,165 @@
+name,category,shu,solids,potency,fat,sweet,sour,salty,bitter,umami,fruity,citrus,floral,herbal,earthy,smoky,warm,pungent,funky,astringent,cooling,numbing,sinus,bite,body,heat_onset,heat_length,heat_zone,volatility,aroma,aliases,notes
+hatch green chile,chili,4000,0.12,1,0,2,0,0,1,0,1,0,0,6,3,0,0,0,0,0,0,0,0,0,3,2,3,mid,m,mpyrazine:2;green_c6:2;earthy_root:1,new mexico green|hatch,usually roasted - use prep roasted
+anaheim,chili,1000,0.12,1,0,3,0,0,0,0,1,0,0,5,2,0,0,0,0,0,0,0,0,0,3,2,2,front,m,mpyrazine:2;green_c6:2,california green chile,
+new mexico red (dried),chili,3000,0.9,2.5,0,3,0,0,1,0,4,0,0,0,5,1,0,0,0,0,0,0,0,0,6,2,2,mid,b,furanone:2;earthy_root:2;ionone:1,chile colorado|new mexico red,earthy sweet dried red
+banana pepper,chili,300,0.12,1,0,3,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,0,0,3,1,1,front,m,green_c6:2;mpyrazine:1,sweet banana pepper,
+hungarian wax,chili,5000,0.12,1,0,2,0,0,0,0,2,0,0,4,0,0,0,0,0,0,0,0,0,0,3,2,2,front,m,green_c6:2;mpyrazine:1;ester:1,hot banana pepper,
+pepperoncini,chili,300,0.12,1,0,2,0,0,1,0,1,0,0,4,0,0,0,0,0,0,0,0,0,0,3,1,1,front,m,green_c6:2;mpyrazine:1,friggitelli,
+piquillo,chili,500,0.12,1,0,6,1,0,0,0,3,0,0,0,1,3,0,0,0,0,0,0,0,0,4,1,1,front,b,furanone:2;smoke_phenol:1;ionone:1,piquillo pepper,"wood-roasted, jarred"
+shishito,chili,200,0.12,1,0,1,0,0,1,0,0,0,0,6,2,0,0,0,0,0,0,0,0,0,3,1,1,front,m,mpyrazine:3;green_c6:2,padron,about 1 in 10 is hot
+cascabel,chili,2500,0.9,2.5,0,2,0,0,1,0,3,0,0,0,5,1,0,0,0,0,0,0,0,0,6,2,2,mid,b,pyrazine:2;furanone:2;earthy_root:1,rattle chile,"nutty, woody"
+chile pequin,chili,50000,0.9,3,0,1,0,0,0,0,2,1,0,0,2,2,0,0,0,0,0,0,0,0,4,1,2,front,b,furanone:1;pyrazine:1;smoke_phenol:1,piquin,
+chiltepin,chili,75000,0.9,3,0,1,0,0,0,0,1,0,0,0,2,1,0,0,0,0,0,0,0,0,4,1,1,front,b,pyrazine:1;earthy_root:1;furanone:1,chile tepin,flash heat that fades fast
+puya,chili,8000,0.9,2.5,0,2,0,0,0,0,4,0,0,0,2,0,1,0,0,0,0,0,0,0,6,1,2,front,b,furanone:2;anethole:1;ionone:1,pulla,cherry-licorice notes
+mulato,chili,2000,0.9,2.5,0,5,0,0,2,0,4,0,0,0,5,1,0,0,0,0,0,0,0,0,6,2,1,mid,b,furanone:3;pyrazine:2;smoke_phenol:1,,chocolate / licorice - mole base
+aji panca,chili,1000,0.9,2.5,0,4,0,0,0,0,6,0,0,0,2,2,0,0,0,0,0,0,0,0,6,2,2,mid,b,furanone:2;ionone:2;smoke_phenol:1,panca,berry and smoke
+calabrian chili,chili,30000,0.3,1.5,3,1,2,3,0,0,4,0,0,0,1,1,0,0,0,0,0,0,0,0,4,2,3,mid,m,furanone:1;ester:1;fatty_ald:1,calabrian chili paste|peperoncino calabrese,oil-packed crushed
+piment d'espelette,chili,4000,0.9,5,0,3,0,0,0,0,4,0,0,0,2,2,0,0,0,0,0,0,0,0,4,3,2,mid,b,furanone:2;ionone:1;ester:1,espelette,"gentle slow heat, sweet-smoky"
+fatalii,chili,225000,0.12,1,0,3,0,0,0,0,6,7,3,0,0,0,0,0,0,0,0,0,0,0,3,2,3,mid,m,citrus_terp:3;ester:2;floral_terp:1,,lemony habanero cousin
+datil,chili,200000,0.12,1,0,4,0,0,0,0,7,1,3,0,0,0,0,0,0,0,0,0,0,0,3,3,3,mid,m,ester:3;floral_terp:1;lactone:1,,"sweet, St. Augustine FL"
+aji charapita,chili,50000,0.12,1,0,2,0,0,0,0,6,4,2,0,0,0,0,0,0,0,0,0,0,0,3,1,2,front,m,ester:2;citrus_terp:2;floral_terp:1,charapita,
+aji lemon drop,chili,25000,0.12,1,0,2,0,0,0,0,2,8,1,2,0,0,0,0,0,0,0,0,0,0,3,2,3,mid,m,citrus_terp:3;ester:1,lemon drop|aji limon,
+peri peri,chili,100000,0.12,1,0,1,0,0,0,0,2,1,0,3,0,0,0,0,0,0,0,0,0,0,3,1,3,front,m,green_c6:1;ester:1;mpyrazine:1,piri piri|african bird's eye,
+cheongyang,chili,10000,0.12,1,0,1,0,0,1,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,3,1,3,front,m,mpyrazine:2;green_c6:2,korean green chili|cheongyang gochu,
+cherry pepper,chili,3500,0.12,1,0,3,0,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,0,0,3,2,2,front,m,ester:1;green_c6:1,hot cherry pepper,
+sambal oelek,chili,8000,1,1,0,1,4,4,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,3,1,3,front,m,ester:1;acetic:1;green_c6:1,sambal,paste - SHU is as-used
+yuzu kosho,chili,10000,1,4,0,0,1,9,1,0,0,9,3,3,0,0,0,0,0,0,0,0,0,1,2,1,2,front,t,citrus_terp:3;mpyrazine:1;floral_terp:1,,salt-cured zest + green chili; finish condiment
+chili crisp,chili,3000,1,2,8,2,0,4,1,4,0,0,0,0,3,1,1,4,1,0,0,3,0,1,3,2,3,mid,b,pyrazine:2;allium:2;furanone:1;citrus_terp:1,lao gan ma|chili oil,fried shallot/garlic + sichuan pepper
+harissa,chili,3000,1,2.5,3,1,2,4,0,1,1,0,0,1,3,1,4,4,0,0,0,0,0,1,5,2,2,mid,m,spice_ald:2;allium:2;floral_terp:1;menthol_carvone:1;furanone:1,,"caraway, coriander, cumin, garlic"
+doubanjiang,savory,2000,1,2.5,1,1,0,9,1,7,0,0,0,0,3,0,0,0,6,0,0,0,0,0,6,2,3,mid,b,ferm_acid:2;furanone:2;pyrazine:1,toban djan|pixian douban,fermented broad bean chili paste
+berbere,spice,15000,0.9,6,0,1,0,0,1,0,2,0,1,1,4,2,6,1,0,0,0,0,0,2,4,2,3,mid,b,furanone:2;eugenol:1;cineole:1;floral_terp:1;pine:1,,"Ethiopian blend (fenugreek, cardamom, clove)"
+mitmita,spice,50000,0.9,7,0,0,0,3,1,0,1,0,1,0,1,0,5,0,0,0,1,0,0,1,4,1,3,front,b,cineole:2;eugenol:1,,bird's eye + cardamom + clove + salt
+shichimi togarashi,spice,10000,0.9,6,1,0,0,1,1,1,0,4,0,1,1,0,1,0,1,0,0,3,0,1,3,1,2,front,m,citrus_terp:2;pyrazine:1;marine:1,shichimi,seven-spice
+banana,fruit,0,1,1,0,7,1,0,0,0,7,0,1,0,1,0,1,0,0,0,0,0,0,0,7,,,,m,ester:3;eugenol:1;lactone:1,,Caribbean / Filipino banana ketchup base
+green mango,fruit,0,1,1,0,2,7,0,1,0,4,2,0,3,0,0,0,0,0,3,0,0,0,0,4,,,,m,green_c6:2;pine:2;ester:1,unripe mango,
+amchur,fruit,0,1,5,0,1,8,0,0,0,3,1,0,0,1,0,0,0,0,2,0,0,0,0,3,,,,b,pine:1;ester:1;furanone:1,amchoor|dried mango powder,tart without liquid
+sweet cherry,fruit,0,1,1,0,6,3,0,0,0,8,0,1,0,0,0,0,0,0,1,0,0,0,0,3,,,,m,spice_ald:2;ester:2;floral_terp:1,bing cherry,
+nectarine,fruit,0,1,1,0,6,3,0,0,0,7,0,3,0,0,0,0,0,0,0,0,0,0,0,4,,,,m,lactone:3;ester:2;ionone:1,,
+persimmon,fruit,0,1,1,0,8,0,0,0,0,5,0,1,0,1,0,1,0,0,2,0,0,0,0,6,,,,m,furanone:1;lactone:1;ionone:1,kaki|sharon fruit,ripe only - unripe is very astringent
+pomegranate juice,fruit,0,1,1,0,4,5,0,1,0,6,0,0,0,0,0,0,0,0,3,0,0,0,0,0,,,,m,ester:1;ionone:1;green_c6:1,pomegranate,
+blood orange,fruit,0,1,1,0,6,5,0,1,0,5,6,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,t,citrus_terp:3;ester:2;ionone:1,blood orange juice,raspberry note
+tangerine,fruit,0,1,1,0,7,3,0,0,0,3,7,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,t,citrus_terp:3;floral_terp:1;thymol:1,mandarin|clementine,
+calamansi,acid,0,1,1,0,1,9,0,1,0,1,9,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,t,citrus_terp:3;floral_terp:1,calamondin|calamansi juice,
+sour orange,acid,0,1,1,0,2,8,0,3,0,1,8,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,t,citrus_terp:3;floral_terp:1,seville orange|naranja agria|bitter orange,Yucatecan / Cuban mojo base
+pomelo,fruit,0,1,1,0,4,4,0,3,0,1,7,1,0,0,0,0,0,0,1,0,0,0,0,2,,,,t,citrus_terp:3;sesqui:1;thiol_trop:1,,
+soursop,fruit,0,1,1,0,5,5,0,0,0,8,1,2,0,0,0,0,0,1,0,0,0,0,0,5,,,,m,ester:3;lactone:1;ferm_acid:1,guanabana|graviola,
+jackfruit,fruit,0,1,1,0,8,0,0,0,0,8,0,1,0,0,0,0,0,1,0,0,0,0,0,5,,,,m,ester:3;ferm_acid:1;floral_terp:1,,
+gooseberry,fruit,0,1,1,0,3,8,0,0,0,6,0,0,2,0,0,0,0,0,2,0,0,0,0,3,,,,m,ester:2;green_c6:2,,
+rhubarb,fruit,0,1,1,0,0,9,0,1,0,4,0,0,3,0,0,0,0,0,2,0,0,0,0,3,,,,m,green_c6:2;ester:1,,cook it (oxalic)
+red currant,fruit,0,1,1,0,3,8,0,0,0,7,0,0,1,0,0,0,0,0,2,0,0,0,0,3,,,,m,ester:2;green_c6:1;ionone:1,,
+blackcurrant,fruit,0,1,1,0,4,6,0,1,0,8,0,1,2,0,0,0,0,1,2,0,0,0,0,3,,,,m,thiol_trop:3;ester:2;ionone:1;pine:1,cassis,catty-tropical thiol
+cantaloupe,fruit,0,1,0.8,0,7,0,0,0,0,7,0,2,0,0,0,0,0,0,0,0,0,0,0,2,,,,t,ester:3;fatty_ald:1;green_c6:1,melon|muskmelon,
+coconut water,fruit,0,1,0.7,0,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,m,lactone:1,,
+dried apricot,fruit,0,1,1.5,0,8,4,0,0,0,7,0,2,0,0,0,0,0,0,0,0,0,0,0,5,,,,b,lactone:2;furanone:2;ionone:1,,
+prunes,fruit,0,1,1.5,0,8,2,0,0,0,5,0,0,0,3,0,0,0,0,0,0,0,0,0,6,,,,b,furanone:3;lactone:1;spice_ald:1,prune|dried plum,
+sea buckthorn,fruit,0,1,1.2,1,1,9,0,1,0,7,4,0,0,0,0,0,0,1,1,0,0,0,0,3,,,,m,ester:2;ferm_acid:1;citrus_terp:1,,"intensely tart, pineapple-passionfruit"
+baobab powder,fruit,0,1,4,0,2,7,0,0,0,3,3,0,0,0,0,0,0,0,1,0,0,0,0,4,,,,b,ester:1;furanone:1,baobab,"tart, sherbet-like; pectin body"
+barberries,fruit,0,1,2,0,2,9,0,0,0,5,0,0,0,0,0,0,0,0,1,0,0,0,0,2,,,,b,ester:1;ionone:1,zereshk,dried
+quince,fruit,0,1,1,0,3,6,0,0,0,7,0,4,0,0,0,0,0,0,3,0,0,0,0,6,,,,m,ester:2;ionone:2;floral_terp:1,membrillo,cook it; pectin rich
+dried lime,acid,0,1,5,0,0,6,0,4,0,0,7,0,0,3,1,0,0,2,1,0,0,0,0,1,,,,b,citrus_terp:2;furanone:1;ferm_acid:1;sesqui:1,loomi|black lime|omani lime,
+preserved lemon,acid,0,1,3,0,0,5,8,2,0,0,9,2,0,0,0,0,0,2,0,0,0,0,0,2,,,,m,citrus_terp:3;floral_terp:1;ferm_acid:1,,
+umeboshi,acid,0,1,3,0,1,9,9,0,0,5,0,2,0,0,0,0,0,0,0,0,0,0,0,3,,,,b,spice_ald:1;ester:1;floral_terp:1,pickled plum|ume,
+fennel bulb,veg,0,1,1,0,3,0,0,0,0,0,0,0,6,0,0,3,0,0,0,1,0,0,0,2,,,,t,anethole:3;green_c6:1,fennel,
+beet,veg,0,1,1,0,6,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,4,,,,b,earthy_root:3,beetroot,geosmin
+sweet potato,veg,0,1,1,0,6,0,0,0,0,1,0,0,0,3,0,1,0,0,0,0,0,0,0,7,,,,b,furanone:2;ionone:1,,roast it
+butternut squash,veg,0,1,1,0,5,0,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,0,0,7,,,,b,ionone:1;furanone:1,pumpkin|squash,
+sweet corn,veg,0,1,1,0,6,0,0,0,1,0,0,0,1,2,0,0,0,0,0,0,0,0,0,4,,,,m,furanone:1;pyrazine:1,corn|sweetcorn,
+leek,veg,0,1,1,0,3,0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,1,3,,,,m,allium:2;green_c6:1,,
+chives,herb,0,1,2,0,0,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,1,1,,,,t,allium:2;green_c6:1,,
+ramps,veg,0,1,2,0,0,0,0,0,0,0,0,0,3,0,0,0,7,0,0,0,0,0,2,2,,,,t,allium:3;green_c6:1,wild garlic|ramsons|wild leek,
+wasabi,veg,0,1,4,0,0,0,0,0,0,0,0,0,3,0,0,0,2,0,0,0,0,10,2,2,,,,t,itc:3;green_c6:1,,fades within minutes and with heat
+radish,veg,0,1,1,0,1,0,0,1,0,0,0,0,2,1,0,0,2,0,0,0,0,3,2,2,,,,t,itc:2;earthy_root:1,daikon,
+kimchi,savory,1500,1,1.5,0,1,6,6,0,4,0,0,0,0,0,0,0,4,6,0,0,0,1,1,3,2,2,mid,m,ferm_acid:2;allium:2;marine:1,,"lactic, garlicky, fish-sauce funk"
+sauerkraut,savory,0,1,1,0,0,6,5,0,1,0,0,0,0,0,0,0,1,4,0,0,0,0,0,2,,,,m,ferm_acid:2;itc:1,,
+pickle brine,acid,0,1,1,0,0,7,7,0,0,0,0,0,3,0,0,0,1,1,0,0,0,1,0,0,,,,m,acetic:2;pine:1;allium:1,pickle juice|dill pickle brine,
+mushrooms,veg,0,1,1,0,1,0,0,0,4,0,0,0,0,6,0,0,0,0,0,0,0,0,0,3,,,,m,mushroom:3;earthy_root:1,cremini|button mushroom|mushroom,
+porcini (dried),veg,0,1,2.5,0,1,0,0,1,8,0,0,0,0,8,1,0,0,0,0,0,0,0,0,3,,,,b,mushroom:2;furanone:1;pyrazine:1;earthy_root:1,porcini|ceps,
+kombu,savory,0,1,3,0,0,0,4,0,9,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,b,marine:2,kelp,glutamate source
+nori,savory,0,1,3,0,0,0,3,0,6,0,0,0,0,1,0,0,0,2,0,0,0,0,0,1,,,,b,marine:2;pyrazine:1,laver,
+katsuobushi,savory,0,1,3,0,0,0,2,0,10,0,0,0,0,0,7,0,0,3,0,0,0,0,0,1,,,,b,smoke_phenol:3;marine:2;pyrazine:1,bonito flakes,inosinate - synergy with kombu glutamate
+dried shrimp,savory,0,1,3,0,1,0,7,0,9,0,0,0,0,0,0,0,0,6,0,0,0,0,0,2,,,,b,marine:3;pyrazine:1,,
+shrimp paste,savory,0,1,4,0,0,0,9,0,9,0,0,0,0,0,0,0,1,9,0,0,0,0,0,3,,,,b,marine:3;ferm_acid:3;allium:1,belacan|kapi|terasi,toast it before use
+fermented black beans,savory,0,1,3,0,1,0,8,1,8,0,0,0,0,2,0,0,0,6,0,0,0,0,0,3,,,,b,ferm_acid:2;furanone:2;pyrazine:1,douchi,
+dawadawa,savory,0,1,3,1,0,0,2,0,9,0,0,0,0,2,0,0,2,9,0,0,0,0,0,3,,,,b,ferm_acid:3;allium:1;pyrazine:1,iru|soumbala|fermented locust bean,West African umami
+mirin,sweet,0,1,2,0,8,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,m,ester:1;furanone:1,,
+shio koji,savory,0,1,2,0,3,0,6,0,6,1,0,0,0,0,0,0,0,2,0,0,0,0,0,3,,,,m,ester:1;ferm_acid:1,koji,
+red miso,savory,0,1,2.5,0,1,0,9,1,8,0,0,0,0,2,0,0,0,6,0,0,0,0,0,5,,,,b,ferm_acid:2;furanone:2;pyrazine:1,aka miso,
+oyster sauce,savory,0,1,2.5,0,4,0,8,0,8,0,0,0,0,0,0,0,0,3,0,0,0,0,0,4,,,,b,marine:2;furanone:2,,
+parmesan,savory,0,1,2.5,6,1,1,7,1,8,1,0,0,0,0,0,0,0,4,0,0,0,0,0,3,,,,b,ferm_acid:3;pyrazine:1;lactone:1;ester:1,parmigiano|aged cheese,
+yogurt,savory,0,1,1,3,1,5,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,4,,,,m,lactone:1;green_c6:1,greek yogurt,dairy (casein) tames capsaicin
+butter,savory,0,1,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,b,lactone:3;fatty_ald:1,,
+tahini,savory,0,1,1.5,8,0,0,0,3,1,0,0,0,0,3,0,0,0,0,1,0,0,0,0,6,,,,b,pyrazine:2;fatty_ald:1,sesame paste,
+walnut,savory,0,1,1.5,8,1,0,0,3,0,0,0,0,0,3,0,0,0,0,3,0,0,0,0,5,,,,b,fatty_ald:2;pyrazine:1,walnuts,tannic skins
+toasted almonds,savory,0,1,1.5,7,2,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,5,,,,b,pyrazine:2;spice_ald:1,almond|almonds,
+pepitas,savory,0,1,1.5,7,0,0,0,0,1,0,0,0,1,4,0,0,0,0,0,0,0,0,0,4,,,,b,pyrazine:2;green_c6:1,pumpkin seeds,mole / pipian
+sesame seeds,savory,0,1,2,7,0,0,0,1,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,3,,,,b,pyrazine:3;thiol_roast:1,toasted sesame seeds,
+xanthan gum,savory,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,500,,,,b,,,use 0.1-0.3% of batch; stops separation
+liquid smoke,spice,0,1,20,0,0,0,0,1,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,,,,b,smoke_phenol:3,,a few drops only
+smoked salt,savory,0,1,12,0,0,0,10,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,,,,b,smoke_phenol:2,,
+dijon mustard,savory,0,1,2,1,1,5,5,1,0,0,0,0,0,0,0,0,2,0,0,0,0,6,2,4,,,,t,itc:3;acetic:1,dijon|mustard paste,heat kills the sinus kick - add at the finish
+date syrup,sweet,0,1,3,0,9,1,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,3,,,,b,furanone:3,silan,
+coconut sugar,sweet,0,1,4,0,9,0,0,1,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,1,,,,b,furanone:2;pyrazine:1,palm sugar|gula melaka,
+black vinegar,acid,0,1,1.2,0,2,7,1,1,2,1,0,0,0,2,1,0,0,1,1,0,0,1,0,0,,,,m,acetic:2;furanone:2;pyrazine:1;ferm_acid:1,chinkiang vinegar|zhenjiang vinegar,"malty, smoky-sweet"
+coconut vinegar,acid,0,1,1,0,1,8,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,,,,m,acetic:2;lactone:1,sukang tuba,
+cane vinegar,acid,0,1,1,0,1,8,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,,,,m,acetic:2;furanone:1,sukang iloko,
+champagne vinegar,acid,0,1,1,0,1,8,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,1,0,0,,,,m,acetic:2;ester:2,white wine vinegar,
+malt vinegar,acid,0,1,1,0,1,8,0,1,1,0,0,0,0,2,0,0,0,1,0,0,0,1,0,0,,,,m,acetic:2;furanone:1;pyrazine:1,,
+umeboshi vinegar,acid,0,1,1.5,0,0,9,8,0,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,m,spice_ald:1;ester:1,ume vinegar|plum vinegar,technically a brine
+verjus,acid,0,1,1,0,2,8,0,0,0,4,0,0,1,0,0,0,0,0,2,0,0,0,0,0,,,,m,green_c6:2;ester:1,verjuice,"unripe-grape juice, gentle acid"
+malic acid,acid,0,1,30,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,b,,,"green-apple sourness, lingers longer than citric"
+greek oregano,herb,0,1,10,0,0,0,0,3,0,0,0,0,7,3,0,1,0,0,0,0,1,0,1,1,,,,m,thymol:3;pine:1,oregano|dried oregano,
+tarragon,herb,0,1,3,0,0,0,0,1,0,0,0,0,6,0,0,4,0,0,0,0,1,0,0,1,,,,t,anethole:3;green_c6:1,,
+culantro,herb,0,1,4,0,0,0,0,1,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,1,,,,m,fatty_ald:3;green_c6:1,recao|ngo gai|sawtooth coriander,survives cooking better than cilantro
+epazote,herb,0,1,4,0,0,0,0,2,0,0,1,0,8,2,0,0,0,0,0,1,0,0,0,1,,,,m,pine:2;cineole:1;thymol:1,,"bean herb, resinous-minty"
+sage,herb,0,1,5,0,0,0,0,2,0,0,0,0,8,1,0,1,0,0,2,1,0,0,0,1,,,,m,cineole:2;pine:2,salvia,
+marjoram,herb,0,1,4,0,1,0,0,1,0,0,0,2,7,0,0,1,0,0,0,0,0,0,0,1,,,,t,pine:1;floral_terp:2;thymol:1,,
+curry leaf,herb,0,1,4,0,0,0,0,1,0,0,1,0,7,1,0,2,0,0,0,0,0,0,0,1,,,,m,sesqui:2;pine:1;green_c6:1,curry leaves|kari patta,fry in oil to bloom
+pandan,herb,0,1,4,0,1,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,1,,,,m,pyrazine:2;lactone:1,screwpine|pandan leaf,2-acetyl-1-pyrroline (popcorn / basmati)
+lemon verbena,herb,0,1,4,0,0,0,0,0,0,0,8,2,4,0,0,0,0,0,0,0,0,0,0,1,,,,t,citrus_terp:3;floral_terp:1,,
+chervil,herb,0,1,2,0,0,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0,0,0,1,,,,t,anethole:2;green_c6:1,,
+lovage,herb,0,1,3,0,0,0,0,1,0,0,0,0,6,3,0,0,0,0,0,0,0,0,0,1,,,,t,earthy_root:2;green_c6:1,,celery-like phthalides
+sorrel,herb,0,1,1.5,0,0,6,0,0,0,0,2,0,5,0,0,0,0,0,1,0,0,0,0,1,,,,t,green_c6:2,,lemony leaf (oxalic)
+holy basil,herb,0,1,3,0,0,0,0,1,0,0,0,1,7,0,0,5,0,0,0,1,0,0,1,1,,,,t,eugenol:3;sesqui:1,tulsi|kra pao,clove-like
+vietnamese mint,herb,0,1,3,0,0,0,0,1,0,0,2,0,8,0,0,1,0,0,0,0,0,0,1,1,,,,t,fatty_ald:2;citrus_terp:1,rau ram|laksa leaf,
+za'atar,spice,0,1,6,1,0,2,2,1,0,0,2,0,7,2,0,0,0,0,1,0,0,0,0,2,,,,m,thymol:3;pyrazine:1;citrus_terp:1,zaatar,thyme-sumac-sesame
+saffron,spice,0,1,40,0,0,0,0,2,0,0,0,3,1,2,0,0,0,0,0,0,0,0,0,0,,,,m,ionone:2;earthy_root:1;floral_terp:1,,safranal (hay-honey); a pinch per batch
+fenugreek,spice,0,1,10,0,1,0,0,4,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,3,,,,b,furanone:3;earthy_root:1,methi,sotolon: maple-curry
+asafoetida,spice,0,1,30,0,0,0,0,1,1,0,0,0,0,0,0,0,9,4,0,0,0,0,1,0,,,,m,allium:3,hing,fry in fat; tames to onion-garlic
+nigella,spice,0,1,10,0,0,0,0,3,0,0,0,0,3,2,1,2,2,0,0,0,0,0,1,3,,,,m,thymol:2;pine:1;earthy_root:1,kalonji|black seed|charnushka,
+ajwain,spice,0,1,12,0,0,0,0,2,0,0,0,0,6,0,0,4,0,0,0,0,1,0,2,3,,,,m,thymol:3,carom,
+grains of paradise,spice,0,1,10,0,0,0,0,0,0,1,2,1,1,0,0,3,0,0,0,0,0,0,6,3,,,,m,sesqui:2;pine:1;floral_terp:1;citrus_terp:1,melegueta pepper|alligator pepper,
+long pepper,spice,0,1,12,0,1,0,0,0,0,0,0,0,0,2,0,5,0,0,0,0,0,0,8,3,,,,m,sesqui:2;pine:1,pippali|pipli,
+pink peppercorn,spice,0,1,8,0,2,0,0,0,0,4,2,0,0,0,0,0,0,0,0,0,0,0,1,3,,,,m,pine:2;ester:1,baie rose,
+white pepper,spice,0,1,12,0,0,0,0,0,0,0,0,0,0,3,0,3,0,2,0,0,0,0,7,3,,,,m,pine:1;sesqui:1;ferm_acid:2,white peppercorns,barnyard note (skatole)
+black cardamom,spice,0,1,12,0,0,0,0,1,0,0,0,0,1,2,6,2,0,0,0,3,0,0,0,3,,,,b,smoke_phenol:3;cineole:3,brown cardamom,
+mace,spice,0,1,12,0,1,0,0,0,0,0,1,1,0,0,0,7,0,0,0,0,1,0,1,3,,,,m,pine:2;eugenol:1;floral_terp:1,,
+juniper,spice,0,1,10,0,1,0,0,2,0,1,2,0,4,0,0,0,0,0,0,1,0,0,0,3,,,,m,pine:3;citrus_terp:1,juniper berries,
+achiote,spice,0,1,5,0,0,0,0,1,0,0,0,1,0,4,0,1,0,0,0,0,0,0,0,3,,,,b,earthy_root:2;pyrazine:1;sesqui:1,annatto,"mostly colour, peppery-earthy"
+caraway,spice,0,1,12,0,0,0,0,1,0,0,1,0,3,1,0,4,0,0,0,0,0,0,1,3,,,,m,menthol_carvone:3;citrus_terp:1,,harissa key
+anardana,spice,0,1,5,0,1,7,0,0,0,3,0,0,0,0,0,0,0,0,2,0,0,0,0,3,,,,b,ester:1;furanone:1,dried pomegranate seeds,
+mahleb,spice,0,1,10,0,1,0,0,2,0,3,0,1,0,0,0,1,0,0,0,0,0,0,0,3,,,,m,spice_ald:3;lactone:1,mahlab,cherry-pit almond
+licorice root,spice,0,1,6,0,8,0,0,1,0,0,0,0,1,2,0,3,0,0,0,1,0,0,0,1,,,,b,anethole:2;furanone:1,liquorice,"glycyrrhizin: slow, lingering sweetness"
+dried ginger,spice,0,1,10,0,0,0,0,0,0,0,2,0,0,1,0,3,0,0,0,0,0,0,7,3,,,,m,sesqui:2;citrus_terp:1,ground ginger,shogaols - hotter than fresh
+sansho,spice,0,1,10,0,0,0,0,0,0,0,8,2,1,0,0,0,0,0,0,0,8,0,1,3,,,,t,citrus_terp:3;floral_terp:1,japanese pepper,
+timut pepper,spice,0,1,10,0,0,0,0,0,0,3,7,1,0,0,0,0,0,0,0,0,7,0,1,3,,,,t,citrus_terp:3;thiol_trop:2,timur|nepal pepper,"grapefruit-passionfruit, numbing"
+cubeb,spice,0,1,12,0,0,0,0,1,0,0,0,0,2,1,0,4,0,0,0,1,0,0,5,3,,,,m,pine:2;sesqui:2;cineole:1,tailed pepper,
+selim pepper,spice,0,1,10,0,0,0,0,1,0,0,0,0,0,2,4,4,0,0,0,0,0,0,3,3,,,,b,smoke_phenol:2;pine:2;sesqui:1,grains of selim|uda|kani pepper,
+chenpi,spice,0,1,8,0,1,0,0,3,0,0,6,0,0,1,0,1,0,0,1,0,0,0,0,1,,,,b,citrus_terp:2;furanone:1,dried tangerine peel,
+lavender,spice,0,1,10,0,0,0,0,2,0,0,0,9,3,0,0,0,0,0,0,1,0,0,0,1,,,,t,floral_terp:3;cineole:1,lavender buds,tiny amounts or it turns soapy
+orange blossom water,spice,0,1,4,0,0,0,0,0,0,0,2,9,0,0,0,0,0,0,0,0,0,0,0,0,,,,t,floral_terp:3;citrus_terp:1,orange flower water|neroli,
+ethiopian natural coffee,spice,0,1,2,0,1,4,0,5,0,7,1,4,0,2,1,0,0,1,2,0,0,0,0,0,,,,b,ester:3;furanone:2;thiol_roast:2;floral_terp:1;pyrazine:1,natural ethiopian|guji,"blueberry, winey"
+ethiopian washed coffee,spice,0,1,2,0,0,5,0,4,0,3,6,7,0,0,0,0,0,0,2,0,0,0,0,0,,,,b,floral_terp:3;citrus_terp:2;thiol_roast:2;ester:1,yirgacheffe|washed ethiopian,"jasmine, bergamot, lemon"
+kenyan coffee,spice,0,1,2,0,1,6,0,5,0,7,4,1,1,0,0,0,0,0,2,0,0,0,0,0,,,,b,thiol_trop:2;ester:2;thiol_roast:2;citrus_terp:1,kenya aa,"blackcurrant, tomato-leaf, bright acidity"
+colombian coffee,spice,0,1,2,0,1,4,0,5,0,3,1,0,0,3,2,0,0,0,2,0,0,0,0,0,,,,b,furanone:3;pyrazine:2;thiol_roast:2;ester:1,colombia,"caramel, red apple"
+brazil natural coffee,spice,0,1,2,0,2,2,0,6,0,1,0,0,0,5,2,0,0,0,2,0,0,0,0,0,,,,b,pyrazine:3;furanone:2;thiol_roast:2,brazil|santos,"nutty, chocolate"
+sumatra coffee,spice,0,1,2,0,0,1,0,6,0,0,0,0,2,8,3,1,0,1,2,0,0,0,0,0,,,,b,earthy_root:2;pyrazine:2;thiol_roast:2;smoke_phenol:1;sesqui:1,sumatra mandheling,"wet-hulled: earthy, cedar"
+dark roast coffee,spice,0,1,2,0,0,1,0,8,0,0,0,0,0,4,6,0,0,0,3,0,0,0,0,0,,,,b,smoke_phenol:3;thiol_roast:3;pyrazine:2,french roast|italian roast,
+cold brew,spice,0,1,1.5,0,1,2,0,4,0,2,0,0,0,4,1,0,0,0,1,0,0,0,0,0,,,,b,furanone:2;pyrazine:2;thiol_roast:1,cold brew coffee,"low acid, chocolatey"
+lapsang souchong,spice,0,1,2,0,0,0,0,3,0,1,0,0,0,1,9,0,0,0,5,0,0,0,0,0,,,,b,smoke_phenol:3;pine:1;furanone:1,lapsang,"pine-smoked tea, brewed"
+black tea,spice,0,1,1.5,0,0,0,0,3,0,2,0,2,0,2,0,0,0,0,6,0,0,0,0,0,,,,b,ionone:2;floral_terp:1;furanone:1,assam|ceylon,brewed
+matcha,spice,0,1,6,0,1,0,0,4,5,0,0,0,7,0,0,0,0,1,4,0,0,0,0,2,,,,m,green_c6:2;marine:1,green tea powder,
+rooibos,spice,0,1,1.5,0,2,0,0,0,0,2,0,0,0,3,0,1,0,0,1,0,0,0,0,0,,,,b,furanone:2;vanillin:1,red bush,brewed
+tequila,spice,0,1,2,0,0,0,0,1,0,2,1,0,3,3,0,0,1,0,0,0,0,1,1,0,,,,m,ester:2;earthy_root:1;green_c6:1,tequila blanco,cooked agave
+bourbon,spice,0,1,2,0,2,0,0,1,0,2,0,0,0,0,1,3,0,0,1,0,0,1,1,0,,,,m,vanillin:3;furanone:2;lactone:2;smoke_phenol:1,whiskey|whisky,"oak lactone, vanillin"
+sake,spice,0,1,1.5,0,2,1,0,0,2,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,,,m,ester:3;lactone:1,nihonshu,
+red wine,spice,0,1,1,0,1,4,0,2,0,6,0,1,0,1,0,0,0,0,4,0,0,1,0,0,,,,m,ester:2;ionone:1;furanone:1,,

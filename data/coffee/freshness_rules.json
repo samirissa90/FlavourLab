@@ -1,0 +1,145 @@
+[
+  {
+    "rule_key": "whole_bean_fresh_days",
+    "value_min": 21,
+    "value_max": 21,
+    "unit": "days",
+    "applies_to": "whole bean after roasting",
+    "basis": "SCA (about three weeks)",
+    "confidence": "primary",
+    "source_url": "https://sca.coffee/sca-news/coffee-decoded-9-fresh-coffee",
+    "notes": "CO2 loss is rapid for the first 20 days, then slows"
+  },
+  {
+    "rule_key": "ground_fresh_minutes",
+    "value_min": 60,
+    "value_max": 60,
+    "unit": "minutes",
+    "applies_to": "ground coffee",
+    "basis": "SCA (about one hour)",
+    "confidence": "primary",
+    "source_url": "https://sca.coffee/sca-news/coffee-decoded-9-fresh-coffee",
+    "notes": null
+  },
+  {
+    "rule_key": "whole_bean_degas_complete_days",
+    "value_min": 30,
+    "value_max": 30,
+    "unit": "days",
+    "applies_to": "whole bean",
+    "basis": "Smrke et al. 2018 and 2022 (about one month)",
+    "confidence": "primary",
+    "source_url": "https://digitalcollection.zhaw.ch/bitstream/11475/12175/2/2017_Smrke-etal_Roasted-coffe-degassing-time-resolved-gravimetry.pdf",
+    "notes": "Roughly 1% CO2 by weight released"
+  },
+  {
+    "rule_key": "ground_degas_days",
+    "value_min": 0.04,
+    "value_max": 60,
+    "unit": "days",
+    "applies_to": "ground coffee",
+    "basis": "Smrke et al. 2022 (minutes to about two months)",
+    "confidence": "primary",
+    "source_url": "https://digitalcollection.zhaw.ch/bitstream/11475/26687/3/2022_Smrke-etal_Effects-of-different-coffee-storage-methods-on-coffee-freshness_FPSL.pdf",
+    "notes": "Search summary only; full text not read"
+  },
+  {
+    "rule_key": "co2_literature_mg_per_g",
+    "value_min": 0.7,
+    "value_max": 16,
+    "unit": "mg per g",
+    "applies_to": "whole roasted beans",
+    "basis": "Smrke et al. 2018 literature review",
+    "confidence": "primary",
+    "source_url": "https://digitalcollection.zhaw.ch/bitstream/11475/12175/2/2017_Smrke-etal_Roasted-coffe-degassing-time-resolved-gravimetry.pdf",
+    "notes": "Varies by method and time; quoted range from several studies"
+  },
+  {
+    "rule_key": "rest_days_light",
+    "value_min": 10,
+    "value_max": 21,
+    "unit": "days",
+    "applies_to": "light roast",
+    "basis": "roaster blogs (conflicting)",
+    "confidence": "secondary",
+    "source_url": "https://clivecoffee.com/blogs/learn/is-your-coffee-too-fresh",
+    "notes": "Other blogs give 5-10 days for light"
+  },
+  {
+    "rule_key": "rest_days_medium",
+    "value_min": 7,
+    "value_max": 14,
+    "unit": "days",
+    "applies_to": "medium roast",
+    "basis": "roaster blogs",
+    "confidence": "secondary",
+    "source_url": "https://simonandbearns.coffee/en/blogs/kaffeeblog/coffee-degassing-how-long-to-rest-filter-coffee-and-espresso",
+    "notes": null
+  },
+  {
+    "rule_key": "rest_days_dark",
+    "value_min": 3,
+    "value_max": 7,
+    "unit": "days",
+    "applies_to": "dark roast",
+    "basis": "roaster blogs (single source)",
+    "confidence": "secondary",
+    "source_url": "https://simonandbearns.coffee/en/blogs/kaffeeblog/coffee-degassing-how-long-to-rest-filter-coffee-and-espresso",
+    "notes": "Single source"
+  },
+  {
+    "rule_key": "espresso_rest_days",
+    "value_min": 5,
+    "value_max": 7,
+    "unit": "days",
+    "applies_to": "espresso",
+    "basis": "roaster blogs (conflicting)",
+    "confidence": "secondary",
+    "source_url": "https://generalwarfieldscoffee.com/blogs/our-blog/coffee-7-10-days-after-roasting",
+    "notes": "Other sources: 7-10 days, and 7-11 as ideal"
+  },
+  {
+    "rule_key": "gassy_fresh_days",
+    "value_min": 1,
+    "value_max": 4,
+    "unit": "days",
+    "applies_to": "very fresh beans",
+    "basis": "roaster blogs",
+    "confidence": "secondary",
+    "source_url": "https://twochimpscoffee.com/what-is-coffee-degassing-2/",
+    "notes": "Gassy, channel-prone, fast shots"
+  },
+  {
+    "rule_key": "peak_flavour_weeks_after_rest",
+    "value_min": 2,
+    "value_max": 4,
+    "unit": "weeks",
+    "applies_to": "filter and espresso",
+    "basis": "roaster blog (search snippet)",
+    "confidence": "snippet",
+    "source_url": "https://www.brewcoffeehome.com/?p=10459",
+    "notes": null
+  },
+  {
+    "rule_key": "green_shelf_life_months",
+    "value_min": 6,
+    "value_max": 12,
+    "unit": "months",
+    "applies_to": "green coffee",
+    "basis": "unverified background",
+    "confidence": "unverified-bg",
+    "source_url": null,
+    "notes": "Not sourced; numbers not retrieved"
+  },
+  {
+    "rule_key": "storage_best_method",
+    "value_min": null,
+    "value_max": null,
+    "unit": "text",
+    "applies_to": "whole beans",
+    "basis": "Smrke et al. 2022: screw-cap packaging performed best; clips and decanting lost freshness faster",
+    "confidence": "primary (search summary)",
+    "source_url": "https://digitalcollection.zhaw.ch/handle/11475/12175",
+    "notes": null
+  }
+]

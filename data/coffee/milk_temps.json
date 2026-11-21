@@ -1,0 +1,58 @@
+[
+  {
+    "milk": "dairy_whole_3pct",
+    "target_temp_c": "60-65",
+    "max_temp_c": 70,
+    "note": "Lactose sweetness window 55-65 C; above 70 C flavour unpleasant. Scald threshold quoted as 65-72 C across sources. Lactose caramelisation at 60-65 C is unverified.",
+    "source_url": "https://perfectdailygrind.com/2026/02/more-baristas-focusing-on-milk-temperature-coffee-shops/",
+    "confidence": "secondary"
+  },
+  {
+    "milk": "dairy_sweetness_peak",
+    "target_temp_c": "about 60",
+    "max_temp_c": null,
+    "note": "Peak perceived sweetness around 60 C (140 F)",
+    "source_url": "https://fivesenses.com.au/blogs/news/how-to-steam-better-milk-at-home",
+    "confidence": "snippet"
+  },
+  {
+    "milk": "dairy_wbc_cappuccino_context",
+    "target_temp_c": "55-65",
+    "max_temp_c": null,
+    "note": "Cappuccino steamed to 55-65 C (131-149 F) to preserve sweetness",
+    "source_url": "https://en.wikipedia.org/wiki/Cappuccino",
+    "confidence": "secondary"
+  },
+  {
+    "milk": "dairy_caffe_latte_italian",
+    "target_temp_c": "58-70",
+    "max_temp_c": null,
+    "note": "Caffe latte definition: at least 210 g milk at 58-70 C",
+    "source_url": "https://en.wikipedia.org/wiki/Espresso",
+    "confidence": "secondary"
+  },
+  {
+    "milk": "oat_barista",
+    "target_temp_c": "about 60",
+    "max_temp_c": 66,
+    "note": "Performs best around 60 C. Keep under 150 F (66 C) to prevent separation. Barista blends use dipotassium phosphate to resist curdling.",
+    "source_url": "https://perfectdailygrind.com/2026/02/more-baristas-focusing-on-milk-temperature-coffee-shops/",
+    "confidence": "secondary"
+  },
+  {
+    "milk": "soy_almond",
+    "target_temp_c": 55,
+    "max_temp_c": 55,
+    "note": "Maximum to prevent curdling or splitting. Single PDG quote, not independently confirmed.",
+    "source_url": "https://perfectdailygrind.com/2026/02/more-baristas-focusing-on-milk-temperature-coffee-shops/",
+    "confidence": "unverified"
+  },
+  {
+    "milk": "plant_milk_general_uk_roaster",
+    "target_temp_c": "50-55",
+    "max_temp_c": 55,
+    "note": "Alternatives served about 50 C, no more than 55 C",
+    "source_url": "https://liminicoffee.co.uk/article_understanding_milk",
+    "confidence": "snippet"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "roast_name": "Cinnamon",
+    "agtron_min": 85,
+    "agtron_max": 100,
+    "drop_temp_c_min": 190,
+    "drop_temp_c_max": 196,
+    "notes": "Pre or at first-crack start",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "New England / Light",
+    "agtron_min": null,
+    "agtron_max": null,
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "notes": "Ends at first-crack onset",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "City",
+    "agtron_min": 65,
+    "agtron_max": 75,
+    "drop_temp_c_min": 205,
+    "drop_temp_c_max": 210,
+    "notes": "End of first crack",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "Full City",
+    "agtron_min": 45,
+    "agtron_max": 55,
+    "drop_temp_c_min": 220,
+    "drop_temp_c_max": 225,
+    "notes": "Approaching second crack",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "Vienna",
+    "agtron_min": 35,
+    "agtron_max": 45,
+    "drop_temp_c_min": 225,
+    "drop_temp_c_max": 235,
+    "notes": "Second-crack onset or rolling",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "French",
+    "agtron_min": 25,
+    "agtron_max": 35,
+    "drop_temp_c_min": 235,
+    "drop_temp_c_max": 245,
+    "notes": "Heavy second crack",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "Italian",
+    "agtron_min": null,
+    "agtron_max": 24,
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "notes": "Beyond French; Agtron below 25",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "roast_name": "Nordic / Omni",
+    "agtron_min": 75,
+    "agtron_max": 95,
+    "drop_temp_c_min": null,
+    "drop_temp_c_max": null,
+    "notes": "Light roasts tailored for filter or espresso",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  }
+]

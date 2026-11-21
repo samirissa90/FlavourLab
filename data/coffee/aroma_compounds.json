@@ -1,0 +1,173 @@
+[
+  {
+    "compound": "Furaneol",
+    "odor_descriptor": "caramel; marshmallow",
+    "wheel_tier1_inferred": "Sweet",
+    "fd_factor_range": 2187,
+    "oav_range": "175-250",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "4-Vinyl-2-methoxyphenol (4-vinylguaiacol)",
+    "odor_descriptor": "smoky",
+    "wheel_tier1_inferred": "Roasted",
+    "fd_factor_range": "243-2187",
+    "oav_range": "340-761",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "4-Ethyl-2-methoxyphenol",
+    "odor_descriptor": "smoky",
+    "wheel_tier1_inferred": "Roasted",
+    "fd_factor_range": "1-729",
+    "oav_range": "12-79",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Guaiacol",
+    "odor_descriptor": "woody",
+    "wheel_tier1_inferred": "Other",
+    "fd_factor_range": 2187,
+    "oav_range": "8-63",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Furfural",
+    "odor_descriptor": "nutty; almond",
+    "wheel_tier1_inferred": "Nutty/Cocoa",
+    "fd_factor_range": 2187,
+    "oav_range": "15-62",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Linalool",
+    "odor_descriptor": "floral; citrus; rose",
+    "wheel_tier1_inferred": "Floral",
+    "fd_factor_range": "3-81",
+    "oav_range": "72-222 (where detected)",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Isovaleric acid",
+    "odor_descriptor": "sour; pungent",
+    "wheel_tier1_inferred": "Sour/Fermented",
+    "fd_factor_range": "243-729",
+    "oav_range": "72-200",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "3-Hydroxy-2-butanone (acetoin)",
+    "odor_descriptor": "buttery",
+    "wheel_tier1_inferred": "Sweet (no wheel node)",
+    "fd_factor_range": 9,
+    "oav_range": "94-137",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "2-Ethyl-5-methylpyrazine",
+    "odor_descriptor": "coffee",
+    "wheel_tier1_inferred": "Nutty/Cocoa",
+    "fd_factor_range": "3-81",
+    "oav_range": "52-76",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "2,3,5-Trimethylpyrazine",
+    "odor_descriptor": "coffee; cocoa",
+    "wheel_tier1_inferred": "Nutty/Cocoa",
+    "fd_factor_range": null,
+    "oav_range": "1-90",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "2-Ethyl-6-methylpyrazine",
+    "odor_descriptor": "roasted; nutty",
+    "wheel_tier1_inferred": "Roasted",
+    "fd_factor_range": null,
+    "oav_range": "45-72",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "2-Ethyl-3,5-dimethylpyrazine",
+    "odor_descriptor": "almond",
+    "wheel_tier1_inferred": "Nutty/Cocoa",
+    "fd_factor_range": null,
+    "oav_range": 170,
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "2-Acetylpyrazine",
+    "odor_descriptor": "popcorn",
+    "wheel_tier1_inferred": "Roasted",
+    "fd_factor_range": null,
+    "oav_range": "9-12",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Maltol",
+    "odor_descriptor": "caramel",
+    "wheel_tier1_inferred": "Sweet",
+    "fd_factor_range": null,
+    "oav_range": "8-29",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "5-Methylfurfural",
+    "odor_descriptor": "caramel",
+    "wheel_tier1_inferred": "Sweet",
+    "fd_factor_range": null,
+    "oav_range": "23-48",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Hydroxyacetone",
+    "odor_descriptor": "caramel",
+    "wheel_tier1_inferred": "Sweet",
+    "fd_factor_range": null,
+    "oav_range": "2-3",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "gamma-Butyrolactone",
+    "odor_descriptor": "caramel; roasted nut",
+    "wheel_tier1_inferred": "Sweet",
+    "fd_factor_range": null,
+    "oav_range": "1-3",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "Furfuryl alcohol",
+    "odor_descriptor": "bread",
+    "wheel_tier1_inferred": "Roasted (inferred)",
+    "fd_factor_range": null,
+    "oav_range": "17-31",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12469716/",
+    "confidence": "primary"
+  },
+  {
+    "compound": "2-Furfurylthiol",
+    "odor_descriptor": "roasty (coffee)",
+    "wheel_tier1_inferred": "Roasted",
+    "fd_factor_range": null,
+    "oav_range": "OAV about 1.10e5 (Grosch table; conc. 1.08 mg/L)",
+    "source_url": "https://coffeeresearch.org/science/aromamain.htm",
+    "confidence": "secondary"
+  }
+]

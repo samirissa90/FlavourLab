@@ -1,0 +1,70 @@
+{
+  "name": "test",
+  "style": "balanced",
+  "process": "cooked",
+  "ingredients": [
+    {
+      "item": "beet",
+      "g": 50.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "black vinegar",
+      "g": 10.0
+    },
+    {
+      "item": "bourbon",
+      "g": 2.0
+    },
+    {
+      "item": "calamansi",
+      "g": 3.0
+    },
+    {
+      "item": "chiltepin",
+      "g": 8.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "culantro",
+      "g": 1.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "jackfruit",
+      "g": 4.0,
+      "prep": [
+        "fermented"
+      ]
+    },
+    {
+      "item": "pickle brine",
+      "g": 4.0
+    },
+    {
+      "item": "pickle brine",
+      "g": 5.0
+    },
+    {
+      "item": "white sugar",
+      "g": 1.2
+    },
+    {
+      "item": "shishito",
+      "g": 5.0,
+      "prep": [
+        "roasted"
+      ]
+    },
+    {
+      "item": "sweet cherry",
+      "g": 5.0
+    }
+  ]
+}

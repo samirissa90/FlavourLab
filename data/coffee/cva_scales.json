@@ -1,0 +1,232 @@
+[
+  {
+    "assessment": "Descriptive",
+    "item": "Fragrance",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Aroma",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Flavor",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Aftertaste",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Acidity",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Mouthfeel",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Sweetness",
+    "scale_min": 0,
+    "scale_max": 15,
+    "anchor_or_unit": "LOW / MEDIUM / HIGH with ticks at 0 5 10 15",
+    "notes": "Intensity; CATA descriptor boxes also used",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Descriptive",
+    "item": "Main tastes (choose 2)",
+    "scale_min": null,
+    "scale_max": null,
+    "anchor_or_unit": "Salty; Sour; Sweet; Bitter; Umami",
+    "notes": null,
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Fragrance",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Aroma",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Flavor",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Aftertaste",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Acidity",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Mouthfeel",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Sweetness",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "Overall",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "9-point hedonic (impression of quality)",
+    "notes": "FINAL mark per attribute",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Affective",
+    "item": "anchors",
+    "scale_min": 1,
+    "scale_max": 9,
+    "anchor_or_unit": "1 Extremely low; 2 Very low; 3 Moderately low; 4 Slightly low; 5 Neither high nor low; 6 Slightly high; 7 Moderately high; 8 Very high; 9 Extremely high",
+    "notes": "CVA total-score formula not in the form; calculator at sca.coffee/cuppingscore",
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Physical",
+    "item": "Category 1 defects",
+    "scale_min": null,
+    "scale_max": null,
+    "anchor_or_unit": "Full black, full sour, dried cherry, fungus damage, foreign matter: 1:1; severe insect damage: 5:1",
+    "notes": null,
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Physical",
+    "item": "Category 2 defects",
+    "scale_min": null,
+    "scale_max": null,
+    "anchor_or_unit": "Partial black 3:1; partial sour 3:1; parchment, floater, immature, withered, shell, broken, hull 5:1; slight insect damage 10:1",
+    "notes": null,
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Physical",
+    "item": "sample size",
+    "scale_min": null,
+    "scale_max": null,
+    "anchor_or_unit": "350 g",
+    "notes": null,
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Extrinsic",
+    "item": "process type",
+    "scale_min": null,
+    "scale_max": null,
+    "anchor_or_unit": "washed; natural; other",
+    "notes": null,
+    "source_url": "https://library.sweetmarias.com/wp-content/uploads/2025/06/SCA-CVA-Forms-English-May-2025.pdf",
+    "confidence": "primary"
+  },
+  {
+    "assessment": "Legacy 2004",
+    "item": "total score",
+    "scale_min": 0,
+    "scale_max": 100,
+    "anchor_or_unit": "Legacy protocol; not verified from a retrieved source",
+    "notes": "Background value from the brief",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  },
+  {
+    "assessment": "Legacy 2004",
+    "item": "score bands",
+    "scale_min": null,
+    "scale_max": null,
+    "anchor_or_unit": "90-100 Outstanding; 85-89.99 Excellent; 80-84.99 Very Good; below 80 not specialty",
+    "notes": "Background value from the brief",
+    "source_url": null,
+    "confidence": "unverified-bg"
+  }
+]

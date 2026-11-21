@@ -1,0 +1,90 @@
+country,production_year,total_60kg_bags,arabica_60kg_bags,robusta_60kg_bags,season_label,source_url,confidence,conflict_note
+Ethiopia,2024/25,11460000,11460000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,USDA thousand bags x1000 (my conversion) - arabica taken from arabica table - robusta not stated - ICO 9.91M for same coffee year in separate row - do not average
+Ethiopia,2025/26,11560000,11560000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,USDA thousand bags x1000 (my conversion) - arabica from arabica table - robusta not stated
+Ethiopia,2026/27,12100000,12100000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,USDA forecast record 12.1M up more than 500000 bags - x1000 (my conversion)
+Uganda,2024/25,6700000,1030000,5670000,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica and robusta sum to total - ICO 7.05M for same year in separate row
+Uganda,2025/26,7095000,1120000,5975000,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica share about 15.8 pct computed in notes - Sucafina says robusta outweighs arabica about 80:20
+Uganda,2026/27,7160000,1135000,6025000,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica and robusta sum to total
+Kenya,2024/25,950000,950000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica row equals total - robusta not stated - KNBS and Sucafina bases differ (separate rows)
+Kenya,2025/26,850000,850000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica row equals total - robusta not stated
+Kenya,2026/27,950000,950000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica row equals total - robusta not stated
+Tanzania,2024/25,1350000,,650000,MY Jul-Jun,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica not listed in USDA table - robusta from robusta line
+Tanzania,2025/26,1450000,,700000,estimate MY Jul-Jun,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica not listed - robusta line only
+Tanzania,2026/27,1600000,,750000,forecast MY Jul-Jun,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica not listed - robusta line only
+Cote d'Ivoire,2024/25,650000,,650000,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,unverified,Anomalous - 650 vs 1325 in 2023/24 and 1300 in 2025/26 - kept as printed - verify in PSD Online before loading - arabica not listed
+Cote d'Ivoire,2025/26,1300000,,1300000,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica not listed - robusta only
+Cote d'Ivoire,2026/27,1300000,,1300000,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica not listed - robusta only
+Ethiopia,2024/25 (ICO coffee year),9910000,,,coffee year 2024/25,https://www.ico.org/documents/cy2025-26/cmr-1025-e.pdf,secondary,ICO harvest estimate - conflicts with USDA 11.46M for the same year - stored separately not averaged
+Uganda,2024/25 (ICO coffee year),7050000,,,coffee year 2024/25,https://www.ico.org/documents/cy2025-26/cmr-1025-e.pdf,secondary,ICO figure close to USDA 6.70M - stored separately
+Ethiopia,average (undated),7862500,,,undated Sucafina multi-year average,https://www.sucafina.com/na/origins/ethiopia,secondary,Undated multi-year average - not a production year
+Uganda,average (undated),6339300,,,undated Sucafina multi-year average,https://www.sucafina.com/na/origins/uganda,secondary,Undated multi-year average - not a production year
+Tanzania,average (undated),877750,,,undated Sucafina multi-year average,https://www.sucafina.com/na/origins/tanzania,secondary,Undated multi-year average - not a production year
+Kenya,average (undated),817500,,,undated Sucafina multi-year average,https://www.sucafina.com/na/origins/kenya,secondary,Undated multi-year average - not a production year
+Rwanda,average (undated),332500,,,undated Sucafina multi-year average,https://www.sucafina.com/na/origins/rwanda,secondary,Undated multi-year average - not a production year
+Burundi,average (undated),225000,,,undated Sucafina multi-year average,https://www.sucafina.com/na/origins/burundi,secondary,Undated multi-year average - not a production year
+Malawi,average (undated),16000,,,undated Sucafina multi-year average (approximate),https://sucafina.com/na/origins/malawi,unverified,Approximate (about 16000) per notes
+Rwanda,2024/25 (fiscal),350000,,,fiscal year 2024/25,https://allafrica.com/stories/202511110238.html,unverified,21000 t produced converted to bags by notes author (my conversion) - the 1000 t figure is a specialty sub-share and wording is ambiguous
+Burundi,2016,351000,,,calendar 2016,https://www.helenacoffee.vn/?p=21352,unverified,Helena Coffee figure - page unverified
+Kenya,2024-25 (KNBS),857000,,,KNBS 2024-25,https://www.the-star.co.ke/news/star-farmer/2026-04-30-farmers-enjoy-cash-boom-as-coffee-production-spikes | https://www.standardmedia.co.ke/sports/amp/business/article/2001539050/mixed-performance-in-agriculture-manufacturing-sectors-in-2025,unverified,51.4 thousand tonnes converted to bags by notes author (my conversion) - search snippet only
+Kenya,2023-24 (KNBS),,,,,https://www.the-star.co.ke/news/star-farmer/2026-04-30-farmers-enjoy-cash-boom-as-coffee-production-spikes,unverified,49.5 thousand tonnes - not converted to bags (no bag value in notes) - search snippet only
+Madagascar,2023 (FAO),822000,,,,https://en.wikipedia.org/wiki/Coffee_production_in_Madagascar,secondary,49344 t converted to bags by notes author (my conversion) - mainly robusta - robusta total not stated
+Cameroon,2013 (FAO),,,,,https://en.wikipedia.org/wiki/Coffee_production_in_Cameroon,secondary,41800 t not converted to bags - robusta dominant - arabica roughly 15-20 pct by targets (not a production figure)
+DRC,2006,,100000,470000,,https://www.helenacoffee.vn/?p=21385 | https://globalpressjournal.com/africa/democratic-republic-of-congo/drcs-dominant-coffee-industry-struggles-survive/,unverified,Dated - arabica 100000 and robusta 470000 bags per notes - total not stated in notes so left blank
+DRC,1993,,,,,https://globalpressjournal.com/africa/democratic-republic-of-congo/drcs-dominant-coffee-industry-struggles-survive/,unverified,National output 120000 t in 1993 - not converted - dated
+DRC,2016,,,,,https://globalpressjournal.com/africa/democratic-republic-of-congo/drcs-dominant-coffee-industry-struggles-survive/,unverified,National output 8000 t in 2016 - not converted to bags - dated
+Yemen,2024 (FAOSTAT via aggregator),442000,,,,https://www.selinawamucii.com/insights/prices/yemen/coffee/ | https://bernama.com/en/news.php?id=2614737,unverified,26500 t converted to bags by notes author (my conversion) - other estimates 18000-19000 t - arabica split assumed not verified so left blank
+Yemen,2025 (official claim),,,,,https://www.selinawamucii.com/insights/prices/yemen/coffee/ | https://bernama.com/en/news.php?id=2614737,unverified,Official claim 42000-45000 t - not converted - unverified
+Saudi Arabia,2019,,,,,https://en.wikipedia.org/wiki/Khawlani_Coffee_Beans,unverified,646 t (labelled GDP in source - likely production) - not converted
+Saudi Arabia,2020,,,,,https://en.wikipedia.org/wiki/Khawlani_Coffee_Beans,secondary,330 t - not converted to bags
+Brazil,2024/25,65500000,44500000,21000000,MY Jul-Jun,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - column order inferred from PDF text order - arabica and robusta sum to total
+Brazil,2025/26,63000000,38000000,25000000,estimate MY Jul-Jun,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - column order inferred from PDF text order - arabica and robusta sum to total
+Brazil,2026/27,71900000,47500000,24400000,forecast MY Jul-Jun,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - record forecast - column order inferred from PDF text order
+Colombia,2024/25,14800000,14800000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica row equals total - robusta not stated
+Colombia,2025/26,12500000,12500000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - cut 1.3M on excess rain and cloud cover per USDA
+Colombia,2026/27,13400000,13400000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica row equals total
+Honduras,2024/25,5200000,5200000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Honduras,2025/26,5530000,5530000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Honduras,2026/27,6030000,6030000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - rebound of about 500000 bags per USDA
+Peru,2024/25,4120000,4120000,,MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Peru,2025/26,4764000,4764000,,estimate MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica - up nearly 600000 per USDA revision
+Peru,2026/27,4780000,4780000,,forecast MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Mexico,2024/25,3928000,3588000,340000,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica and robusta sum to total
+Mexico,2025/26,4080000,3580000,500000,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica and robusta sum to total
+Mexico,2026/27,4135000,3575000,560000,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica and robusta sum to total
+Guatemala,2024/25,3270000,3140000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - remainder about 130000 bags not itemized - robusta not stated
+Guatemala,2025/26,3155000,3025000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - cut nearly 400000 bags for coffee cherry borer and rust - remainder not itemized
+Guatemala,2026/27,3260000,3130000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - remainder not itemized
+Nicaragua,2024/25,2660000,2500000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - remainder not itemized
+Nicaragua,2025/26,2560000,2400000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - remainder not itemized
+Nicaragua,2026/27,2440000,2300000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - remainder not itemized
+Costa Rica,2024/25,1315000,1315000,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Costa Rica,2025/26,1160000,1160000,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Costa Rica,2026/27,1200000,1200000,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+El Salvador,2024/25,581000,,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica robusta split not in table
+El Salvador,2025/26,586000,,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+El Salvador,2026/27,542000,,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Venezuela,2024/25,500000,,,MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Venezuela,2025/26,500000,,,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Venezuela,2026/27,500000,,,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Ecuador,2024/25,355000,,,MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Ecuador,2025/26,350000,,,estimate MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Ecuador,2026/27,350000,,,forecast MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not in table
+Vietnam,2025/26,31700000,1200000,30500000,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - raised 900000 on higher yields per USDA - arabica and robusta sum to total
+Vietnam,2026/27,32500000,1100000,31400000,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - record forecast
+Vietnam,2025/26 (June 2025 USDA country report),31000000,1000000,30000000,forecast (Jun 2025 report) MY Oct-Sep,https://dailycoffeenews.com/2025/06/05/vietnam-coffee-report-production-exports-and-consumption-all-rising,secondary,Approximate values (about 31M total - about 30M robusta - about 1M arabica) from an earlier report - stored separately not averaged with the July 2026 estimate
+Indonesia,2025/26,12370000,1370000,11000000,estimate MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - arabica and robusta sum to total
+Indonesia,2026/27,11380000,1380000,10000000,forecast MY Apr-Mar,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - robusta down 1.0M on excess rain - bean exports forecast down over 800000
+India,2025/26,6430000,1730000,4700000,estimate MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - about 73 pct robusta - a 3.7M search-snippet figure was not used (origin unverified)
+India,2026/27,6140000,1560000,4580000,forecast MY Oct-Sep,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - same total in May 2026 Daily Coffee News report
+China,2025/26,1900000,1900000,,estimate,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+China,2026/27,1900000,1900000,,forecast,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all arabica per USDA
+Thailand,2025/26,900000,,900000,estimate,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all robusta per USDA
+Thailand,2026/27,900000,,900000,forecast,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - all robusta per USDA
+Papua New Guinea,2025/26,800000,,,estimate,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not stated
+Papua New Guinea,2026/27,800000,,,forecast,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not stated
+Laos,2025/26,475000,,,estimate,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not stated
+Laos,2026/27,500000,,,forecast,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not stated
+Philippines,2025/26,450000,,,estimate,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not stated
+Philippines,2026/27,475000,,,forecast,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,sourced,x1000 (my conversion) - split not stated
+Malaysia,2025/26,1500000,,1500000,estimate,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,unverified,Listed as robusta in USDA series - implausibly high for a small sector - possibly trade-linked - do not feature
+Malaysia,2026/27,1500000,,1500000,forecast,https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf,unverified,Same caveat as 2025/26 - listed as robusta - do not feature

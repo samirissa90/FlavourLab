@@ -1,0 +1,79 @@
+[
+  {
+    "attribute": "bean_density",
+    "direction": "positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "medium",
+    "source_note": "Ethiopian and Honduran studies (see altitude_quality_studies.csv)"
+  },
+  {
+    "attribute": "acidity",
+    "direction": "positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "medium",
+    "source_note": "Ethiopian 2024 study; trade blogs"
+  },
+  {
+    "attribute": "sweetness",
+    "direction": "weak positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "low",
+    "source_note": "Ethiopian and Honduran studies; weak effect"
+  },
+  {
+    "attribute": "cup_score",
+    "direction": "positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "medium",
+    "source_note": "Avelino 2005 (preference); Tassew 2021 as reported"
+  },
+  {
+    "attribute": "chlorogenic_acid",
+    "direction": "positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "medium",
+    "source_note": "Bertrand 2006 (traditional cultivars)"
+  },
+  {
+    "attribute": "fat",
+    "direction": "positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "medium",
+    "source_note": "Bertrand 2006; Alpizar and Bertrand 2005"
+  },
+  {
+    "attribute": "caffeine",
+    "direction": "positive",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "low",
+    "source_note": "Alpizar and Bertrand 2005 (summary)"
+  },
+  {
+    "attribute": "trigonelline",
+    "direction": "negative",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "low",
+    "source_note": "Alpizar and Bertrand 2005 (summary)"
+  },
+  {
+    "attribute": "sucrose",
+    "direction": "negative",
+    "magnitude_per_100m": "not retrieved",
+    "confidence": "low",
+    "source_note": "Alpizar and Bertrand 2005 (summary)"
+  },
+  {
+    "attribute": "temperature",
+    "direction": "cooler",
+    "magnitude_per_100m": "0.6 C per 100 m (environmental lapse rate)",
+    "confidence": "unverified-bg",
+    "source_note": "Background value, not sourced"
+  },
+  {
+    "attribute": "cherry_ripening",
+    "direction": "slower",
+    "magnitude_per_100m": "8-9 months at 1800+ m vs 6-7 months at low elevation",
+    "confidence": "unverified-bg",
+    "source_note": "Background figures, not sourced"
+  }
+]

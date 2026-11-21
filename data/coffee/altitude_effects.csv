@@ -1,0 +1,12 @@
+attribute,direction,magnitude_per_100m,confidence,source_note
+bean_density,positive,not retrieved,medium,"Ethiopian and Honduran studies (see altitude_quality_studies.csv)"
+acidity,positive,not retrieved,medium,"Ethiopian 2024 study; trade blogs"
+sweetness,weak positive,not retrieved,low,"Ethiopian and Honduran studies; weak effect"
+cup_score,positive,not retrieved,medium,"Avelino 2005 (preference); Tassew 2021 as reported"
+chlorogenic_acid,positive,not retrieved,medium,"Bertrand 2006 (traditional cultivars)"
+fat,positive,not retrieved,medium,"Bertrand 2006; Alpizar and Bertrand 2005"
+caffeine,positive,not retrieved,low,"Alpizar and Bertrand 2005 (summary)"
+trigonelline,negative,not retrieved,low,"Alpizar and Bertrand 2005 (summary)"
+sucrose,negative,not retrieved,low,"Alpizar and Bertrand 2005 (summary)"
+temperature,cooler,0.6 C per 100 m (environmental lapse rate),unverified-bg,"Background value, not sourced"
+cherry_ripening,slower,8-9 months at 1800+ m vs 6-7 months at low elevation,unverified-bg,"Background figures, not sourced"

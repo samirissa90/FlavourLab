@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated output and backups
+out/
+*.bak
+
+# Local Claude Code settings (machine-specific permission list)
+.claude/settings.json
+.claude/settings.local.json
+
+# coffee_equipment.json is deliberately tracked as an example equipment profile

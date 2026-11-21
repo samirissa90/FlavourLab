@@ -1,0 +1,8 @@
+roast_level,coffee_review_agtron_min,coffee_review_agtron_max,smrke_colorette_points,flavor_notes,drop_temp_c_min,drop_temp_c_max,dtr_pct_guidance,source_url,confidence,notes
+Light,71,100,131,"Light brown to cinnamon colour",196,205,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,"Drop temperatures from Beanbox blog (bean temperature); Agtron from Coffee Review table"
+Medium-Light,61,70,,"Moderately light brown",,,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,
+Medium,51,60,101,"Medium brown",210,220,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,"Drop temperatures from Beanbox blog; Colorette from Smrke et al. 2018"
+Medium-Dark,41,50,,"Rich brown; droplets of oil may appear",,,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,"Second crack begins at about Agtron 47 (Coffee Review)"
+Dark,35,40,78,"Deep brown or black; oil spots on surface",225,230,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,"Drop temperatures from Beanbox blog. Smrke 2018: about 20% dry-matter loss and volume up to 80% higher. Colorette scale is not directly comparable to Agtron."
+Very Dark,25,34,,"Black surface covered brightly with oil",,,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,
+Extreme-Dark,0,24,,"Black; shiny",,,"20-25 (Rao)",https://www.coffeereview.com/?p=22177,secondary,

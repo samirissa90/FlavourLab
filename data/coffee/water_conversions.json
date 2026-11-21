@@ -1,0 +1,34 @@
+[
+  {
+    "item": "hco3_to_alkalinity_as_caco3",
+    "formula": "mg/L HCO3- x 50.04/61.02",
+    "factor": 0.82,
+    "basis": "arithmetic",
+    "confidence": "inferred",
+    "notes": "80 mg/L HCO3- is about 66 mg/L as CaCO3. The Daily Coffee News article says 130, which is inconsistent; store a unit_basis field with every value."
+  },
+  {
+    "item": "nahco3_to_alkalinity_as_caco3",
+    "formula": "mg/L NaHCO3 x 50.04/84.01",
+    "factor": 0.596,
+    "basis": "arithmetic",
+    "confidence": "inferred",
+    "notes": "0.1 g/L NaHCO3 is about 60 mg/L as CaCO3 (article says about 50)."
+  },
+  {
+    "item": "mgso4_anhydrous_per_mg_mg2plus",
+    "formula": "mg/L MgSO4 = mg/L Mg2+ x 120.37/24.305",
+    "factor": 4.95,
+    "basis": "arithmetic",
+    "confidence": "inferred",
+    "notes": "Anhydrous MgSO4. Epsom salt is the heptahydrate and needs roughly twice the mass for the same MgSO4 (Home-Barista forum)."
+  },
+  {
+    "item": "cacl2_anhydrous_per_mg_ca2plus",
+    "formula": "mg/L CaCl2 = mg/L Ca2+ x 110.98/40.08",
+    "factor": 2.77,
+    "basis": "arithmetic",
+    "confidence": "inferred",
+    "notes": "Anhydrous CaCl2."
+  }
+]

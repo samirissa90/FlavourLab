@@ -1,0 +1,20 @@
+attribute,reference,amount,intensity,modality,source_url,confidence
+Sweet,sucrose solution,1.0%,1.0,taste,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Sour,citric acid,"0.015% / 0.05%","1.5 / 3.5",taste,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Bitter,caffeine,"0.01 / 0.02 / 0.035 / 0.05%","2.0 / 3.5 / 5.0 / 6.5",taste,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Salty,NaCl,0.15%,1.5,taste,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Blackberry,Smucker's blackberry jam,,5.5,flavor,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Peach,fresh peach pit,,8.0,aroma,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Peach,Jell-O peach powder,,7.0,flavor,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Grape,Welch's 100% Concord grape juice,1:1 with water,5.0,flavor,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Lemon,lemon juice,1:4 with water,"5.0 aroma / 7.0 flavor",both,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Black tea,Lipton black tea,,"8.0 aroma / 7.0 flavor",both,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Peapod,Le Nez du Cafe no. 3 garden peas,1 drop,7.0,aroma,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Cardboard,cardboard 2 inch square steeped in half cup,,7.5,aroma,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Papery,coffee filters soaked overnight in boiling water,,2.5,flavor,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Phenolic,phenylacetic acid,0.15 g,6.0,aroma,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Mouth-drying,alum,"0.05% / 0.07%","2.5 / 3.5",mouthfeel,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Thickness,sucrose / tomato juice,"5% / n/s","2.0 / 4.0",mouthfeel,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Metallic,KCl,0.10%,1.5,mouthfeel,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Oily,1% milk / half-and-half,,"3.0 / 6.0",mouthfeel,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary
+Hazelnut,imitation hazelnut extract,"1/8 tsp in a cup of milk","3.5 (double strength 6.0)",flavor,https://open-exam-prep.com/study-guides/sca-q-grader/flavor-wheel-sensory-lexicon/wcr-sensory-lexicon-standards,secondary

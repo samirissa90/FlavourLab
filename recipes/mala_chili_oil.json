@@ -1,0 +1,55 @@
+{
+  "name": "Mala Chili Crisp Sauce",
+  "style": "sichuan_mala",
+  "ingredients": [
+    {
+      "item": "neutral oil",
+      "g": 150
+    },
+    {
+      "item": "gochugaru",
+      "g": 15,
+      "prep": "toasted"
+    },
+    {
+      "item": "chile de arbol",
+      "g": 50,
+      "prep": "toasted"
+    },
+    {
+      "item": "sichuan peppercorn",
+      "g": 12,
+      "prep": "toasted"
+    },
+    {
+      "item": "doubanjiang",
+      "g": 60
+    },
+    {
+      "item": "fermented black beans",
+      "g": 15
+    },
+    {
+      "item": "shallot",
+      "g": 40,
+      "prep": "roasted"
+    },
+    {
+      "item": "garlic",
+      "g": 30,
+      "prep": "roasted"
+    },
+    {
+      "item": "star anise",
+      "g": 2
+    },
+    {
+      "item": "black vinegar",
+      "g": 40
+    },
+    {
+      "item": "sesame seeds",
+      "g": 15
+    }
+  ]
+}

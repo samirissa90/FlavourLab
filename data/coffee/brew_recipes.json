@@ -1,0 +1,1321 @@
+[
+  {
+    "id": "v60_hoffmann_ultimate_30g",
+    "method": "pour_over",
+    "name": "Ultimate V60 Technique (Hario USA transcription)",
+    "author": "James Hoffmann",
+    "year": null,
+    "dose_g": 30,
+    "water_g": 500,
+    "ratio": "1:16.7",
+    "temp_c": "n/s",
+    "grind": "medium-fine (no micron value)",
+    "bloom_g": 60,
+    "bloom_s": 45,
+    "agitation": "swirl in bloom; stir once each way after last pour; gentle swirl before drawdown",
+    "total_time_s": 210,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://www.hario-usa.com/blogs/recipes-and-more-from-friends/james-hoffmann-uitimate-v60-technique",
+    "confidence": "secondary",
+    "notes": "Ratio inferred. Temperature only as hotter is better; rinse filter with water just off the boil. Drawdown target 3:30.",
+    "pours_raw": "0:60;45:300;75:500",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 60.0
+      },
+      {
+        "t_s": 45,
+        "cum_g": 300.0
+      },
+      {
+        "t_s": 75,
+        "cum_g": 500.0
+      }
+    ]
+  },
+  {
+    "id": "v60_hoffmann_ultimate_18g_gist",
+    "method": "pour_over",
+    "name": "Ultimate V60 (18 g gist)",
+    "author": "James Hoffmann (transcribed by fluency03)",
+    "year": null,
+    "dose_g": 18,
+    "water_g": 300,
+    "ratio": "1:16.7",
+    "temp_c": "n/s",
+    "grind": "medium-fine; Niche Zero 40-50",
+    "bloom_g": 45,
+    "bloom_s": 45,
+    "agitation": "swirl in bloom; stir once each way after last pour; gentle swirl before drawdown",
+    "total_time_s": 180,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://gist.github.com/fluency03/7fb305b8110dde5739d14697af97a99a",
+    "confidence": "unverified",
+    "notes": "Pour times differ from the Hario USA schedule (0:45 and 1:15 there). The fetch may have mis-ordered the steps. Bloom at most 3x dose.",
+    "pours_raw": "0:45;75:180;105:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 45.0
+      },
+      {
+        "t_s": 75,
+        "cum_g": 180.0
+      },
+      {
+        "t_s": 105,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "v60_hoffmann_better_1_cup_2022",
+    "method": "pour_over",
+    "name": "A Better 1 Cup V60 Technique",
+    "author": "James Hoffmann",
+    "year": 2022,
+    "dose_g": 15,
+    "water_g": 250,
+    "ratio": "1:16.7",
+    "temp_c": 100,
+    "grind": "medium-fine (one summary says finer for light roasts)",
+    "bloom_g": 50,
+    "bloom_s": 45,
+    "agitation": "swirl at 5 s after bloom and about 2:00 after last pour",
+    "total_time_s": 180,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://aeroprecipe.com/recipes/james-hoffmann-better-1-cup-v60-technique",
+    "confidence": "unverified",
+    "notes": "Third-party transcription; another summary gives about 2:30 total. Designed for plastic 01 V60. Temperature 100 C per aeroprecipe; another summary says freshly boiled.",
+    "pours_raw": "0:50;45:100;70:150;90:200;110:250",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 45,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 70,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 200.0
+      },
+      {
+        "t_s": 110,
+        "cum_g": 250.0
+      }
+    ]
+  },
+  {
+    "id": "v60_rao_hario_interview",
+    "method": "pour_over",
+    "name": "Scott Rao V60 recipe",
+    "author": "Scott Rao",
+    "year": 2022,
+    "dose_g": 20,
+    "water_g": 330,
+    "ratio": "1:16.5",
+    "temp_c": 97,
+    "grind": "n/s (grind fresh)",
+    "bloom_g": 60,
+    "bloom_s": 40,
+    "agitation": "aggressive spin in bloom; very gentle spin (under 1 s) after pours 1 and 2",
+    "total_time_s": "240-270",
+    "tds_pct": null,
+    "ey_pct": "22-24.5",
+    "source_url": "https://www.hario.co.uk/blogs/hario-ambassadors/hario-v60-recipe-interview-with-hario-ambassador-scott-rao",
+    "confidence": "secondary",
+    "notes": "Published 2022-05-10. Plastic V60. Pour 3 is after about 70% drawdown, not a fixed time. Extraction yield stated as 22-24.5% (depends on grinder, varietal, roast).",
+    "pours_raw": "0:60;40:200;after ~70% drawdown:330",
+    "pours": null
+  },
+  {
+    "id": "v60_kasuya_46_hario_europe",
+    "method": "pour_over",
+    "name": "4:6 Method (Hario Europe)",
+    "author": "Tetsu Kasuya",
+    "year": 2016,
+    "dose_g": 20,
+    "water_g": 300,
+    "ratio": "1:15",
+    "temp_c": 92,
+    "grind": "coarse (ceramic V60)",
+    "bloom_g": 50,
+    "bloom_s": 45,
+    "agitation": "not stated",
+    "total_time_s": 210,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://hario-europe.com/blogs/hario-community/v60-ambassadors-tetsu-kasuya",
+    "confidence": "secondary",
+    "notes": "First 40% of water (pours 1-2) sets acidity vs sweetness: more water in pour 1 = more acidity. Last 60% sets strength. WBC table lists 3:00 total; Long Short London gives 92-95 C and 3:30 total; Kurasu transcription gives different pour times.",
+    "pours_raw": "0:50;45:120;90:180;130:240;160:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 45,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 180.0
+      },
+      {
+        "t_s": 130,
+        "cum_g": 240.0
+      },
+      {
+        "t_s": 160,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "v60_hedrick_masterclass",
+    "method": "pour_over",
+    "name": "Pour Over Masterclass V60 Technique",
+    "author": "Lance Hedrick (as presented by LAMOSE)",
+    "year": null,
+    "dose_g": 20,
+    "water_g": 300,
+    "ratio": "1:15",
+    "temp_c": "93-96 (light 95-96; medium 93-94; dark 91-93)",
+    "grind": "medium-fine, like granulated sugar",
+    "bloom_g": 40,
+    "bloom_s": 45,
+    "agitation": "3-5 gentle stirs in bloom; gentle swirl after each pour; spiral pours 3-4 inches above bed",
+    "total_time_s": "165-180",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://secure.lamose.com/blogs/recipes/lance-hedricks-pour-over-masterclass-v60-technique",
+    "confidence": "secondary",
+    "notes": "Retailer page, not Hedrick's own site. Drawdown target 2:45-3:00: slower than 3:15 means grind coarser, faster than 2:30 means finer. Water TDS target 75-150 ppm.",
+    "pours_raw": "0:40;45:120;75:260;120:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 40.0
+      },
+      {
+        "t_s": 45,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 75,
+        "cum_g": 260.0
+      },
+      {
+        "t_s": 120,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "v60_perger",
+    "method": "pour_over",
+    "name": "Matt Perger V60",
+    "author": "Matt Perger",
+    "year": null,
+    "dose_g": null,
+    "water_g": 200,
+    "ratio": null,
+    "temp_c": "97 (207 F)",
+    "grind": "fine",
+    "bloom_g": 50,
+    "bloom_s": null,
+    "agitation": "thorough stir in bloom; lift and tap brewer after pouring",
+    "total_time_s": 140,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://www.ilcaffeespressoitaliano.com/wp-content/uploads/V-60.pdf",
+    "confidence": "unverified",
+    "notes": "Dose unreadable in the PDF table (a g/L column shows 58, which would imply about 11.6 g for 200 g; do not use). Original Barista Hustle source not found.",
+    "pours_raw": "0:50;30:100;60:200",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 60,
+        "cum_g": 200.0
+      }
+    ]
+  },
+  {
+    "id": "v60_winton_five_pour",
+    "method": "pour_over",
+    "name": "V60 Five-Pour (2021 WBC)",
+    "author": "Matt Winton",
+    "year": 2021,
+    "dose_g": 20,
+    "water_g": 300,
+    "ratio": "1:15",
+    "temp_c": "93 (bloom); 88 (later pours)",
+    "grind": "medium (Kinu M47 at WBC)",
+    "bloom_g": 60,
+    "bloom_s": null,
+    "agitation": "concentric pours from centre outward at height",
+    "total_time_s": null,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://honestcoffeeguide.com/brew-recipes/matt-winton-v60-five-pour/",
+    "confidence": "secondary",
+    "notes": "Metal V60 size 02. Pours about 30 s apart per source; cumulative times inferred. Total conflicts: 6:50 (Honest Coffee Guide) vs 2:40 (WBC extraction time).",
+    "pours_raw": "0:60;30:120;60:180;90:240;120:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 60.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 60,
+        "cum_g": 180.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 240.0
+      },
+      {
+        "t_s": 120,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "kalita_wave_155",
+    "method": "pour_over",
+    "name": "Kalita Wave 155 (single cup)",
+    "author": "Ozone Coffee (roaster page)",
+    "year": null,
+    "dose_g": 15,
+    "water_g": 250,
+    "ratio": "1:16.7",
+    "temp_c": 93,
+    "grind": "medium filter",
+    "bloom_g": 50,
+    "bloom_s": 30,
+    "agitation": "50 g in circles plus 50 g into centre per pour",
+    "total_time_s": "150-180",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://ozonecoffee.co.uk/pages/kalita-wave-brew-guide",
+    "confidence": "secondary",
+    "notes": "Roaster recipe, not published by Kalita. Ratio inferred.",
+    "pours_raw": "0:50;30:150;70:250",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 70,
+        "cum_g": 250.0
+      }
+    ]
+  },
+  {
+    "id": "kalita_wave_185",
+    "method": "pour_over",
+    "name": "Kalita Wave 185 (two cups)",
+    "author": "Ozone Coffee (roaster page)",
+    "year": null,
+    "dose_g": 30,
+    "water_g": 500,
+    "ratio": "1:16.7",
+    "temp_c": 93,
+    "grind": "medium filter",
+    "bloom_g": 100,
+    "bloom_s": 30,
+    "agitation": "100 g in circles plus 100 g into centre per pour",
+    "total_time_s": "210-240",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://ozonecoffee.co.uk/pages/kalita-wave-brew-guide",
+    "confidence": "secondary",
+    "notes": "Same roaster source as the 155 recipe. Ratio inferred.",
+    "pours_raw": "0:100;30:300;90:500",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 300.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 500.0
+      }
+    ]
+  },
+  {
+    "id": "origami_air_s_light_roast",
+    "method": "pour_over",
+    "name": "Origami Air S (light roast)",
+    "author": "Roasters Pack (roaster page)",
+    "year": null,
+    "dose_g": 20,
+    "water_g": 320,
+    "ratio": "1:16",
+    "temp_c": 95,
+    "grind": "medium (Comandante 34 clicks, about 1020 um)",
+    "bloom_g": 60,
+    "bloom_s": null,
+    "agitation": "none stated",
+    "total_time_s": "120-140",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Origami Air S uses a V60-style cone filter. The first 60 g pour is the bloom.",
+    "pours_raw": "0:60;30:120;45:180;60:240;80:320",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 60.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 45,
+        "cum_g": 180.0
+      },
+      {
+        "t_s": 60,
+        "cum_g": 240.0
+      },
+      {
+        "t_s": 80,
+        "cum_g": 320.0
+      }
+    ]
+  },
+  {
+    "id": "origami_wave_medium_roast",
+    "method": "pour_over",
+    "name": "Origami (medium roast; wave filter)",
+    "author": "Roasters Pack (roaster page)",
+    "year": null,
+    "dose_g": 20,
+    "water_g": 320,
+    "ratio": "1:16",
+    "temp_c": 92,
+    "grind": "medium to medium-fine (Comandante 30 clicks, about 900 um)",
+    "bloom_g": 50,
+    "bloom_s": null,
+    "agitation": "none stated",
+    "total_time_s": "160-180",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Same roaster source as the light-roast recipe.",
+    "pours_raw": "0:50;30:100;55:150;80:200;105:250;125:320",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 55,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 80,
+        "cum_g": 200.0
+      },
+      {
+        "t_s": 105,
+        "cum_g": 250.0
+      },
+      {
+        "t_s": 125,
+        "cum_g": 320.0
+      }
+    ]
+  },
+  {
+    "id": "wbc_2017_chad_wang",
+    "method": "pour_over",
+    "name": "2017 WBC winning recipe",
+    "author": "Chad Wang (Taiwan)",
+    "year": 2017,
+    "dose_g": 15,
+    "water_g": 250,
+    "ratio": "1:16.7",
+    "temp_c": 92,
+    "grind": "n/s (Hario V60 ceramic)",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 120,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://en.wikipedia.org/wiki/World_Brewers_Cup",
+    "confidence": "secondary",
+    "notes": "Pour schedule not published in sources read. Ratio inferred.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "wbc_2018_emi_fukahori",
+    "method": "pour_over",
+    "name": "2018 WBC winning recipe (hybrid immersion-pourover)",
+    "author": "Emi Fukahori (Switzerland)",
+    "year": 2018,
+    "dose_g": 17,
+    "water_g": 220,
+    "ratio": "1:12.9",
+    "temp_c": "80-95",
+    "grind": "n/s (GINA dripper)",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 175,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://en.wikipedia.org/wiki/World_Brewers_Cup",
+    "confidence": "secondary",
+    "notes": "Hybrid immersion and pour-over method. Pour schedule not published in sources read. Ratio inferred.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "wbc_2019_du_jianing",
+    "method": "pour_over",
+    "name": "2019 WBC winning recipe (Origami)",
+    "author": "Du Jianing (China)",
+    "year": 2019,
+    "dose_g": 16,
+    "water_g": 240,
+    "ratio": "1:15",
+    "temp_c": 94,
+    "grind": "Comandante 26 clicks (about 780 um); ground twice",
+    "bloom_g": 60,
+    "bloom_s": null,
+    "agitation": "pour rates 6 g/s, 4 g/s, 5 g/s; drip-through to about 1:45",
+    "total_time_s": "100-110",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Water 4 ppm Ca and 15 ppm Mg (80 ppm TDS). Yield about 190 ml. Ratio inferred.",
+    "pours_raw": "0:60;18:140;56:240",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 60.0
+      },
+      {
+        "t_s": 18,
+        "cum_g": 140.0
+      },
+      {
+        "t_s": 56,
+        "cum_g": 240.0
+      }
+    ]
+  },
+  {
+    "id": "wbc_2022_shih_yuan_hsu",
+    "method": "pour_over",
+    "name": "2022 WBC winning recipe (Orea V3 with Kalita 185 filter)",
+    "author": "Shih-Yuan (Sherry) Hsu (Taiwan)",
+    "year": 2022,
+    "dose_g": 14,
+    "water_g": 200,
+    "ratio": "1:14.3",
+    "temp_c": "70 (first pour); 95 (rest)",
+    "grind": "75% at 1000 um and 25% at 800 um (1Zpresso K-Pro)",
+    "bloom_g": 50,
+    "bloom_s": null,
+    "agitation": "four 50 g pours every 30 s",
+    "total_time_s": null,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://en.wikipedia.org/wiki/World_Brewers_Cup",
+    "confidence": "secondary",
+    "notes": "Pour timing from the four-pours-every-30-s description. Total time not published in sources read.",
+    "pours_raw": "0:50;30:100;60:150;90:200",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 60,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 200.0
+      }
+    ]
+  },
+  {
+    "id": "wbc_2023_carlos_medina",
+    "method": "pour_over",
+    "name": "2023 WBC winning recipe (Origami Air S)",
+    "author": "Carlos Medina (Chile)",
+    "year": 2023,
+    "dose_g": 15.5,
+    "water_g": 250,
+    "ratio": "1:16.1",
+    "temp_c": 91,
+    "grind": "Comandante 28 clicks (about 840 um)",
+    "bloom_g": 50,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": null,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Water rebuilt with equal calcium and magnesium at 65 ppm TDS. Target total 2:40 per Roasters Pack. Ratio inferred.",
+    "pours_raw": "0:50;30:100;60:150;90:200;120:250",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 60,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 200.0
+      },
+      {
+        "t_s": 120,
+        "cum_g": 250.0
+      }
+    ]
+  },
+  {
+    "id": "wbc_2024_martin_wolfl",
+    "method": "pour_over",
+    "name": "2024 WBC winning recipe (Orea v4 with Sibarist filter)",
+    "author": "Martin Wolfl (Austria)",
+    "year": 2024,
+    "dose_g": 17,
+    "water_g": 270,
+    "ratio": "1:15.9",
+    "temp_c": 93,
+    "grind": "630 um (Mazzer ZM)",
+    "bloom_g": 60,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": null,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://theroasterspack.com/blogs/news/origami-dripper-our-extensive-guide-with-recipes",
+    "confidence": "secondary",
+    "notes": "Bloom 60 ml; then 60 ml at 0:40, 50 ml at 1:20, 100 ml at 2:00. Used WDT before brew and a Melodrip. Total time not published in sources read.",
+    "pours_raw": "0:60;40:120;80:170;120:270",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 60.0
+      },
+      {
+        "t_s": 40,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 80,
+        "cum_g": 170.0
+      },
+      {
+        "t_s": 120,
+        "cum_g": 270.0
+      }
+    ]
+  },
+  {
+    "id": "wbc_2025_george_peng",
+    "method": "pour_over",
+    "name": "2025 WBC winning recipe (SOLO dripper with Melodrip)",
+    "author": "George Jinyang Peng (China)",
+    "year": 2025,
+    "dose_g": 15,
+    "water_g": 210,
+    "ratio": "1:14",
+    "temp_c": "96 (first 120 ml); 80 (final 90 ml)",
+    "grind": "FM grinder 11 clicks",
+    "bloom_g": 30,
+    "bloom_s": null,
+    "agitation": "pre-wet 80 ml at 205 F; bloom 30 ml for about 6 s, three counter-clockwise circles",
+    "total_time_s": 105,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://sprudge.com/how-to-brew-coffee-like-the-2025-world-brewers-cup-champion-338576.html",
+    "confidence": "secondary",
+    "notes": "Temperature conflict: Sprudge 205 F (96 C); Slow Pour Supply 210 F (likely a typo for 96 C). Total conflict: Sprudge 1:45 vs Honest Coffee Guide 2:15. Natural Panama Gesha, roasted in three profiles. Water 40 ppm TDS.",
+    "pours_raw": "0:30;30:120;70:210",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 30.0
+      },
+      {
+        "t_s": 30,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 70,
+        "cum_g": 210.0
+      }
+    ]
+  },
+  {
+    "id": "drumming_lowering_number_of_coffees",
+    "method": "pour_over",
+    "name": "Lowering the number of coffees (2023)",
+    "author": "The Drumming Barista",
+    "year": 2023,
+    "dose_g": 20,
+    "water_g": 300,
+    "ratio": "1:15",
+    "temp_c": "n/s",
+    "grind": "medium",
+    "bloom_g": 75,
+    "bloom_s": null,
+    "agitation": "swirl after bloom and after pour 2 if slow",
+    "total_time_s": "210-240",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://thedrummingbarista.substack.com/p/the-drumming-baristas-top-3-v60-recipes",
+    "confidence": "secondary",
+    "notes": "Community recipe. Flavour labels are the author's own; no sensory data.",
+    "pours_raw": "0:75;40:150;100:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 75.0
+      },
+      {
+        "t_s": 40,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 100,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "drumming_60x5",
+    "method": "pour_over",
+    "name": "60 X 5 (2023)",
+    "author": "The Drumming Barista",
+    "year": 2023,
+    "dose_g": 20,
+    "water_g": 300,
+    "ratio": "1:15",
+    "temp_c": "n/s",
+    "grind": "medium",
+    "bloom_g": 60,
+    "bloom_s": null,
+    "agitation": "5 gentle swirls in bloom",
+    "total_time_s": 240,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://thedrummingbarista.substack.com/p/the-drumming-baristas-top-3-v60-recipes",
+    "confidence": "secondary",
+    "notes": "Community recipe. Flavour labels are the author's own; no sensory data.",
+    "pours_raw": "0:60;40:120;80:180;110:240;150:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 60.0
+      },
+      {
+        "t_s": 40,
+        "cum_g": 120.0
+      },
+      {
+        "t_s": 80,
+        "cum_g": 180.0
+      },
+      {
+        "t_s": 110,
+        "cum_g": 240.0
+      },
+      {
+        "t_s": 150,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "drumming_first_coffee_of_day",
+    "method": "pour_over",
+    "name": "First coffee of the day (2021)",
+    "author": "The Drumming Barista",
+    "year": 2021,
+    "dose_g": 15,
+    "water_g": 250,
+    "ratio": "1:16.7",
+    "temp_c": "n/s",
+    "grind": "medium",
+    "bloom_g": 40,
+    "bloom_s": null,
+    "agitation": "bloom swirl only",
+    "total_time_s": "165-180",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://thedrummingbarista.substack.com/p/the-drumming-baristas-top-3-v60-recipes",
+    "confidence": "secondary",
+    "notes": "Community recipe. Two-stage pour.",
+    "pours_raw": "0:40;40:250",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 40.0
+      },
+      {
+        "t_s": 40,
+        "cum_g": 250.0
+      }
+    ]
+  },
+  {
+    "id": "drumming_full_bodied_5pour",
+    "method": "pour_over",
+    "name": "Full-bodied 5-pour (2021)",
+    "author": "The Drumming Barista",
+    "year": 2021,
+    "dose_g": 15,
+    "water_g": 250,
+    "ratio": "1:16.7",
+    "temp_c": "n/s",
+    "grind": "medium",
+    "bloom_g": 50,
+    "bloom_s": null,
+    "agitation": "bloom swirl only",
+    "total_time_s": "210-240",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://thedrummingbarista.substack.com/p/the-drumming-baristas-top-3-v60-recipes",
+    "confidence": "unverified",
+    "notes": "Pours as printed sum to 300 g but water is 250 g, so the row is internally inconsistent.",
+    "pours_raw": "0:50;40:100;70:150;100:200;130:250;160:300",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 40,
+        "cum_g": 100.0
+      },
+      {
+        "t_s": 70,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 100,
+        "cum_g": 200.0
+      },
+      {
+        "t_s": 130,
+        "cum_g": 250.0
+      },
+      {
+        "t_s": 160,
+        "cum_g": 300.0
+      }
+    ]
+  },
+  {
+    "id": "drumming_sweet_acidic_3pour",
+    "method": "pour_over",
+    "name": "Sweet and acidic 3-pour (2021)",
+    "author": "The Drumming Barista",
+    "year": 2021,
+    "dose_g": 15,
+    "water_g": 250,
+    "ratio": "1:16.7",
+    "temp_c": "n/s",
+    "grind": "medium",
+    "bloom_g": 50,
+    "bloom_s": null,
+    "agitation": "n/s",
+    "total_time_s": "150-165",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://thedrummingbarista.substack.com/p/the-drumming-baristas-top-3-v60-recipes",
+    "confidence": "secondary",
+    "notes": "Community recipe. Flavour labels are the author's own; no sensory data.",
+    "pours_raw": "0:50;40:150;90:250",
+    "pours": [
+      {
+        "t_s": 0,
+        "cum_g": 50.0
+      },
+      {
+        "t_s": 40,
+        "cum_g": 150.0
+      },
+      {
+        "t_s": 90,
+        "cum_g": 250.0
+      }
+    ]
+  },
+  {
+    "id": "aeropress_hoffmann_ultimate",
+    "method": "aeropress",
+    "name": "Ultimate AeroPress (upright)",
+    "author": "James Hoffmann",
+    "year": null,
+    "dose_g": 11,
+    "water_g": 200,
+    "ratio": "1:18.2",
+    "temp_c": 99,
+    "grind": "finer end of medium (light roast); Timemore C2 11 clicks suggested by a third party",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 200,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://aeroprecipe.com/recipes/james-hoffmann-aeropress-recipe",
+    "confidence": "secondary",
+    "notes": "Plunger about 1 cm in for vacuum; steep 120 s, swirl, wait 30 s, press about 30 s. Total 3:20 per source; other summaries conflict (2:00 to 3:30). Page suggests 90-95 C for medium roast and 85-90 C for dark (page's own adjustment).",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2025_1",
+    "method": "aeropress",
+    "name": "WAC 2025 1st place (upright)",
+    "author": "Nemo Pop (Australia)",
+    "year": 2025,
+    "dose_g": 18,
+    "water_g": 100,
+    "ratio": null,
+    "temp_c": 84,
+    "grind": "Trailmaster x25 31 clicks; sifted 200 um",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~70",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "70 g at 50 C pre-brew in carafe first; water 125 ppm. Stir 25 s; press from 50 s for about 20 s.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2025_2",
+    "method": "aeropress",
+    "name": "WAC 2025 2nd place (inverted)",
+    "author": "Jan Ahrend (Switzerland)",
+    "year": 2025,
+    "dose_g": 18,
+    "water_g": 100,
+    "ratio": null,
+    "temp_c": 88,
+    "grind": "C40 Mk4 24 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~120",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Flip at 1:30; press to 66 g. Dilute to 152 g total.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2025_3",
+    "method": "aeropress",
+    "name": "WAC 2025 3rd place (inverted)",
+    "author": "Dharun Vyas (India)",
+    "year": 2025,
+    "dose_g": 16,
+    "water_g": 65,
+    "ratio": null,
+    "temp_c": 88,
+    "grind": "C40 Red Clix 52 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~90",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Brew water 65 g then to 208 ml total. Bypass 12 ml room temperature.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2024_1",
+    "method": "aeropress",
+    "name": "WAC 2024 1st place (inverted)",
+    "author": "George Stanica (Romania)",
+    "year": 2024,
+    "dose_g": 18,
+    "water_g": 100,
+    "ratio": null,
+    "temp_c": 96,
+    "grind": "C40 Mk4 58 clicks (870 um per page)",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~135",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Page: 50 + 50 g; bloom 30 s; cap 1:20; press 1:35 for 30-40 s. Bypass: warm water to 130-135 g total then 20-30 g room temperature at 0 ppm. Conflict: Contour Coffee says 92 C, 200 g, about 2 min.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2024_2",
+    "method": "aeropress",
+    "name": "WAC 2024 2nd place (inverted)",
+    "author": "Sophan Nugraha (Indonesia)",
+    "year": 2024,
+    "dose_g": 18,
+    "water_g": 190,
+    "ratio": null,
+    "temp_c": 95,
+    "grind": "C40 nitro blade 22 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 120,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "190 g total including a 60 ml room-temperature bloom. Bypass 10 ml room temperature.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2024_3",
+    "method": "aeropress",
+    "name": "WAC 2024 3rd place (inverted)",
+    "author": "Jamika (Mahmoud) (Egypt)",
+    "year": 2024,
+    "dose_g": 18,
+    "water_g": 150,
+    "ratio": null,
+    "temp_c": "75-80",
+    "grind": "MK4 900 um (per page)",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~120",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "150 g: 50 at 80 C then 100 at 75 C. Bypass 30 ml room temperature.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2023_1",
+    "method": "aeropress",
+    "name": "WAC 2023 1st place (inverted)",
+    "author": "Tay Wipvasutt (Thailand)",
+    "year": 2023,
+    "dose_g": 18,
+    "water_g": 100,
+    "ratio": null,
+    "temp_c": 89,
+    "grind": "ZP6 65 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~125",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Room-temperature water to 115 g then hot water to 155 g. Flip and press 1:35 for about 30 s.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2023_2",
+    "method": "aeropress",
+    "name": "WAC 2023 2nd place (inverted)",
+    "author": "Carlo Graf Bulow (Germany)",
+    "year": 2023,
+    "dose_g": 18,
+    "water_g": 160,
+    "ratio": null,
+    "temp_c": 100,
+    "grind": "C40 32 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~110",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "50 g bloom; room temperature to 150 g.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2023_3",
+    "method": "aeropress",
+    "name": "WAC 2023 3rd place (upright)",
+    "author": "Leon Zhang (China)",
+    "year": 2023,
+    "dose_g": 18,
+    "water_g": "100 at 93 then 135 at 75",
+    "ratio": null,
+    "temp_c": "75-93",
+    "grind": "C40 27 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 100,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Upright. Bypass not stated.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2022_1",
+    "method": "aeropress",
+    "name": "WAC 2022 1st place (inverted)",
+    "author": "Jibbi Little (Australia)",
+    "year": 2022,
+    "dose_g": 18,
+    "water_g": 94,
+    "ratio": null,
+    "temp_c": 90,
+    "grind": "Kinu setting 4",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~130",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Bypass 90 C water to 150 g. Page setup lists 150 g.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2022_2",
+    "method": "aeropress",
+    "name": "WAC 2022 2nd place (upright)",
+    "author": "Simon Derutter (Belgium)",
+    "year": 2022,
+    "dose_g": 18,
+    "water_g": 140,
+    "ratio": null,
+    "temp_c": 85,
+    "grind": "Comandante 23 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~105",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Brewed to 156 ml total.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2022_3",
+    "method": "aeropress",
+    "name": "WAC 2022 3rd place (inverted)",
+    "author": "Jennifer Rui Ping Ho (Singapore)",
+    "year": 2022,
+    "dose_g": 18,
+    "water_g": 200,
+    "ratio": null,
+    "temp_c": 84,
+    "grind": "Comandante 30 clicks",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 120,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Bypass not stated.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2021_1",
+    "method": "aeropress",
+    "name": "WAC 2021 1st place (inverted)",
+    "author": "Tuomas Merikanto (Finland)",
+    "year": 2021,
+    "dose_g": 18,
+    "water_g": 200,
+    "ratio": null,
+    "temp_c": 80,
+    "grind": "Macap Labo 70D 7.0",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~120",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "200 g including 50 g at 80 C first. Bypass not stated.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2019_1",
+    "method": "aeropress",
+    "name": "WAC 2019 1st place (inverted)",
+    "author": "Wendelien van Bunnik (Netherlands)",
+    "year": 2019,
+    "dose_g": 30,
+    "water_g": 100,
+    "ratio": null,
+    "temp_c": 92,
+    "grind": "EK43S 7/10",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": 60,
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Bypass 100 g added (120 g total).",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "aeropress_wac_2018_1",
+    "method": "aeropress",
+    "name": "WAC 2018 1st place (inverted)",
+    "author": "Carolina Garay (USA)",
+    "year": 2018,
+    "dose_g": 34.9,
+    "water_g": 100,
+    "ratio": null,
+    "temp_c": 85,
+    "grind": "EK43S 8/10",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": null,
+    "total_time_s": "~90",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://worldaeropresschampionship.com/pages/recipes",
+    "confidence": "primary",
+    "notes": "Bypass 60 g at 85 C plus 40 g room temperature (200 g total).",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "french_press_hoffmann_lamose",
+    "method": "french_press",
+    "name": "Ultimate French Press (LAMOSE summary)",
+    "author": "James Hoffmann",
+    "year": null,
+    "dose_g": 30,
+    "water_g": 500,
+    "ratio": "1:16.7",
+    "temp_c": null,
+    "grind": "coarse",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": "stir to break crust at 4:00; skim; do not plunge",
+    "total_time_s": "540-720",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://secure.lamose.com/blogs/recipes/james-hoffmanns-french-press-method-the-better-way",
+    "confidence": "secondary",
+    "notes": "Steep 4 min, then 5-8 min settle. Total time is inferred from those figures. Video date conflicts (2016 vs 2018). Secondary summary only.",
+    "pours_raw": null,
+    "pours": null
+  },
+  {
+    "id": "french_press_fluent_summary",
+    "method": "french_press",
+    "name": "French press (Fluent in Coffee summary of Hoffmann)",
+    "author": "James Hoffmann (as summarised)",
+    "year": null,
+    "dose_g": 30,
+    "water_g": 450,
+    "ratio": "1:15",
+    "temp_c": 93,
+    "grind": "medium-coarse",
+    "bloom_g": null,
+    "bloom_s": null,
+    "agitation": "stir; skim foam",
+    "total_time_s": "600-720",
+    "tds_pct": null,
+    "ey_pct": null,
+    "source_url": "https://www.fluentincoffee.com/?p=5034242",
+    "confidence": "secondary",
+    "notes": "Total 10-12 min per source. Conflicts with the LAMOSE 30 g / 500 g version.",
+    "pours_raw": null,
+    "pours": null
+  }
+]

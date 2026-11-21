@@ -1,0 +1,16 @@
+{
+  "name": "Fermented Green",
+  "style": "salsa_verde",
+  "fermented": ["jalapeno", "serrano", "garlic", "onion"],
+  "ingredients": [
+    {"item": "jalapeno", "g": 300},
+    {"item": "serrano", "g": 80},
+    {"item": "garlic", "g": 30},
+    {"item": "onion", "g": 60},
+    {"item": "salt", "g": 12},
+    {"item": "tomatillo", "g": 150, "prep": "charred"},
+    {"item": "cilantro", "g": 25},
+    {"item": "lime juice", "g": 40},
+    {"item": "distilled white vinegar", "g": 80}
+  ]
+}

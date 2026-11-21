@@ -1,0 +1,8 @@
+milk,target_temp_c,max_temp_c,note,source_url,confidence
+dairy_whole_3pct,60-65,70,"Lactose sweetness window 55-65 C; above 70 C flavour unpleasant. Scald threshold quoted as 65-72 C across sources. Lactose caramelisation at 60-65 C is unverified.",https://perfectdailygrind.com/2026/02/more-baristas-focusing-on-milk-temperature-coffee-shops/,secondary
+dairy_sweetness_peak,about 60,,"Peak perceived sweetness around 60 C (140 F)",https://fivesenses.com.au/blogs/news/how-to-steam-better-milk-at-home,snippet
+dairy_wbc_cappuccino_context,55-65,,"Cappuccino steamed to 55-65 C (131-149 F) to preserve sweetness",https://en.wikipedia.org/wiki/Cappuccino,secondary
+dairy_caffe_latte_italian,58-70,,"Caffe latte definition: at least 210 g milk at 58-70 C",https://en.wikipedia.org/wiki/Espresso,secondary
+oat_barista,about 60,66,"Performs best around 60 C. Keep under 150 F (66 C) to prevent separation. Barista blends use dipotassium phosphate to resist curdling.",https://perfectdailygrind.com/2026/02/more-baristas-focusing-on-milk-temperature-coffee-shops/,secondary
+soy_almond,55,55,"Maximum to prevent curdling or splitting. Single PDG quote, not independently confirmed.",https://perfectdailygrind.com/2026/02/more-baristas-focusing-on-milk-temperature-coffee-shops/,unverified
+plant_milk_general_uk_roaster,50-55,55,"Alternatives served about 50 C, no more than 55 C",https://liminicoffee.co.uk/article_understanding_milk,snippet
