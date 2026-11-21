@@ -1,121 +1,251 @@
-# FlavourLab
+# FlavourLab: user guide
 
-Your kitchen and Coffee assistant.
+Your kitchen and coffee assistant. Two tools in one project:
 
-## Coffee Flavourlab
-An interactive brewing guide: pick the method, origin, altitude, variety, process and roast, tell it about your machine and grinder, and it gives settings (dose, yield, time, temperature, pressure) with a confidence label on each value. A dial-in tab turns each shot you pull into the next adjustment.
+| | What it does | Start it with |
+|---|---|---|
+| **Sauce lab** (FlavorLab) | Design a sauce from ingredients, see its taste, aroma and heat profile, find pairings, and get suggestions to improve it | `python flavorlab_ui.py` |
+| **Coffee lab** (Coffee Flavourlab) | A guided brewing assistant: tell it your coffee and your machine, get settings, then fine-tune shot by shot | `python coffee_flavourlab.py` |
+
+**Contents:** [Install](#1-install) · [Sauce lab](#2-sauce-lab) · [Coffee lab](#3-coffee-lab) · [Trusting the numbers](#4-trusting-the-numbers) · [Troubleshooting](#5-troubleshooting) · [Reference](#6-reference)
+
+---
+
+## 1. Install
+
+1. Install **Python 3.9 or newer** (the coffee lab was tested on 3.12). Tkinter comes with Python on Windows and macOS.
+2. Download this repository:
+   ```bash
+   git clone https://github.com/samirissa90/FlavourLab.git
+   cd FlavourLab
+   ```
+3. Install the packages the **sauce lab** needs. The coffee lab needs nothing extra.
+   ```bash
+   pip install numpy matplotlib Pillow
+   ```
+
+To check the coffee lab, run its tests:
 ```bash
-python coffee_flavourlab.py                                  # the app (Tkinter, no extra packages)
-python -m unittest test_brew_guide test_coffee_flavourlab    # headless tests
-python tools/csv_to_json.py data/coffee                      # rebuild the JSON files after editing a CSV
+python -m unittest test_brew_guide test_coffee_flavourlab
 ```
-- `brew_guide.py` is the guide engine and `coffee_knowledge.py` the data lookup. Neither has UI code.
-- `coffee_equipment.json` is an **example equipment profile** (ECM Classika PID and a Eureka Mignon). The app rewrites it when you change equipment or log shots, so edit it to match your own gear.
-- `data/coffee/` holds the datasets as CSV with a matching JSON file. `reports/` and `research_notes/` hold the research behind them.
+The sauce lab has a smoke test (`python test_flavorlab.py`) that currently **fails** on one heat-profile check. See [Troubleshooting](#5-troubleshooting).
 
-### Data sources: please read
-The coffee data (`data/coffee/`, `research_notes/`, `reports/`) is a **user collection** compiled with AI-assisted web research from public pages, studies and trade sources. **It has not been verified.** Each row carries a `confidence` label (`primary`, `secondary`, `snippet`, `inferred`, `conflict`, `unverified`) and a source link where one was found, and some values are labelled `unverified` or `inferred` or are known to conflict between sources. Check the original source before relying on a number. The sources keep their own copyright and terms. The equipment presets (ECM, Eureka) come from retailer and review pages, not manufacturer specifications. The values in `ingredients*.csv` are estimates, not lab data.
+---
 
-## FlavorLab v0.2: visual flavor design
+## 2. Sauce lab
 
-FlavorLab is a static chart generator plus a JSON analysis tool for designing dishes. Its first module covers **hot sauces**.
-Requires Python 3.9+ with `numpy` and `matplotlib`.
-
-Files:
-- `flavorlab.py`: charts and CLI
-- `model.py`: data, perception model, pairing and JSON summary. It has no plotting, so agents can `import model` directly.
-- `ingredients.csv` + `ingredients_v02.csv`: ingredient packs, 307 ingredients in total. Every `ingredients*.csv` in the folder is loaded, and later files override earlier ones.
-- `FLAVOR_GUIDE.md`: the flavor science behind the numbers
-- `test_flavorlab.py`: smoke checks
-
-## Desktop UI
+### Start
 ```bash
-python flavorlab_ui.py        # needs numpy, matplotlib, Pillow (Tkinter ships with Python)
-python test_flavorlab_ui.py   # headless smoke test (uses a temp fixture pack, never your CSVs)
+python flavorlab_ui.py
 ```
-Tabs: **Recipe Designer** (pick ingredients, set grams / preps / finish, live scores, suggestions, auto-optimize, save/load recipe JSON), **Sauce Card** (zoomable), **Pairing & Bridge**, **Flavor Map**, **Compare**, **Ingredient Browser**. Every chart view has Export PNG.
-- Ingredients are read from every `ingredients*.csv` and re-checked every ~3 s, so edited or new packs appear without a restart. An invalid row is skipped and counted at the bottom right (click it for details); an unreadable file keeps the last good list.
-- Recipes saved from the UI use the CLI format (`python flavorlab.py card recipes/x.json` works on them).
+The window has six tabs.
 
-## Commands
+| Tab | Use it to |
+|---|---|
+| **Recipe Designer** | Build a recipe and watch its scores update live |
+| **Sauce Card** | See the full one-page analysis of your recipe (zoomable) |
+| **Pairing & Bridge** | Find what goes with an ingredient, or what links two ingredients |
+| **Flavor Map** | See where ingredients sit relative to each other |
+| **Compare** | Put up to 3 recipes side by side |
+| **Ingredient Browser** | Look through the 300+ ingredients |
+
+Every chart tab has an **Export PNG** button.
+
+### Your first sauce, step by step
+1. Open **Recipe Designer**.
+2. Search for an ingredient on the left (for example `habanero`) and press **Add to recipe**. Add a few more, such as `mango`, `apple cider vinegar` and `salt`.
+3. **Double-click the grams** of any row to set the amount.
+4. **Click the prep** of a row to set it to roasted, smoked, charred and so on.
+5. To add something after cooking (lime juice, fresh herbs), tick **finish (added after cooking)** in that row's dialog. Finishing ingredients keep their top notes and sinus kick.
+6. Pick a **Style** at the top (for example `fruity_caribbean`) and a **Process** (cooked or raw).
+7. Read **Live analysis** on the right: the overall score and the main warnings.
+8. Press **Suggest** to get the single changes that help most, or **Auto-optimize** to let it try several steps for you.
+9. Press **Render full sauce card** to open the full analysis in the **Sauce Card** tab.
+10. Use **New**, **Load…** and **Save…** above the recipe to start over, open a saved recipe or save yours. Saved recipes also work from the command line.
+
+Press **Del** to remove the selected row.
+
+### Pairings
+Open **Pairing & Bridge**, choose an ingredient, and press **Show pairing wheel** to see its best partners and why they work. Fill in a second ingredient to see which ingredients link the two (a "bridge"), for example `kenyan coffee` and `chipotle`.
+
+### Reading the sauce card
+| Panel | What it tells you |
+|---|---|
+| Taste and aroma radars | Your sauce against the style target. "Gap to target" shows what is too much or too little |
+| Who drives each flavor | Which ingredient contributes what |
+| Formula and checks | Grams, process, and warnings (pH, salt, astringency, lost top notes) |
+| Heat panel | Estimated heat (SHU), how it builds over time, and where in the mouth it hits |
+| Mouthfeel | Astringency, cooling, numbing, sinus heat, bite, and body from thin to paste |
+| Aroma staying power | Top, middle and base notes: fresh, after cooking, after about 3 months |
+| Aroma families | Which of the 30 aroma families dominate the nose |
+| Pairing matrix | How well the ingredients pair with each other |
+| Next best moves | The changes that would improve the score most |
+
+> **Safety:** all values are estimates for designing, not lab results. Always measure the real pH of a sauce you plan to keep: aim for **3.5 to 4.0** and treat **4.6 as the limit**.
+
+### Adding your own ingredients
+The app reads every `ingredients*.csv` file in the folder and rechecks them about every 3 seconds, so edits show up without a restart. To add ingredients, drop in a new file named `ingredients_<yourname>.csv` with the same columns as the existing ones. A bad row is skipped and counted at the bottom right of the window (click the count to see why).
+
+### Command line (optional)
 ```bash
-python flavorlab.py card recipes/mango_habanero.json             # sauce card PNG
-python flavorlab.py card recipes/x.json --optimize 3             # + improved recipe, card, before/after radars
+python flavorlab.py card recipes/mango_habanero.json       # sauce card image
 python flavorlab.py quick "habanero:120,mango:250,apple cider vinegar:200,lime juice:30:finish,salt:12" --style fruity_caribbean
-python flavorlab.py quick "..." --raw                            # uncooked sauce (no aroma loss)
-python flavorlab.py pair habanero --with mango                   # pairing wheel + why they pair
-python flavorlab.py bridge "kenyan coffee" chipotle              # ingredients that link two others
-python flavorlab.py map --highlight "habanero,mango"             # PCA flavor map of the whole database
-python flavorlab.py compare a.json b.json [c.json]               # taste / aroma / mouthfeel radars
-python flavorlab.py list | info NAME | families | styles | preps
-python test_flavorlab.py                                         # model smoke checks
+python flavorlab.py pair habanero --with mango             # pairing wheel
+python flavorlab.py bridge "kenyan coffee" chipotle        # what links two ingredients
+python flavorlab.py map --highlight "habanero,mango"       # flavor map
+python flavorlab.py compare a.json b.json                  # side-by-side radars
+python flavorlab.py list                                   # all ingredients (also: info NAME, families, styles, preps)
 ```
-Add `--json` to `card`, `quick`, `pair` or `bridge` to get machine-readable output for agents. Use `--out DIR` to choose the output folder (default `out/`).
+Images are written to the `out/` folder (change it with `--out DIR`). Add `--json` to `card`, `quick`, `pair` or `bridge` for machine-readable output.
 
-## Recipe format
+---
+
+## 3. Coffee lab
+
+### Start
+```bash
+python coffee_flavourlab.py
+```
+Use the tabs from left to right: **Brew guide**, **My equipment**, **Dial-in**. The tabs after those (Combination grid, Origins, Varieties, Recipes, Troubleshoot, Data browser) are reference tables. The chat box at the bottom is always available.
+
+### Step 1: tell it about your equipment (My equipment tab)
+The app starts with an **ECM Classika PID** espresso machine and a **Eureka Mignon** grinder as examples.
+
+1. Choose your **machine** and **grinder** from the lists.
+2. Correct anything that differs on your unit: boiler system, pump, temperature control, how you adjust pressure, pre-infusion, basket size, and which way is finer on your grinder.
+3. **Measured offset** is the difference between your machine's temperature setting and the real water temperature in the cup. Leave it at `0` until you have measured it with a thermometer.
+
+Changes save automatically to `coffee_equipment.json`.
+
+### Step 2: describe the coffee (Brew guide tab)
+On the left, choose:
+- **Brew method** (espresso, V60 and pour over, AeroPress, French press, cold brew, siphon, Chemex, moka pot) and, for espresso, the **style** (ristretto, normale, lungo)
+- **Country and region.** Picking a region fills in its typical altitude. Overwrite it with the number on your bag if you have one.
+- **Variety, process** (washed, natural, honey, anaerobic and others), **roast** and **days since roasting**
+- **Dose** in grams. Leave it blank to use your basket size.
+
+The right side updates as you change anything:
+- A **recipe card** at the top with dose in, liquid out, time, temperature and pressure
+- Each setting with a **confidence label** and the reason for it
+- **Step-by-step instructions for your equipment**
+- **Check these** warnings, such as beans that are too fresh, or an altitude that does not match the region
+- **Questions for you**, which you can answer in My equipment
+
+**Example.** Ethiopia, Sidama, washed, light roast, 9 days off roast, on the Classika PID:
+- 18 g in, 36 g out in 25 to 30 seconds
+- Water at 96 C. At high altitude the guide picks the top of the light-roast range (94 to 96 C), and it labels that choice `inferred`
+- 9 bar pump pressure
+- Because the Classika is a single-boiler machine, the steps tell you to pull the shot first and to cool and refill the boiler after steaming milk
+
+### Step 3: fine-tune after each shot (Dial-in tab)
+1. Pull a shot with the guide's settings.
+2. Enter **dose in**, **liquid out**, **time**, and **how it tastes** (sour, balanced, bitter and so on).
+3. Enter your **grinder dial reading** as a number if your dial has one.
+4. Press **Record shot and advise**. You get one change to make, such as "grind 1 setting finer", in the direction your grinder turns.
+
+Change **one thing per shot**. After two shots at different dial readings, the app measures how many seconds one dial unit changes your shot time and tells you what dial number to try next. It never invents a dial number for a grinder it has no data for. For example, it measured -5 seconds per dial unit from a shot at dial 12 (17 s) and one at dial 11 (22 s), and suggested dial 9.9 to reach 27.5 s.
+
+Your shots are listed in the table and saved to `coffee_equipment.json`. **Clear history** empties it. Dial-in advice covers espresso. For filter coffee, use the Troubleshoot tab.
+
+### The chat box
+Type a question at the bottom, for example `sour and fast espresso`, `ethiopia altitude`, `oat milk temperature`, `geisha` or `help`. Type `my machine` or `my guide` to see your equipment and current settings. It answers from the local data files. **It is not an online AI model.**
+
+### What it does not know
+- **No absolute grinder numbers.** No source for Eureka Mignon dial settings was found, so you get a direction and a measured method, not a made-up starting number.
+- **The ECM Classika PID details come from reviews and retailers.** ECM's own page could not be read, and sources disagree on the boiler size (0.75 L or half a litre). Check your machine's manual.
+- **Robusta, moka pot and Chemex** have little or no sourced brewing data, and the guide says so instead of guessing.
+- **Temperature within a range** (for example 94 to 96 C) is chosen by altitude using a rule of this project. It is labelled `inferred`.
+
+---
+
+## 4. Trusting the numbers
+
+The coffee data (`data/coffee/`, `research_notes/`, `reports/`) is a **user collection** compiled with AI-assisted web research from public pages, studies and trade sources. **It has not been verified.** Check the original source before relying on a number. The sources keep their own copyright and terms.
+
+Every coffee value carries a label:
+
+| Label | Meaning |
+|---|---|
+| `primary` | Read on an official or peer-reviewed page |
+| `secondary` | Read on a trade, roaster or retailer page |
+| `snippet` | Seen only in a search summary. Treat as provisional |
+| `inferred` | Worked out from other numbers or by this project's rules |
+| `conflict` | Sources disagree. The data shows both values |
+| `unverified` | No source was read. Do not treat as fact |
+
+The sauce data in `ingredients*.csv` is made of estimates, not lab data.
+
+---
+
+## 5. Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| `ModuleNotFoundError: numpy` (sauce lab) | `pip install numpy matplotlib Pillow` |
+| The window does not open on Linux | Install Tkinter: `sudo apt install python3-tk` |
+| `python test_flavorlab.py` fails with an `AssertionError` on `peak_s` | **Known issue.** The test expects habanero to peak later than Thai bird's eye, but both currently get the same heat profile (peak 10.0, mid-mouth). The heat-timing data or model needs a fix. The rest of the sauce lab still runs, but treat the heat-over-time curve with caution |
+| An ingredient row is "skipped" | Click the count at the bottom right of the sauce lab for the reason |
+| Coffee app shows odd equipment | Delete `coffee_equipment.json`. The app recreates the default (ECM Classika PID + Eureka Mignon) |
+| You edited a coffee CSV | Rebuild the JSON files: `python tools/csv_to_json.py data/coffee`. It reports any row with the wrong number of columns |
+| Your own shots appear in git | `coffee_equipment.json` is tracked as an example and the app rewrites it. Do not commit your own shots |
+
+---
+
+## 6. Reference
+
+### Files
+| File | Purpose |
+|---|---|
+| `flavorlab_ui.py` | Sauce lab desktop app |
+| `flavorlab.py` | Sauce lab charts and command line |
+| `model.py` | Sauce model: data, perception, pairing and JSON summary. No plotting, so other programs can `import model` |
+| `ingredients.csv`, `ingredients_v02.csv` | Ingredient packs (307 ingredients). Later files override earlier ones |
+| `FLAVOR_GUIDE.md` | The flavor science behind the numbers |
+| `coffee_flavourlab.py` | Coffee lab desktop app |
+| `brew_guide.py` | Coffee guide engine (settings, equipment, dial-in). No UI code |
+| `coffee_knowledge.py` | Coffee data lookup and chat answers. No UI code |
+| `coffee_equipment.json` | Example equipment profile, rewritten by the app |
+| `data/coffee/` | Coffee datasets as CSV with a matching JSON file |
+| `tools/csv_to_json.py` | Converts and checks the coffee CSV files |
+| `reports/`, `research_notes/` | The research behind the coffee data |
+| `.claude/skills/` | Claude Code skills: barista, flavorlab, coffee-expert |
+| `test_*.py` | Tests |
+
+### Recipe file format (sauce)
 ```json
 {"name": "Mango Habanero", "style": "fruity_caribbean",
- "process": "cooked",                      // or "raw" - controls aroma loss
- "fermented": false,                       // true = ferment chili/fruit/veg/herb, or a list of names
+ "process": "cooked",
+ "fermented": false,
  "ingredients": [{"item": "habanero", "g": 120},
                  {"item": "garlic", "g": 20, "prep": "roasted"},
                  {"item": "lime juice", "g": 30, "stage": "finish"}]}
 ```
+- `process` is `cooked` or `raw` and controls aroma loss.
+- `fermented` is `true` (ferment the chili, fruit, veg and herbs) or a list of names.
 - **Preps:** raw, roasted, charred, smoked, toasted, caramelized, fermented. Combine them with a list in JSON or with `+` in quick mode.
-- **Finish stage:** `"stage": "finish"` (or `:finish` in quick mode) means the ingredient goes in after cooking, so its top notes and sinus kick survive.
+- `"stage": "finish"` (or `:finish` in quick mode) means the ingredient goes in after cooking.
 
-## What the sauce card shows
-1. **Taste and aroma radars** compare the perceived profile, the style target and the raw sum. **Gap to target** shows what is too much or too little for the style.
-2. **Who drives each flavor** splits each bar into each ingredient's share. **Formula and checks** lists grams, the process and the warnings: pH, salt, astringency, lost top notes and cooked-off mustard heat.
-3. **Heat panel:**
-   - estimated SHU against commercial sauces
-   - **heat over time**: capsaicin curve built from each chili's onset and length, plus pepper bite, sinus heat and numbing curves, and where in the mouth it hits (front, mid, back)
-4. **Mouthfeel and trigeminal:** astringency, cooling, numbing, sinus heat, pepper bite and fat coating, plus a **body gauge** (thin, pourable, thick, paste).
-5. **Aroma staying power:** top, middle and base notes in the fresh blend, after cooking and after about 3 months.
-6. **Aroma families:** which of the 30 families dominate the nose, and which ingredients they come from.
-7. **Pairing matrix:** harmony is the impact-weighted mean of the pair scores.
-8. **Next best moves:** the single additions, increases, decreases or removals that most improve the overall score.
-
-## The model (heuristic: edit and extend)
-- **Intensity.** The mix is Σ(mass share × potency × vector), compressed with `10·(1−e^(−x/3))` to model saturation. This applies to 6 tastes, 9 aroma axes and 5 trigeminal axes.
-- **Heat.** Σ(mass share × pod SHU × solids), mapped to a 0-10 log scale. **Heat character** comes from each chili's onset (1-5), length (1-5) and zone.
-- **Interactions:**
-  - Sugar rounds acid and damps heat.
-  - Salt suppresses bitterness and boosts umami.
-  - Acid sharpens heat and saltiness.
-  - Fat damps heat, bite and astringency.
-  - Sugar softens astringency.
-  - Menthol takes the edge off capsaicin, and capsaicin overrides menthol's cooling.
-  - Big heat masks fruity and floral notes.
-- **Volatility.** Each ingredient is a top (t), middle (m) or base (b) note. Cooking keeps 40%, 75% and 100% of those aromas. Three months of storage keeps a further 60%, 85% and 100%.
+### How the sauce model works
+These are heuristics you can edit, not lab data.
+- **Intensity:** Σ(mass share × potency × vector), compressed with `10·(1−e^(−x/3))` to model saturation. It applies to 6 tastes, 9 aroma axes and 5 trigeminal axes.
+- **Heat:** Σ(mass share × pod SHU × solids), mapped to a 0-10 log scale. Heat character comes from each chili's onset, length and zone.
+- **Interactions:** sugar rounds acid and damps heat. Salt suppresses bitterness and boosts umami. Acid sharpens heat and saltiness. Fat damps heat, bite and astringency. Sugar softens astringency. Menthol takes the edge off capsaicin. Big heat masks fruity and floral notes.
+- **Volatility:** each ingredient is a top, middle or base note. Cooking keeps 40%, 75% and 100% of those aromas. Three months of storage keeps a further 60%, 85% and 100%.
 - **Body** = Σ(mass share × body). Xanthan gum is rated 500, so 0.2% adds about 1 point.
-- **Pairing score** (0-100) is built from:
-  - aroma-family similarity (exact family plus same family group)
-  - aroma-axis similarity
-  - taste and trigeminal contrast
-  - how often the two categories work together
-  - a bonus for classic pairings
-  - minus clashes
+- **Pairing score** (0-100) combines aroma-family similarity, aroma-axis similarity, taste and trigeminal contrast, how often the two categories work together, a bonus for classic pairings, minus clashes.
 - **Overall score** = 0.75 × style fit + 0.25 × harmony.
 
-All values are **estimates to guide design, not lab data**. Always measure pH: aim for 3.5-4.0, and treat 4.6 as the limit.
+To retune, edit `STYLES`, `PREP` and `CLASSIC` in `model.py`, or the functions `perceive()` (interactions), `pair_score()` (pairing), `VOL_KEEP` and `AGE_KEEP` (aroma loss), and `ONSET_S` and `LENGTH_S` (heat curve).
 
-## Upgrading
-- **Ingredients:** add rows to any pack, or drop in a new `ingredients_<name>.csv` with the same columns. Write the `aroma` column as `family:weight;family:weight`, using weights 1-3 and families from `families`.
-- **Styles, preps and classic pairings:** edit `STYLES`, `PREP` and `CLASSIC` in `model.py`. Style targets can include trigeminal axes (see `sichuan_mala`).
-- **Retune:** `perceive()` (interactions), `pair_score()` (pairing), `VOL_KEEP` / `AGE_KEEP` (aroma loss), `ONSET_S` / `LENGTH_S` (heat curve).
-- **Roadmap:** coffee brewing module, Brix/pH entry from real measurements, interactive HTML.
+### How the coffee guide decides
+- Dose, yield, time and pressure come from the sourced espresso style rows (baseline 18 g to 36 g in 25 to 30 s, 9 bar).
+- Temperature is a point inside the sourced roast range (espresso light 94-96, medium 93, dark 90-92 C), picked by altitude band: below 1200 m the bottom of the range, 1200 to 1600 m the middle, above 1600 m the top.
+- The machine setting is the target plus your measured offset.
+- Dial-in advice comes from the troubleshooting table and is converted into your grinder's direction.
 
 ### Changelog
-- **v0.2:**
-  - 30 refined aroma families with weights
-  - trigeminal axes, heat character, body and volatility
-  - 164 new ingredients (chilis, coffee origins, teas, ferments, Asian, Middle-Eastern and African pantry)
-  - non-allium pungency moved from the allium axis to the trigeminal axes
-  - new panels on the sauce card
-  - `bridge` and `families` commands
-  - code split into `model.py` (no plotting) and `flavorlab.py` (charts and CLI); ingredient packs
-  - `sichuan_mala` style
+- **v0.3:** Coffee Flavourlab: interactive brew guide, equipment questions, dial-in loop, coffee datasets and research, Claude Code skills. This user guide.
+- **v0.2:** 30 refined aroma families, trigeminal axes, heat character, body and volatility, 164 new ingredients, new sauce card panels, `bridge` and `families` commands, the `sichuan_mala` style.
 - **v0.1:** first release.
 
 Colors use a palette validated for color vision deficiency (CVD-safe).
