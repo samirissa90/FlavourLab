@@ -171,6 +171,11 @@ def ingredient_report(db, packs, name, recipe_names=()):
         out.append(("Also: " + ", ".join(ing.aliases) + "\n", "dim"))
     if ing.notes:
         out.append((ing.notes + "\n", "dim"))
+    if ing.impact:
+        out.append(("\nKey aroma compounds:\n", "b"))
+        seen = dict.fromkeys(r["compound"] + (f" ({r['odor']})" if r["odor"] else "") for r in ing.impact)
+        out.append(("\n".join("• " + c for c in seen) + "\n", "n"))
+        out.append(("Reference data: " + ", ".join(sorted({r["confidence"] for r in ing.impact})) + "\n", "dim"))
     partners = []
     if not ing.neutral:
         for n in dict.fromkeys(recipe_names):
@@ -845,6 +850,7 @@ class Designer(ttk.Frame):
         ax.set_title(ax.get_title(), fontsize=9)
         self.canvas.draw_idle()
         parts = [("⚠ " + p + "\n", "n") for p in problems] + [("• " + w + "\n", "n") for w in A["warnings"]]
+        parts += [("ℹ " + note["text"] + "\n", "dim") for note in A["science_notes"]]
         fill_text(self.warn, parts)
         sel = self.tree.selection()
         if sel or self.selected_ingredient():

@@ -1,0 +1,5 @@
+name,category,shu,solids,potency,fat,sweet,sour,salty,bitter,umami,fruity,citrus,floral,herbal,earthy,smoky,warm,pungent,funky,astringent,cooling,numbing,sinus,bite,body,heat_onset,heat_length,heat_zone,volatility,aroma,aliases,notes
+broccoli,veg,0,1,1,0,1,0,0,3,0,0,0,0,3,2,0,0,2,0,0,0,0,0,0,3,,,,m,itc:1;green_c6:1,,taste and strength are estimates
+cauliflower,veg,0,1,1,0,2,0,0,2,0,0,0,0,0,3,0,0,1,0,0,0,0,0,0,3,,,,m,itc:1,,taste and strength are estimates
+hazelnuts,savory,0,1,1.5,8,2,0,0,1,0,0,0,0,0,3,0,2,0,0,0,0,0,0,0,5,,,,b,pyrazine:2,hazelnut|filbert,profile values are estimates
+jambu,herb,0,1,3,0,0,1,0,0,0,0,0,0,5,0,0,0,0,0,0,0,7,0,0,0,,,,t,green_c6:1,toothache plant|paracress|spilanthes,tingling and mouth-watering. Strength is an estimate

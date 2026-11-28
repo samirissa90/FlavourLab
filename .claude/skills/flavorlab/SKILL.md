@@ -14,10 +14,31 @@ python flavorlab.py pair habanero                      # pairing wheel for one i
 python flavorlab.py pair habanero --with mango         # score + why they pair
 python flavorlab.py bridge "kenyan coffee" chipotle    # ingredients that link two others
 python flavorlab.py families                           # aroma families with example ingredients
-python flavorlab.py info NAME                          # one ingredient's profile
+python flavorlab.py info NAME                          # one ingredient's profile + key aroma compounds
+python flavorlab.py lookup TERM                        # search the optional reference tables, if installed
 ```
 
-Add `--json` to `pair` or `bridge` for machine-readable output. Pairs with an ingredient that is not in the CSV packs are skipped.
+Add `--json` to `pair`, `bridge` or `lookup` for machine-readable output. Pairs with an ingredient that is not in the CSV packs are skipped.
+
+## Optional reference tables
+
+Some installs have extra local tables in `data/flavor_science/` and `data/coffee/coffee_*.csv`. They are **not part of the repository**. Check that a file exists before relying on it; if it does not, say the data is not installed and do not fill the gap from memory as if it came from the tables.
+
+| Question | Look in |
+|---|---|
+| Which compounds give a food its character | `character_impact.csv`, or `info NAME` |
+| A taint or stale note | `off_flavors.csv` |
+| How fat, thickeners, mixtures or processing change flavour | `matrix_effects.csv` |
+| Tea tastants | `taste_compounds.csv` |
+
+Rules for answering from them:
+- **Give each row's label.** `reference-checked` was compared with an original (copied correctly, not independently proven). `unverified-reference` was not compared: present it as provisional. `conflict` means the original disagrees with itself: show both numbers. There is no source to quote: do not invent or guess one.
+- **State the test conditions** (`tested_in`) where a row has them. Do not present a result as proven for sauces.
+- **Do not copy table contents into files that are committed** (code, docs, tests, skills, commit messages).
+- **`family_inferred` and `ingredients` are this project's own mapping.**
+- **A key compound is not a recipe score.** Ingredient values stay estimates.
+
+When the tables are installed, `analyze()` may return `science_notes`. They are advice and never change a score.
 
 ## How a pair is scored
 
@@ -49,6 +70,8 @@ Two ingredients that differ on these axes balance each other.
 | fat – astringent | 0.4 | | |
 
 ### Clash penalties (weight × product of both ingredients' strength)
+
+Exception, bitter × astringent: it uses the differences between the two ingredients, not their full strengths. It applies only when one is more bitter and the other more astringent: 0.3 × (bitterness gap) × (astringency gap). What they share is already covered by the bitter × bitter and astringent × astringent rows.
 
 | Clash | Weight |
 |---|---|

@@ -49,7 +49,7 @@ experience, and in-depth knowledge of extraction science, milk chemistry, and cu
 |------|----------|-------------|
 | **[Gate 1]** | Is this a specialty coffee context or general coffee question? | If general coffee (instant, drip), provide basics then pivot to specialty |
 | **[Gate 2]** | Does the user need a recipe, technique explanation, or troubleshooting? | Provide structured response matching the need — recipe has specs, technique has steps |
-| **[Gate 3]** | Are there safety or health considerations? | Include warnings for caffeinated drinks, allergies, dietary restrictions |
+| **[Gate 3]** | Are there safety or health considerations? | Include warnings for caffeinated drinks, allergies, dietary restrictions. For caffeine and health questions, follow the health rules in the coffee-expert skill; never give medical advice |
 
 ### 1.3 Thinking Patterns
 
@@ -148,6 +148,7 @@ experience, and in-depth knowledge of extraction science, milk chemistry, and cu
 | Barista + **Customer Service** | Service skill handles complaint de-escalation; barista executes drink replacement and follow-up | Recovered customer who feels heard and valued |
 | Barista + **Food Safety** | Food safety skill provides HACCP guidelines; barista implements milk handling, cleaning schedules | Safe, compliant café operation |
 | Barista + **Retail/Store** | Barista executes upsell ("Have you tried our seasonal pour-over?"); retail skill manages inventory and merchandising | Increased average ticket, optimized stock |
+| Barista + **Coffee Expert** | For why coffee tastes or smells a certain way (bitterness, key odorants, Rio or other defects), use the `coffee-expert` skill's data instead of memory | Answers that show their confidence label |
 
 ---
 

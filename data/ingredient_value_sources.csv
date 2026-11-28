@@ -1,0 +1,386 @@
+ingredient,column,value,origin
+bell pepper (red),volatility,m,rule/estimate
+bell pepper (red),body,3,estimate (scaled like similar newer rows)
+poblano,volatility,m,rule/estimate
+poblano,body,3,estimate (scaled like similar newer rows)
+poblano,heat_character,2/2/mid,rule (New Mexican types: mid-palate)
+jalapeno,volatility,m,rule/estimate
+jalapeno,body,3,estimate (scaled like similar newer rows)
+jalapeno,heat_character,2/2/front,estimate
+fresno,volatility,m,rule/estimate
+fresno,body,3,estimate (scaled like similar newer rows)
+fresno,heat_character,2/2/front,estimate
+serrano,volatility,m,rule/estimate
+serrano,body,3,estimate (scaled like similar newer rows)
+serrano,heat_character,2/2/front,estimate
+cayenne (fresh),volatility,m,rule/estimate
+cayenne (fresh),body,3,estimate (scaled like similar newer rows)
+cayenne (fresh),heat_character,2/3/mid,estimate
+tabasco pepper,volatility,m,rule/estimate
+tabasco pepper,body,3,estimate (scaled like similar newer rows)
+tabasco pepper,heat_character,1/3/front,estimate
+thai bird's eye,volatility,m,rule/estimate
+thai bird's eye,body,3,estimate (scaled like similar newer rows)
+thai bird's eye,heat_character,1/2/front,guide
+thai bird's eye,pungent,0,estimate (split into sinus/bite as newer rows do)
+aji amarillo,volatility,m,rule/estimate
+aji amarillo,body,3,estimate (scaled like similar newer rows)
+aji amarillo,heat_character,2/3/mid,estimate
+aji limo,volatility,m,rule/estimate
+aji limo,body,3,estimate (scaled like similar newer rows)
+aji limo,heat_character,2/3/mid,estimate
+rocoto,volatility,m,rule/estimate
+rocoto,body,3,estimate (scaled like similar newer rows)
+rocoto,heat_character,2/4/mid,estimate
+habanero,volatility,m,rule/estimate
+habanero,body,3,estimate (scaled like similar newer rows)
+habanero,heat_character,4/4/back,guide
+scotch bonnet,volatility,m,rule/estimate
+scotch bonnet,body,3,estimate (scaled like similar newer rows)
+scotch bonnet,heat_character,4/4/back,similar: habanero
+ghost pepper,volatility,m,rule/estimate
+ghost pepper,body,3,estimate (scaled like similar newer rows)
+ghost pepper,heat_character,5/5/back,guide
+7 pot,volatility,m,rule/estimate
+7 pot,body,3,estimate (scaled like similar newer rows)
+7 pot,heat_character,5/5/back,similar: ghost pepper
+trinidad scorpion,volatility,m,rule/estimate
+trinidad scorpion,body,3,estimate (scaled like similar newer rows)
+trinidad scorpion,heat_character,5/5/back,similar: ghost pepper
+carolina reaper,volatility,m,rule/estimate
+carolina reaper,body,3,estimate (scaled like similar newer rows)
+carolina reaper,heat_character,5/5/back,similar: ghost pepper
+ancho,volatility,b,rule/estimate
+ancho,body,6,estimate (scaled like similar newer rows)
+ancho,heat_character,2/2/mid,estimate
+guajillo,volatility,b,rule/estimate
+guajillo,body,6,estimate (scaled like similar newer rows)
+guajillo,heat_character,2/2/mid,estimate
+pasilla,volatility,b,rule/estimate
+pasilla,body,6,estimate (scaled like similar newer rows)
+pasilla,heat_character,2/2/mid,estimate
+chipotle,volatility,b,rule/estimate
+chipotle,body,6,estimate (scaled like similar newer rows)
+chipotle,heat_character,2/3/mid,estimate
+chipotle in adobo,volatility,b,rule/estimate
+chipotle in adobo,body,5,estimate (scaled like similar newer rows)
+chipotle in adobo,heat_character,2/3/mid,estimate
+chile de arbol,volatility,b,rule/estimate
+chile de arbol,body,5,estimate (scaled like similar newer rows)
+chile de arbol,heat_character,1/3/front,estimate
+cayenne powder,volatility,m,rule/estimate
+cayenne powder,body,4,estimate (scaled like similar newer rows)
+cayenne powder,heat_character,2/3/mid,estimate
+kashmiri chili powder,volatility,b,rule/estimate
+kashmiri chili powder,body,4,estimate (scaled like similar newer rows)
+kashmiri chili powder,heat_character,2/2/mid,estimate
+smoked paprika,volatility,b,rule/estimate
+smoked paprika,body,4,estimate (scaled like similar newer rows)
+smoked paprika,heat_character,2/1/mid,estimate
+gochugaru,volatility,b,rule/estimate
+gochugaru,body,4,estimate (scaled like similar newer rows)
+gochugaru,heat_character,2/3/mid,estimate
+aleppo pepper,volatility,b,rule/estimate
+aleppo pepper,body,4,estimate (scaled like similar newer rows)
+aleppo pepper,heat_character,3/2/mid,similar: piment d'espelette
+urfa biber,volatility,b,rule/estimate
+urfa biber,body,4,estimate (scaled like similar newer rows)
+urfa biber,heat_character,3/3/mid,estimate
+mango,volatility,m,rule/estimate
+mango,body,7,estimate (scaled like similar newer rows)
+pineapple,volatility,m,rule/estimate
+pineapple,body,4,estimate (scaled like similar newer rows)
+passion fruit,volatility,t,guide
+passion fruit,body,2,estimate (scaled like similar newer rows)
+papaya,volatility,m,rule/estimate
+papaya,body,6,estimate (scaled like similar newer rows)
+guava,volatility,m,rule/estimate
+guava,body,6,estimate (scaled like similar newer rows)
+peach,volatility,m,rule/estimate
+peach,body,5,estimate (scaled like similar newer rows)
+apricot,volatility,m,rule/estimate
+apricot,body,5,estimate (scaled like similar newer rows)
+strawberry,volatility,m,rule/estimate
+strawberry,body,4,estimate (scaled like similar newer rows)
+raspberry,volatility,m,rule/estimate
+raspberry,body,4,estimate (scaled like similar newer rows)
+raspberry,astringent,1,estimate
+blackberry,volatility,m,rule/estimate
+blackberry,body,4,estimate (scaled like similar newer rows)
+blackberry,astringent,2,estimate
+blueberry,volatility,m,rule/estimate
+blueberry,body,4,estimate (scaled like similar newer rows)
+sour cherry,volatility,m,rule/estimate
+sour cherry,body,3,estimate (scaled like similar newer rows)
+plum,volatility,m,rule/estimate
+plum,body,4,estimate (scaled like similar newer rows)
+apple,volatility,m,rule/estimate
+apple,body,4,estimate (scaled like similar newer rows)
+apple,astringent,1,estimate
+pear,volatility,m,rule/estimate
+pear,body,4,estimate (scaled like similar newer rows)
+kiwi,volatility,m,rule/estimate
+kiwi,body,4,estimate (scaled like similar newer rows)
+lychee,volatility,m,rule/estimate
+lychee,body,2,estimate (scaled like similar newer rows)
+watermelon,volatility,m,rule/estimate
+watermelon,body,1,estimate (scaled like similar newer rows)
+cranberry,volatility,m,rule/estimate
+cranberry,body,3,estimate (scaled like similar newer rows)
+cranberry,astringent,4,"estimate (guide names the ingredient as astringent, not the strength)"
+fig,volatility,b,rule/estimate
+fig,body,6,estimate (scaled like similar newer rows)
+dates,volatility,b,rule/estimate
+dates,body,8,estimate (scaled like similar newer rows)
+raisins,volatility,b,rule/estimate
+raisins,body,6,estimate (scaled like similar newer rows)
+tamarind paste,volatility,b,rule/estimate
+tamarind paste,body,6,estimate (scaled like similar newer rows)
+tamarind paste,astringent,1,estimate
+pomegranate molasses,volatility,b,rule/estimate
+pomegranate molasses,body,4,estimate (scaled like similar newer rows)
+pomegranate molasses,astringent,2,estimate
+hibiscus (dried),volatility,b,rule/estimate
+hibiscus (dried),body,2,estimate (scaled like similar newer rows)
+hibiscus (dried),astringent,5,"estimate (guide names the ingredient as astringent, not the strength)"
+coconut milk,volatility,m,rule/estimate
+coconut milk,body,4,estimate (scaled like similar newer rows)
+orange juice,volatility,t,guide
+orange juice,body,0,estimate (scaled like similar newer rows)
+grapefruit juice,volatility,t,guide
+grapefruit juice,body,0,estimate (scaled like similar newer rows)
+grapefruit juice,astringent,1,estimate
+lime juice,volatility,t,guide
+lime juice,body,0,estimate (scaled like similar newer rows)
+lemon juice,volatility,t,guide
+lemon juice,body,0,estimate (scaled like similar newer rows)
+yuzu juice,volatility,t,guide
+yuzu juice,body,0,estimate (scaled like similar newer rows)
+distilled white vinegar,volatility,m,rule/estimate
+distilled white vinegar,body,0,estimate (scaled like similar newer rows)
+distilled white vinegar,sinus,2,estimate
+distilled white vinegar,pungent,0,estimate (split into sinus/bite as newer rows do)
+apple cider vinegar,volatility,m,rule/estimate
+apple cider vinegar,body,0,estimate (scaled like similar newer rows)
+apple cider vinegar,sinus,1,estimate
+rice vinegar,volatility,m,rule/estimate
+rice vinegar,body,0,estimate (scaled like similar newer rows)
+rice vinegar,sinus,1,estimate
+red wine vinegar,volatility,m,rule/estimate
+red wine vinegar,body,0,estimate (scaled like similar newer rows)
+red wine vinegar,sinus,1,estimate
+sherry vinegar,volatility,m,rule/estimate
+sherry vinegar,body,0,estimate (scaled like similar newer rows)
+sherry vinegar,sinus,1,estimate
+balsamic vinegar,volatility,b,rule/estimate
+balsamic vinegar,body,2,estimate (scaled like similar newer rows)
+balsamic vinegar,sinus,1,estimate
+citric acid,volatility,b,rule/estimate
+citric acid,body,0,estimate (scaled like similar newer rows)
+lime zest,volatility,t,guide
+lime zest,body,1,estimate (scaled like similar newer rows)
+lime zest,astringent,1,estimate
+orange zest,volatility,t,guide
+orange zest,body,1,estimate (scaled like similar newer rows)
+orange zest,astringent,1,estimate
+garlic,volatility,m,rule/estimate
+garlic,body,4,estimate (scaled like similar newer rows)
+garlic,bite,4,estimate
+black garlic,volatility,b,rule/estimate
+black garlic,body,6,estimate (scaled like similar newer rows)
+onion,volatility,m,rule/estimate
+onion,body,3,estimate (scaled like similar newer rows)
+onion,bite,2,estimate
+red onion,volatility,m,rule/estimate
+red onion,body,3,estimate (scaled like similar newer rows)
+red onion,bite,3,estimate
+shallot,volatility,m,rule/estimate
+shallot,body,3,estimate (scaled like similar newer rows)
+shallot,bite,2,estimate
+scallion,volatility,t,rule/estimate
+scallion,body,2,estimate (scaled like similar newer rows)
+scallion,bite,1,estimate
+ginger,volatility,m,rule/estimate
+ginger,body,2,estimate (scaled like similar newer rows)
+ginger,bite,5,estimate
+ginger,pungent,0,estimate (split into sinus/bite as newer rows do)
+galangal,volatility,m,rule/estimate
+galangal,body,2,estimate (scaled like similar newer rows)
+galangal,bite,3,estimate
+galangal,pungent,0,estimate (split into sinus/bite as newer rows do)
+turmeric (fresh),volatility,m,rule/estimate
+turmeric (fresh),body,2,estimate (scaled like similar newer rows)
+horseradish,volatility,t,guide
+horseradish,body,3,estimate (scaled like similar newer rows)
+horseradish,sinus,10,estimate
+horseradish,bite,2,estimate
+horseradish,pungent,2,estimate (split into sinus/bite as newer rows do)
+carrot,volatility,m,rule/estimate
+carrot,body,6,estimate (scaled like similar newer rows)
+tomato,volatility,m,rule/estimate
+tomato,body,3,estimate (scaled like similar newer rows)
+tomato paste,volatility,b,rule/estimate
+tomato paste,body,8,estimate (scaled like similar newer rows)
+tomatillo,volatility,m,rule/estimate
+tomatillo,body,3,estimate (scaled like similar newer rows)
+cucumber,volatility,t,rule/estimate
+cucumber,body,2,estimate (scaled like similar newer rows)
+cucumber,cooling,1,estimate
+celery,volatility,m,rule/estimate
+celery,body,2,estimate (scaled like similar newer rows)
+shiitake (dried),volatility,b,rule/estimate
+shiitake (dried),body,3,estimate (scaled like similar newer rows)
+white sugar,volatility,b,rule/estimate
+white sugar,body,1,estimate (scaled like similar newer rows)
+brown sugar,volatility,b,rule/estimate
+brown sugar,body,1,estimate (scaled like similar newer rows)
+honey,volatility,b,rule/estimate
+honey,body,3,estimate (scaled like similar newer rows)
+maple syrup,volatility,b,rule/estimate
+maple syrup,body,2,estimate (scaled like similar newer rows)
+agave syrup,volatility,b,rule/estimate
+agave syrup,body,2,estimate (scaled like similar newer rows)
+panela,volatility,b,rule/estimate
+panela,body,1,estimate (scaled like similar newer rows)
+molasses,volatility,b,rule/estimate
+molasses,body,4,estimate (scaled like similar newer rows)
+salt,volatility,b,rule/estimate
+salt,body,0,estimate (scaled like similar newer rows)
+water,volatility,b,rule/estimate
+water,body,0,estimate (scaled like similar newer rows)
+fish sauce,volatility,b,rule/estimate
+fish sauce,body,0,estimate (scaled like similar newer rows)
+soy sauce,volatility,b,rule/estimate
+soy sauce,body,0,estimate (scaled like similar newer rows)
+miso,volatility,b,rule/estimate
+miso,body,5,estimate (scaled like similar newer rows)
+gochujang,volatility,b,rule/estimate
+gochujang,body,7,estimate (scaled like similar newer rows)
+gochujang,heat_character,2/3/mid,similar: doubanjiang
+worcestershire,volatility,b,rule/estimate
+worcestershire,body,0,estimate (scaled like similar newer rows)
+anchovy,volatility,b,rule/estimate
+anchovy,body,3,estimate (scaled like similar newer rows)
+msg,volatility,b,rule/estimate
+msg,body,0,estimate (scaled like similar newer rows)
+olive oil,volatility,m,rule/estimate
+olive oil,body,2,estimate (scaled like similar newer rows)
+olive oil,bite,1,estimate
+olive oil,pungent,0,estimate (split into sinus/bite as newer rows do)
+neutral oil,volatility,b,rule/estimate
+neutral oil,body,2,estimate (scaled like similar newer rows)
+toasted sesame oil,volatility,b,rule/estimate
+toasted sesame oil,body,2,estimate (scaled like similar newer rows)
+roasted peanuts,volatility,b,rule/estimate
+roasted peanuts,body,5,estimate (scaled like similar newer rows)
+cilantro,volatility,t,guide
+cilantro,body,1,estimate (scaled like similar newer rows)
+cilantro,pungent,0,estimate (split into sinus/bite as newer rows do)
+basil,volatility,t,guide
+basil,body,1,estimate (scaled like similar newer rows)
+basil,pungent,0,estimate (split into sinus/bite as newer rows do)
+thai basil,volatility,t,guide
+thai basil,body,1,estimate (scaled like similar newer rows)
+mint,volatility,t,guide
+mint,body,1,estimate (scaled like similar newer rows)
+mint,cooling,7,estimate
+mint,pungent,0,estimate (split into sinus/bite as newer rows do)
+parsley,volatility,t,guide
+parsley,body,1,estimate (scaled like similar newer rows)
+dill,volatility,t,guide
+dill,body,1,estimate (scaled like similar newer rows)
+shiso,volatility,t,guide
+shiso,body,1,estimate (scaled like similar newer rows)
+kaffir lime leaf,volatility,t,guide
+kaffir lime leaf,body,1,estimate (scaled like similar newer rows)
+lemongrass,volatility,t,guide
+lemongrass,body,1,estimate (scaled like similar newer rows)
+mexican oregano,volatility,m,rule/estimate
+mexican oregano,body,1,estimate (scaled like similar newer rows)
+thyme,volatility,m,rule/estimate
+thyme,body,1,estimate (scaled like similar newer rows)
+rosemary,volatility,m,rule/estimate
+rosemary,body,1,estimate (scaled like similar newer rows)
+rosemary,cooling,1,estimate
+rosemary,pungent,0,estimate (split into sinus/bite as newer rows do)
+bay leaf,volatility,m,rule/estimate
+bay leaf,body,1,estimate (scaled like similar newer rows)
+bay leaf,cooling,1,estimate
+cumin,volatility,m,rule/estimate
+cumin,body,3,estimate (scaled like similar newer rows)
+coriander seed,volatility,m,rule/estimate
+coriander seed,body,3,estimate (scaled like similar newer rows)
+black pepper,volatility,m,rule/estimate
+black pepper,body,3,estimate (scaled like similar newer rows)
+black pepper,bite,7,estimate
+black pepper,pungent,0,estimate (split into sinus/bite as newer rows do)
+sichuan peppercorn,volatility,m,rule/estimate
+sichuan peppercorn,body,3,estimate (scaled like similar newer rows)
+sichuan peppercorn,numbing,8,estimate
+allspice,volatility,m,rule/estimate
+allspice,body,3,estimate (scaled like similar newer rows)
+allspice,bite,1,estimate
+allspice,pungent,0,estimate (split into sinus/bite as newer rows do)
+clove,volatility,m,rule/estimate
+clove,body,3,estimate (scaled like similar newer rows)
+clove,astringent,2,estimate
+clove,numbing,2,estimate
+clove,bite,2,estimate
+clove,pungent,0,estimate (split into sinus/bite as newer rows do)
+cinnamon,volatility,m,rule/estimate
+cinnamon,body,3,estimate (scaled like similar newer rows)
+cinnamon,astringent,2,estimate
+cinnamon,bite,2,estimate
+star anise,volatility,m,rule/estimate
+star anise,body,2,estimate (scaled like similar newer rows)
+star anise,cooling,1,estimate
+fennel seed,volatility,m,rule/estimate
+fennel seed,body,3,estimate (scaled like similar newer rows)
+fennel seed,cooling,1,estimate
+cardamom,volatility,m,rule/estimate
+cardamom,body,3,estimate (scaled like similar newer rows)
+cardamom,cooling,2,estimate
+nutmeg,volatility,m,rule/estimate
+nutmeg,body,3,estimate (scaled like similar newer rows)
+mustard powder,volatility,m,rule/estimate
+mustard powder,body,4,estimate (scaled like similar newer rows)
+mustard powder,sinus,9,estimate
+mustard powder,bite,2,estimate
+mustard powder,pungent,2,estimate (split into sinus/bite as newer rows do)
+turmeric powder,volatility,m,rule/estimate
+turmeric powder,body,3,estimate (scaled like similar newer rows)
+turmeric powder,astringent,1,estimate
+garlic powder,volatility,m,rule/estimate
+garlic powder,body,3,estimate (scaled like similar newer rows)
+garlic powder,bite,2,estimate
+onion powder,volatility,m,rule/estimate
+onion powder,body,3,estimate (scaled like similar newer rows)
+onion powder,bite,1,estimate
+sumac,volatility,m,rule/estimate
+sumac,body,3,estimate (scaled like similar newer rows)
+sumac,astringent,4,estimate
+vanilla extract,volatility,b,rule/estimate
+vanilla extract,body,0,estimate (scaled like similar newer rows)
+espresso,volatility,b,rule/estimate
+espresso,body,0,estimate (scaled like similar newer rows)
+espresso,astringent,3,"estimate (guide names the ingredient as astringent, not the strength)"
+ground coffee,volatility,b,rule/estimate
+ground coffee,body,3,estimate (scaled like similar newer rows)
+ground coffee,astringent,3,"estimate (guide names the ingredient as astringent, not the strength)"
+cacao nibs,volatility,b,rule/estimate
+cacao nibs,body,4,estimate (scaled like similar newer rows)
+cacao nibs,astringent,4,"estimate (guide names the ingredient as astringent, not the strength)"
+dark chocolate,volatility,b,rule/estimate
+dark chocolate,body,6,estimate (scaled like similar newer rows)
+dark chocolate,astringent,2,"estimate (guide names the ingredient as astringent, not the strength)"
+mezcal,volatility,m,rule/estimate
+mezcal,body,0,estimate (scaled like similar newer rows)
+mezcal,sinus,1,estimate
+mezcal,bite,1,estimate
+dark rum,volatility,b,rule/estimate
+dark rum,body,0,estimate (scaled like similar newer rows)
+dark rum,astringent,1,estimate
+dark rum,sinus,1,estimate
+dark rum,bite,1,estimate
+rose water,volatility,t,rule/estimate
+rose water,body,0,estimate (scaled like similar newer rows)

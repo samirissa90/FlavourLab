@@ -117,7 +117,7 @@ curry leaf,herb,0,1,4,0,0,0,0,1,0,0,1,0,7,1,0,2,0,0,0,0,0,0,0,1,,,,m,sesqui:2;pi
 pandan,herb,0,1,4,0,1,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,1,,,,m,pyrazine:2;lactone:1,screwpine|pandan leaf,2-acetyl-1-pyrroline (popcorn / basmati)
 lemon verbena,herb,0,1,4,0,0,0,0,0,0,0,8,2,4,0,0,0,0,0,0,0,0,0,0,1,,,,t,citrus_terp:3;floral_terp:1,,
 chervil,herb,0,1,2,0,0,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0,0,0,1,,,,t,anethole:2;green_c6:1,,
-lovage,herb,0,1,3,0,0,0,0,1,0,0,0,0,6,3,0,0,0,0,0,0,0,0,0,1,,,,t,earthy_root:2;green_c6:1,,celery-like phthalides
+lovage,herb,0,1,3,0,0,0,0,1,0,0,0,0,6,3,0,0,0,0,0,0,0,0,0,1,,,,t,earthy_root:2;green_c6:1;furanone:1,,celery-like phthalides
 sorrel,herb,0,1,1.5,0,0,6,0,0,0,0,2,0,5,0,0,0,0,0,1,0,0,0,0,1,,,,t,green_c6:2,,lemony leaf (oxalic)
 holy basil,herb,0,1,3,0,0,0,0,1,0,0,0,1,7,0,0,5,0,0,0,1,0,0,1,1,,,,t,eugenol:3;sesqui:1,tulsi|kra pao,clove-like
 vietnamese mint,herb,0,1,3,0,0,0,0,1,0,0,2,0,8,0,0,1,0,0,0,0,0,0,1,1,,,,t,fatty_ald:2;citrus_terp:1,rau ram|laksa leaf,

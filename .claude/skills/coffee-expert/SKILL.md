@@ -1,6 +1,6 @@
 ---
 name: coffee-expert
-description: Coffee brewing and origin knowledge for the FlavorLab expert barista tool. Use for questions about V60 and pour-over recipes, espresso parameters and troubleshooting, milk temperatures and drink specs, other brew methods, grind sizes in microns, brewing water, coffee species and varieties, origins by altitude, processing, production volume, roast levels, freshness, the SCA flavor wheel, aroma compounds and cupping (CVA). Triggers: 'V60', 'pour over', 'espresso recipe', 'sour shot', 'bitter shot', 'grind size', 'brew water', 'Geisha', 'Gesha', 'variety', 'origin', 'altitude', 'SHB', 'washed or natural', 'roast level', 'Agtron', 'degassing', 'cupping score', 'CVA', 'flavor wheel'.
+description: Coffee brewing and origin knowledge for the FlavorLab expert barista tool. Use for questions about V60 and pour-over recipes, espresso parameters and troubleshooting, milk temperatures and drink specs, other brew methods, grind sizes in microns, brewing water, coffee species and varieties, origins by altitude, processing, production volume, roast levels, freshness, the SCA flavor wheel, aroma compounds, key odorants, sources of bitterness, coffee defects (Rio taint), cupping (CVA), and caffeine and health (limits, sleep, blood pressure, cancer). Triggers: 'caffeine limit', 'caffeine and sleep', 'coffee blood pressure', 'coffee cancer', 'caffeine pregnancy', 'coffee bitterness', 'rio defect', 'key odorants', 'V60', 'pour over', 'espresso recipe', 'sour shot', 'bitter shot', 'grind size', 'brew water', 'Geisha', 'Gesha', 'variety', 'origin', 'altitude', 'SHB', 'washed or natural', 'roast level', 'Agtron', 'degassing', 'cupping score', 'CVA', 'flavor wheel'.
 ---
 
 # Coffee Expert Data
@@ -41,6 +41,8 @@ The converter turns each CSV into a JSON array and parses `pours` into `{t_s, cu
 | `cva_scales.csv` | CVA descriptive and affective scales, defect ratios, legacy 2004 values |
 | `equipment_machines.csv`, `equipment_grinders.csv` | Machine and grinder presets (ECM Classika PID, Eureka Mignon, generic categories) with source and conflict notes |
 
+**Optional local tables** (`coffee_*.csv`, not part of the repository; check they exist): key odorants, bitter compounds, defects, flavour chemistry, and caffeine and health (`coffee_health.csv`, see [Health questions](#health-questions)). Rows are labelled `reference-checked` or `unverified-reference` and carry no source: give the label and do not invent a source. The exception is current official rows in the health table, which are labelled `primary` and have a link. Read a row's `notes`, `brew_tested` or full `finding` before quoting a number, because some apply to one test only. None of them changes brew settings. Do not copy their contents into files that are committed. Search with `python flavorlab.py lookup TERM` or the chat box.
+
 The full write-up is in `reports/Coffee brewing expert data.md`. Read it before changing a dataset.
 
 The desktop app `coffee_flavourlab.py` has three guided tabs and a set of reference tables. Run it with `python coffee_flavourlab.py`; test with `python -m unittest test_brew_guide test_coffee_flavourlab`.
@@ -66,7 +68,24 @@ Every value carries a `confidence` (or `label`) field. Keep these rules when ans
 - **snippet**: the value came only from a search summary. Show it as provisional.
 - **inferred**: derived from other numbers, or a tasting description turned into a score. Never show as a source rating.
 - **unverified** or **unverified-bg**: no fetched source, or background knowledge. Do not present as fact.
+- **reference-checked**: from reference material with no published source in this project, compared with the original page.
+- **unverified-reference**: from the same kind of material, not compared with an original. Show it as provisional.
 - **conflict**: sources disagree. Keep every value and show the conflict. Do not pick a winner silently.
+
+## Health questions
+
+Applies to caffeine, sleep, blood pressure, cancer, pregnancy and any other health question.
+
+- **Information only.** Do not diagnose, set a personal dose, or advise on medicines or treatment. For someone's own condition, pregnancy, medicines or symptoms, tell them to ask a doctor or pharmacist.
+- If `coffee_health.csv` is not installed, say the data is not available. Do not answer from memory as if it came from the data.
+- **Lead with `current-guidance` rows** and give their link. They show what the page said when it was read; they may have changed since.
+- Every other row is older research. Say so, and follow its `status`:
+  - `agrees-with-current`: may be given alongside the current row.
+  - `not-rechecked`: older evidence not compared with current research. Present it as that, with its `evidence` type and who was studied.
+  - `use-current-caution`: give only together with the current caution. Never use it to reassure someone that an amount or timing is safe.
+  - `replaced`: do not present as a finding. Mention only as history, after the current statement.
+  - `unclear`: do not quote a direction or a number as a result.
+- An association is not proof that coffee causes or prevents anything.
 
 ## Things the data does not support
 

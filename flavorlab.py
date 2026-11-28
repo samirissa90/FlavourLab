@@ -599,6 +599,8 @@ def run_card(db, recipe, args):
         for k in ("card", "optimized_card", "comparison", "optimized_recipe"):
             if k in result:
                 print(f"  {k}: {result[k]}")
+        for n in A["science_notes"]:
+            print(f"  science note: {n['text']}")
         for m in moves[:5]:
             print(f"  suggestion: {m['move']}  (+{m['d_overall']})")
     return result
@@ -650,6 +652,9 @@ def main(argv=None):
     p = sub.add_parser("info", help="ingredient details")
     p.add_argument("name")
     sub.add_parser("families", help="list aroma families with top ingredients")
+    p = sub.add_parser("lookup", help="search the flavor reference tables")
+    p.add_argument("term", nargs="+")
+    p.add_argument("--json", action="store_true")
     sub.add_parser("styles", help="list target styles")
     sub.add_parser("preps", help="list prep modifiers")
 
@@ -712,6 +717,18 @@ def main(argv=None):
     if args.cmd == "info":
         print(json.dumps(db.get(args.name).to_dict(), indent=2, ensure_ascii=False))
         return
+    if args.cmd == "lookup":
+        hits = lookup(" ".join(args.term))
+        if args.json:
+            print(json.dumps(hits, indent=2, ensure_ascii=False))
+        else:
+            for h in hits:
+                body = " | ".join(f"{k}: {v}" for k, v in h.items()
+                                  if v and k not in ("table", "confidence"))
+                print(f"[{h['table']} / {h.get('confidence', '')}] {body}")
+            if not hits:
+                print("No match in the reference tables (they are optional and may not be installed).")
+        return hits
     if args.cmd == "families":
         for f, (g, desc, comp) in FAMILIES.items():
             top = sorted(db.items.values(), key=lambda i: -i.fam[FI[f]])

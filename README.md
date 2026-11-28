@@ -28,7 +28,10 @@ To check the coffee lab, run its tests:
 ```bash
 python -m unittest test_brew_guide test_coffee_flavourlab
 ```
-The sauce lab has a smoke test (`python test_flavorlab.py`) that currently **fails** on one heat-profile check. See [Troubleshooting](#5-troubleshooting).
+The sauce lab has a smoke test:
+```bash
+python test_flavorlab.py
+```
 
 ---
 
@@ -92,6 +95,7 @@ python flavorlab.py card recipes/mango_habanero.json       # sauce card image
 python flavorlab.py quick "habanero:120,mango:250,apple cider vinegar:200,lime juice:30:finish,salt:12" --style fruity_caribbean
 python flavorlab.py pair habanero --with mango             # pairing wheel
 python flavorlab.py bridge "kenyan coffee" chipotle        # what links two ingredients
+python flavorlab.py lookup TERM                            # search the optional reference tables, if installed
 python flavorlab.py map --highlight "habanero,mango"       # flavor map
 python flavorlab.py compare a.json b.json                  # side-by-side radars
 python flavorlab.py list                                   # all ingredients (also: info NAME, families, styles, preps)
@@ -172,8 +176,14 @@ Every coffee value carries a label:
 | `inferred` | Worked out from other numbers or by this project's rules |
 | `conflict` | Sources disagree. The data shows both values |
 | `unverified` | No source was read. Do not treat as fact |
+| `reference-checked` | Reference material with no published source here. Compared with the original page |
+| `unverified-reference` | Reference material with no published source here, not checked against an original. Provisional |
 
-The sauce data in `ingredients*.csv` is made of estimates, not lab data.
+The sauce data in `ingredients*.csv` is made of estimates, not lab data. For the base pack `ingredients.csv`, `data/ingredient_value_sources.csv` records where the mouthfeel, body, heat-timing, volatility and re-split "pungent" values came from: `guide` (stated in `FLAVOR_GUIDE.md`), `similar` (copied from a named ingredient), `rule`, or `estimate`. Most are estimates.
+
+### Optional reference tables
+
+The apps can read extra local tables from `data/flavor_science/` and `data/coffee/coffee_*.csv`. They are **not included** in this repository. When present, they add key aroma compounds to ingredient details, results to `lookup` and the coffee chat, and advisory notes on recipes. Without them everything else works the same. Their rows carry no source link: `reference-checked` was compared with an original, `unverified-reference` was not, and `conflict` means the original disagrees with itself. If the coffee health table is installed, the chat also answers caffeine and health questions. It shows current official statements first (labelled `primary`, with a link) and marks older research. This is information, not medical advice.
 
 ---
 
@@ -183,7 +193,6 @@ The sauce data in `ingredients*.csv` is made of estimates, not lab data.
 |---|---|
 | `ModuleNotFoundError: numpy` (sauce lab) | `pip install numpy matplotlib Pillow` |
 | The window does not open on Linux | Install Tkinter: `sudo apt install python3-tk` |
-| `python test_flavorlab.py` fails with an `AssertionError` on `peak_s` | **Known issue.** The test expects habanero to peak later than Thai bird's eye, but both currently get the same heat profile (peak 10.0, mid-mouth). The heat-timing data or model needs a fix. The rest of the sauce lab still runs, but treat the heat-over-time curve with caution |
 | An ingredient row is "skipped" | Click the count at the bottom right of the sauce lab for the reason |
 | Coffee app shows odd equipment | Delete `coffee_equipment.json`. The app recreates the default (ECM Classika PID + Eureka Mignon) |
 | You edited a coffee CSV | Rebuild the JSON files: `python tools/csv_to_json.py data/coffee`. It reports any row with the wrong number of columns |
@@ -199,7 +208,8 @@ The sauce data in `ingredients*.csv` is made of estimates, not lab data.
 | `flavorlab_ui.py` | Sauce lab desktop app |
 | `flavorlab.py` | Sauce lab charts and command line |
 | `model.py` | Sauce model: data, perception, pairing and JSON summary. No plotting, so other programs can `import model` |
-| `ingredients.csv`, `ingredients_v02.csv` | Ingredient packs (307 ingredients). Later files override earlier ones |
+| `ingredients.csv`, `ingredients_v02.csv`, `ingredients_v03.csv` | Ingredient packs (311 ingredients). Later files override earlier ones |
+| `data/ingredient_value_sources.csv` | Where the base pack's mouthfeel, body, heat and volatility values came from |
 | `FLAVOR_GUIDE.md` | The flavor science behind the numbers |
 | `coffee_flavourlab.py` | Coffee lab desktop app |
 | `brew_guide.py` | Coffee guide engine (settings, equipment, dial-in). No UI code |
@@ -244,6 +254,7 @@ To retune, edit `STYLES`, `PREP` and `CLASSIC` in `model.py`, or the functions `
 - Dial-in advice comes from the troubleshooting table and is converted into your grinder's direction.
 
 ### Changelog
+- **v0.4:** Completed the base ingredient pack: mouthfeel, body, heat timing and volatility (mostly estimates), and re-split the old "pungent" score into aroma, sinus heat and bite, so heat timing, aroma staying power and pairing scores differ from v0.3. Added broccoli, cauliflower, hazelnuts and jambu; fixed Sichuan peppercorn having no numbing. The bitter × astringent pairing penalty now counts only when one ingredient is more bitter and the other more astringent, so what both share is not penalised again; some bitter pairs score higher. Support for optional local reference tables, with a `lookup` command.
 - **v0.3:** Coffee Flavourlab: interactive brew guide, equipment questions, dial-in loop, coffee datasets and research, Claude Code skills. This user guide.
 - **v0.2:** 30 refined aroma families, trigeminal axes, heat character, body and volatility, 164 new ingredients, new sauce card panels, `bridge` and `families` commands, the `sichuan_mala` style.
 - **v0.1:** first release.

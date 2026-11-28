@@ -76,7 +76,20 @@ GRIND_WORDS = ["grind", "micron", "um", "click"]
 FRESH_WORDS = ["fresh", "degas", "rest", "stale", "storage", "shelf"]
 CUP_WORDS = ["cva", "cupping", "affective", "descriptive", "score"]
 COMPOUND_WORDS = ["compound", "aroma", "furaneol", "pyrazine", "guaiacol", "linalool", "furfurylthiol"]
-ALT_WORDS = ["altitude", "masl", "metre", "meter", "elevation", "grade", "shb", "shg"]
+BITTER_CHEM_WORDS = ["bitterness", "bitter compound", "quinide"]
+ODORANT_WORDS = ["odorant", "key aroma", "robusta aroma", "arabica aroma"]
+DEFECT_WORDS = ["defect", "off-flavour", "off-flavor", "off flavour", "off flavor", "rio", "tca", "musty", "peasy", "medicinal"]
+CHEM_WORDS = {"espresso_sensory_attributes": ["attribute", "sensory profile"], "aroma_precursors": ["precursor", "carotenoid"],
+              "furfurylthiol": ["furfurylthiol", "stale coffee"], "bitterness": BITTER_CHEM_WORDS}
+HEALTH_WORDS = {
+    "caffeine": ["half-life", "half life", "withdrawal", "pregnant", "pregnancy", "how much caffeine", "caffeine limit",
+                 "too much caffeine", "safe caffeine", "caffeine content"],
+    "sleep": ["sleep", "sleeping", "insomnia", "bedtime", "before bed"],
+    "blood_pressure": ["blood pressure", "hypertension"],
+    "cancer": ["cancer", "carcinogen", "carcinogenic", "very hot drink", "very hot coffee", "too hot to drink",
+               "drinking temperature"],
+}
+ALT_WORDS = ["altitude","masl", "metre", "meter", "elevation", "grade", "shb", "shg"]
 PRODUCTION_WORDS = ["production", "bags", "how much", "volume", "harvest"]
 AUCTION_WORDS = ["auction", "price", "lot", "record"]
 STOP = {"about", "which", "what", "tell", "give", "show", "should", "could", "would", "there", "their", "with", "from"}
@@ -91,7 +104,9 @@ HELP = (
     "- origins: 'ethiopia altitude', 'colombia production', 'kenya auction'\n"
     "- varieties and species: 'geisha', 'sl28', 'robusta'\n"
     "- cupping: 'cva scores', 'flavor wheel', 'aroma compounds'\n"
-    "Answers come from the local data files and show their confidence label and source link."
+    "- flavour chemistry: 'coffee bitterness', 'key odorants', 'rio defect', 'aroma precursors'\n"
+    "- caffeine and health, if that table is installed: 'caffeine and sleep', 'coffee and blood pressure', 'coffee cancer'\n"
+    "Answers come from the local data files and show their confidence label, plus a source link where there is one."
 )
 
 
@@ -146,6 +161,27 @@ class Knowledge:
 
     def table(self, name):
         return self.data.get(name) or []
+
+    def health_lines(self, topics):
+        """Current guidance first, then older findings. Replaced and unclear rows are left out of answers."""
+        rows = self.table("coffee_health")
+        if topics:
+            rows = [r for r in rows if r.get("topic") in topics]
+        current = [r for r in rows if r.get("status") == "current-guidance"]
+        older = [r for r in rows if r.get("status") not in ("current-guidance", "replaced", "unclear")] if topics else []
+        if not current and not older:
+            return []
+        fields = ["finding", "value", "population", "evidence", "status", "status_note"]
+        lines = [_fmt(r, fields) for r in current]
+        if topics - {r.get("topic") for r in current}:
+            lines.append("- No current official guidance has been checked for: "
+                         + ", ".join(sorted(topics - {r.get("topic") for r in current})).replace("_", " "))
+        if older:
+            lines.append("- Older research follows. 'not-rechecked' means it was not compared with current evidence.")
+            lines += [_fmt(r, fields) for r in older]
+        if not topics:
+            lines.append("- For older research, ask about caffeine limits, sleep, blood pressure or cancer.")
+        return lines
 
     def find(self, name, field, value):
         return next((r for r in self.table(name) if r.get(field) == value), None)
@@ -396,10 +432,36 @@ class Knowledge:
             add("Aroma compounds", [_fmt(r, ["compound", "odor_descriptor", "wheel_tier1_inferred", "fd_factor_range",
                                              "oav_range"]) for r in (rows or self.table("aroma_compounds"))[:6]])
 
+        notes = [r for r in self.table("coffee_flavor_chemistry")
+                 if any(_has(q, w) for w in CHEM_WORDS.get(r.get("topic"), []))]
+        if notes:
+            add("Flavour chemistry", [_fmt(r, ["finding"]) for r in notes])
+        if any(_has(q, w) for w in BITTER_CHEM_WORDS):
+            rows = sorted(self.table("coffee_bitter_compounds"), key=lambda r: -r["dose_over_threshold"])[:5]
+            add("Bitter compounds (above 1 = above taste threshold in the tested brew)",
+                [_fmt(r, ["compound", "threshold_mg_per_l", "concentration_mg_per_l", "dose_over_threshold"]) for r in rows])
+        if any(_has(q, w) for w in ODORANT_WORDS):
+            wanted = [s for s in ("arabica", "robusta") if _has(q, s)]
+            rows = [r for r in self.table("coffee_key_odorants") if not wanted or r.get("species") in wanted]
+            add("Key odorants", [_fmt(r, ["compound", "odor_descriptor", "species", "role"]) for r in rows])
+        if any(_has(q, w) for w in DEFECT_WORDS):
+            rows = self.table("coffee_defects")
+            named = [r for r in rows if any(_has(q, w) and w in f"{r['id']} {r['compound']} {r['off_note']}".lower()
+                                            for w in ("rio", "tca", "peasy", "musty", "medicinal"))]
+            add("Defects", [_fmt(r, ["compound", "off_note", "found_in", "threshold", "notes"]) for r in named or rows])
+
+        topics = {topic for topic, words in HEALTH_WORDS.items() if any(_has(q, w) for w in words)}
+        if not topics and _has(q, "caffeine") and not (species or var_hits or _has(q, "decaf") or sections):
+            topics = {"caffeine"}
+        if topics or _has(q, "health") or _has(q, "healthy"):
+            add("Caffeine and health (information only, not medical advice)", self.health_lines(topics))
+
         if not sections:
             tokens = {t for t in re.findall(r"[a-z]{5,}", q) if t not in STOP}
             hits = []
             for name, rows in self.data.items():
+                if name == "coffee_health":      # only shown with its status, through the section above
+                    continue
                 for r in rows:
                     blob = json.dumps(r, ensure_ascii=False).lower()
                     if tokens and any(t in blob for t in tokens):

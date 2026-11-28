@@ -7,12 +7,15 @@ import glob
 import json
 import math
 import os
+import re
 
 import numpy as np
 
-VERSION = "0.2.0"
+VERSION = "0.4.0"
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_DB = sorted(glob.glob(os.path.join(HERE, "ingredients*.csv")))   # all packs; later files override
+SCIENCE_DIR = os.path.join(HERE, "data", "flavor_science")    # optional local reference tables
+COFFEE_DIR = os.path.join(HERE, "data", "coffee")
 
 # ----------------------------------------------------------------------------
 # Dimensions
@@ -210,6 +213,7 @@ class Ingredient:
             raise ValueError(f"{self.name}: bad heat character / volatility")
         self.aliases = [a.strip() for a in (row.get("aliases") or "").split("|") if a.strip()]
         self.notes = (row.get("notes") or "").strip()
+        self.impact = []                       # key aroma compounds from the reference tables, filled in by DB
 
     @property
     def eff_shu(self):
@@ -228,6 +232,9 @@ class Ingredient:
              "profile": {d: float(self.vec[VI[d]]) for d in VEC_DIMS},
              "heat_index": round(heat_index(self.eff_shu), 2), "aroma_families": fams,
              "volatility": VOL_LABEL[self.vol] + " note", "aliases": self.aliases, "notes": self.notes}
+        if self.impact:
+            d["character_impact_compounds"] = [{k: r[k] for k in ("compound", "cas", "food", "odor", "confidence")}
+                                                 for r in self.impact]
         if self.shu > 0:
             d["heat_character"] = {"onset": self.onset, "length": self.length, "zone": self.zone}
         return d
@@ -246,6 +253,10 @@ class DB:
                     self.items[ing.name] = ing
                     for key in [ing.name] + ing.aliases:
                         self.index[norm(key)] = ing.name
+        for r in science_table("character_impact"):
+            for n in (r.get("ingredients") or "").split("|"):
+                if norm(n) in self.index:
+                    self.items[self.index[norm(n)]].impact.append(r)
         self.classic = set()
         for a, b in CLASSIC:
             if norm(a) in self.index and norm(b) in self.index:
@@ -262,6 +273,32 @@ class DB:
 
 def norm(s):
     return " ".join(s.lower().replace("ñ", "n").replace("_", " ").split())
+
+
+def science_table(name, folder=SCIENCE_DIR):
+    """Rows of one reference CSV; [] if the file is missing."""
+    try:
+        with open(os.path.join(folder, name + ".csv"), newline="", encoding="utf-8") as f:
+            return list(csv.DictReader(f))
+    except FileNotFoundError:
+        return []
+
+
+def lookup(term, limit=40):
+    """Search the flavor reference tables (sauce and coffee) for a word or phrase. Matches the start of words."""
+    term = term.strip().lower()
+    if not term:
+        return []
+    pat = re.compile(r"(?<![a-z])" + re.escape(term))
+    paths = glob.glob(os.path.join(SCIENCE_DIR, "*.csv")) + glob.glob(os.path.join(COFFEE_DIR, "coffee_*.csv"))
+    hits = []
+    for path in sorted(paths):
+        name = os.path.splitext(os.path.basename(path))[0]
+        for r in science_table(name, os.path.dirname(path)):
+            text = " ".join(v for k, v in r.items() if k != "confidence" and v)
+            if pat.search(text.lower()):
+                hits.append(dict(r, table=name))
+    return hits[:limit]
 
 
 def heat_index(shu):
@@ -399,9 +436,12 @@ def pair_score(db, a, b, va=None, vb=None, fa=None, fb=None, explain=False):
     pa, pb = ing_profile(a, va), ing_profile(b, vb)
     contrast = min(1.0, sum(w * (pa[x] * pb[y] + pa[y] * pb[x]) for x, y, w in CONTRAST) / 100)
     both = lambda x, y: pa[x] * pb[y] + pa[y] * pb[x]  # noqa: E731
+    # bitter x astringent counts only when one side brings more bitterness and the other more astringency;
+    # what both share is already penalised by the bitter x bitter and astringent x astringent terms
+    harsh = max(0.0, -(pa["bitter"] - pb["bitter"]) * (pa["astringent"] - pb["astringent"]))
     clash = (0.6 * pa["bitter"] * pb["bitter"] + 0.3 * pa["pungent"] * pb["pungent"]
              + 0.4 * pa["astringent"] * pb["astringent"] + 0.3 * both("smoky", "floral")
-             + 0.3 * both("bitter", "astringent") + 0.2 * both("sinus", "floral")) / 100
+             + 0.3 * harsh + 0.2 * both("sinus", "floral")) / 100
     classic = 0.2 if frozenset((a.name, b.name)) in db.classic else 0.0
     aff = cat_aff(a.category, b.category)
     raw = 0.25 * aroma_sim + 0.2 * cos + 0.25 * contrast + 0.3 * aff - clash + classic
@@ -560,15 +600,49 @@ def analyze(db, recipe):
         warns.append(f"Cooking loses ~{top_fresh - top_proc:.0f}% of the aroma (top notes) - "
                      "add citrus / fresh herbs at the finish.")
     warns.append("Always measure pH: aim 3.5-4.0 for shelf stability (4.6 = safety limit).")
+    notes = science_notes(rows, fam_contrib)
 
     return {
         "name": recipe["name"], "style": style, "style_label": STYLES[style]["label"], "process": process,
         "total_g": total, "rows": rows, "raw": raw, "perceived": perc, "fat_level": fat,
         "shu": shu, "fit": fit, "gaps": gaps, "harmony": harmony, "overall": overall,
         "shares": shares, "pair_matrix": pm, "impact": impact, "salt_pct": salt_pct, "warnings": warns,
+        "science_notes": notes,
         "fam_contrib": fam_contrib, "pyramid": pyramid, "heat_profile": hp, "body": body,
         "recipe": recipe,
     }
+
+
+# Science notes: the triggers live here, the wording lives in the optional matrix_effects table. No table, no notes.
+OIL_NOTE_FRAC = 0.02          # fat share of the batch (an ingredient with fat 10 counts as pure fat)
+XANTHAN_NOTE_FRAC = 0.001     # share of the batch that is xanthan gum
+OIL_SOLUBLE_SHARE = 0.10      # citrus (and pine) terpenes as a share of all aroma-family weight
+
+
+def science_notes(rows, fam_contrib):
+    """Notes that apply to this recipe. Advisory only: they do not change any score."""
+    texts = {r["id"]: r.get("note_text") for r in science_table("matrix_effects")}
+    notes = []
+    tot = fam_contrib.sum(axis=0)
+    whole = tot.sum()
+    citrus = tot[FI["citrus_terp"]] / whole if whole > 0 else 0.0
+    terpenes = citrus + (tot[FI["pine"]] / whole if whole > 0 else 0.0)
+
+    def note(key, names=""):
+        if texts.get(key):
+            notes.append({"id": key, "text": texts[key].replace("{}", names)})
+
+    oil = sum(r["frac"] * r["ing"].fat / 10 for r in rows)
+    if oil >= OIL_NOTE_FRAC and terpenes >= OIL_SOLUBLE_SHARE:
+        note("fat_retains_lipophilic")
+    xanthan = sum(r["frac"] for r in rows if r["ing"].name == "xanthan gum")
+    if xanthan >= XANTHAN_NOTE_FRAC - 1e-9 and citrus >= OIL_SOLUBLE_SHARE:
+        note("xanthan_retains_limonene")
+    for fam, key in (("lactone", "lactone_synergy"), ("vanillin", "vanillin_antagonism")):
+        names = list(dict.fromkeys(r["ing"].name for r in rows if r["fam"][FI[fam]] >= 1))
+        if len(names) >= 2:
+            note(key, ", ".join(names))
+    return notes
 
 
 # ----------------------------------------------------------------------------
@@ -696,7 +770,7 @@ def summary(db, A, moves=None, opt_log=None):
         "drivers": {d: sorted(((rows[i]["ing"].name, round(A["shares"][i, j], 2)) for i in range(len(rows))
                                if A["shares"][i, j] > 0.3), key=lambda t: -t[1])[:3]
                     for j, d in enumerate(DIMS)},
-        "warnings": A["warnings"], "recipe": A["recipe"],
+        "warnings": A["warnings"], "science_notes": A["science_notes"], "recipe": A["recipe"],
     }
     if pairs:
         w = pairs[0]
